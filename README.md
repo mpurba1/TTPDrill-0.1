@@ -3,6 +3,7 @@ TTPDrill focuses on developing automated and context-aware analytics of cyber th
 
 # Requirements
 * Java
+* ejml.jar, jollyday.jar, stanford.jar, xom.jar
 
 # Installation
 
