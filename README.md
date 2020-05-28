@@ -10,7 +10,6 @@ TTPDrill focuses on developing automated and context-aware analytics of cyber th
 * Clone this repository
   [GitHub](https://github.com/mpurba1/TTPDrill-0.1.git)  
 * Add ejml.jar, jollyday.jar, stanford.jar, xom.jar
-* Then, run method OntologyParser
 
 # Notice
 Copyright 2020 CyberDNA, UNCC
