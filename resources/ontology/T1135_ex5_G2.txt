@@ -1,0 +1,1 @@
+has capability shares retrieve to information 

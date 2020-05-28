@@ -1,0 +1,1 @@
+used gather the OS version information configuration processor 

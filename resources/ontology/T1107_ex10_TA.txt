@@ -1,0 +1,1 @@
+deletes Wingbird payload finishes it copying files 

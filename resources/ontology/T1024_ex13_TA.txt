@@ -1,0 +1,1 @@
+encrypted Hydraq C2 traffic bitwise NOT XOR operations using 

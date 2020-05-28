@@ -1,0 +1,1 @@
+hides any strings related own indicators compromise 

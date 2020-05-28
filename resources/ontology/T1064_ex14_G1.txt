@@ -1,0 +1,1 @@
+uses a execute Mimikatz perform Pass the Ticket 

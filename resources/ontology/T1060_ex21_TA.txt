@@ -1,0 +1,1 @@
+added Patchwork the path of malware startup folder achieve persistence 

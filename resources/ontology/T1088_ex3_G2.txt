@@ -1,0 +1,1 @@
+perform bypass using by eventvwr.exe execute to file 

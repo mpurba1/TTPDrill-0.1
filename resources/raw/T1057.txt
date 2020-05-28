@@ -1,0 +1,57 @@
+--Example not given--
+StreamEx has the ability to enumerate processes.
+MoonWind has a command to return a list of running processes.
+WinMM sets a WH_CBT Windows hook to collect information on process creation.
+can enumerate processes.
+NETEAGLE can send process listings over the C2 channel.
+JHUHUGIT obtains a list of running processes on the victim.
+Orz can gather a process list from the victim.
+Deep Panda uses the Microsoft Tasklist utility to list processes running on systems.
+JPIN can list running processes.
+Cobalt Strike's "beacon" payload can collect information on process details.
+BlackEnergy has gathered a process list by using Tasklist.exe.
+Remsec can obtain a process list from the victim.
+Tasklist can be used to discover processes running on a system.
+GeminiDuke collects information on running processes and environment variables from the victim.
+The discovery modules used with Duqu can collect information on process details.
+POWRUNER may collect process information by running <code>tasklist</code> on a victim.
+Sykipot may gather a list of running processes by running <code>tasklist /v</code>.
+Kasidet has the ability to search for a given process name in processes currently running in the system.
+Stealth Falcon malware gathers a list of running processes.
+Trojan.Karagany can use tasklist to collect a list of running tasks.
+APT28 has used built-in tools like <code>ps aux</code> on macOS to determine which processes are running.APT28 loader Trojan will enumerate the victim's processes searching for explorer.exe if its current process does not have necessary permissions.
+Pasam creates a backdoor through which remote attackers can retrieve lists of running processes.
+BLACKCOFFEE has the capability to discover processes.
+Helminth has used Tasklist to get information on processes.
+HALFBAKED can obtain information about running processes on the victim.
+PowerDuke has a command to list the victim's processes.
+BACKSPACE may collect information about running processes.
+ADVSTORESHELL can list running processes.
+Several Lazarus Group malware families gather a list of running processes on a victim system and send it to their C2 server.
+Molerats actors obtained a list of active processes on the victim and sent them to C2 servers.
+MobileOrder has a command to upload information about all running processes to its C2 server.
+4H RAT has the capability to obtain a listing of running processes (including loaded modules).
+ELMER is capable of performing process listings.
+Crimson contains a command to list processes.
+creates a backdoor through which remote attackers can retrieve a list of running processes.
+The OsInfo function in Komplex collects a running process list.
+Turla surveys a system upon check-in to discover running processes using the <code>tasklist /v</code> command.
+Magic Hound malware can list running processes.
+gh0st RAT is able to list processes.
+Hydraq creates a backdoor through which remote attackers can monitor processes.
+Backdoor.Oldrea collects information about running processes.
+BBSRAT can list running processes.
+XAgentOSX contains the getProcessList function to run <code>ps aux</code> to get running processes.
+PowerSploit's <code>Get-ProcessTokenPrivilege</code> Privesc-PowerUp module can enumerate privileges for a given process.
+After compromising a victim, Poseidon Group lists all running processes.
+Ke3chang performs process discovery using <code>tasklist</code> commands.
+SHOTPUT has a command to obtain a process listing.
+POORAIM can enumerate processes.
+OilRig has run <code>tasklist</code> on a victim.
+APT3 has a tool that can list out currently running processes.  
+ChChes collects the victim's running process IDs.
+Winnti Group looked for a specific process running on infected servers.
+Derusbi collects current and parent process IDs.
+RTM can obtain information about process integrity levels.
+DustySky collects information about running processes from victims.
+Pupy can list the running processes and get the process ID and parent process’s ID.

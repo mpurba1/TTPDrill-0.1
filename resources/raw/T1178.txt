@@ -1,0 +1,2 @@
+Mimikatz's <code>MISC::AddSid</code> module can appended any SID or user/group account to a user's SID-History.Mimikatz also utilizes SID-History Injection to expand the scope of other components such as generated Kerberos Golden Tickets and DCSync beyond a single domain.
+--Example not given--

@@ -1,0 +1,1 @@
+contains Prikormka a module captures screenshots of desktop 

@@ -1,0 +1,1 @@
+uses APT32 malleable C2 functionality blend traffic 

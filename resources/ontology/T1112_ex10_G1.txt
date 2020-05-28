@@ -1,0 +1,1 @@
+enables the connect modify Registry disable UAC remote restrictions setting SOFTWARE 

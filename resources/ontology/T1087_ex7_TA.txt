@@ -1,0 +1,1 @@
+use Sykipot <code> net group domain admins </code> list local system administrator membership display accounts 

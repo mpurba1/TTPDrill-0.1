@@ -1,0 +1,1 @@
+installs TINYTYPHON itself establish persistence 

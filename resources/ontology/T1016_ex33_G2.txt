@@ -1,0 +1,1 @@
+use ipconfig gather to details 

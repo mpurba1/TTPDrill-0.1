@@ -1,0 +1,1 @@
+creates trojan a persistent launch agent <code> com.apple.updates.plist </code> called load ~ Library/LaunchAgents/com 

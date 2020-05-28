@@ -1,0 +1,19 @@
+H1N1 kills and disables services for Windows Firewall, Windows Security Center, and Windows Defender.
+Carbanak may use netsh to add local firewall rule exceptions.
+POWERSTATS can disable Microsoft Office Protected View by changing Registry keys.
+ChChes can alter the victim's proxy configuration.
+can change Internet Explorer settings to reduce warnings about malware activity.
+JPIN lower disable security settings by changing Registry keys.
+netsh can be used to disable local firewall settings.
+Threat Group-3390 has used appcmd.exe to disable logging on a victim server.
+HDoor kills anti-virus found on the victim.
+Remsec can add or remove applications or ports on the Windows firewall or disable it entirely.
+Malware used by Putter Panda attempts to terminate processes corresponding to two components of Sophos Anti-Virus (SAVAdminService.exe and SavService.exe).
+Various Lazarus Group malware modifies the Windows firewall to allow incoming connections or disable it entirely using netsh. Lazarus Group malware TangoDelta attempts to terminate various processes associated with McAfee.
+--Example not given--
+SslMM identifies and kills anti-malware processes.
+TinyZBot can disable Avira anti-virus.
+Dragonfly disabled the host-based firewall on a victim and globally opened port 3389.
+The "ZR" variant of BACKSPACE will check to see if known host-based firewalls are installed on the infected systems. BACKSPACE will attempt to establish a C2 channel, then will examine open windows to identify a pop-up from the firewall software and will simulate a mouse-click to allow the connection to proceed.
+Kasidet has the ability to change firewall settings to allow a plug-in to be downloaded.
+Unknown Logger has functionality to disable security tools, including Kaspersky, BitDefender, and MalwareBytes.

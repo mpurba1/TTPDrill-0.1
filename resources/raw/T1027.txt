@@ -1,0 +1,58 @@
+Most strings in USBStealer are encrypted using 3DES and XOR and reversed.
+Variants of Emissary encrypt payloads using various XOR ciphers, as well as a custom algorithm that uses the "srand" and "rand" functions.
+Elderwood has encrypted documents and malicious executables.
+APT28 encrypted a .dll payload using RTL and a custom encryption algorithm.APT28 has also obfuscated payloads with base64 and XOR.
+PowerDuke uses steganography to hide backdoors in PNG files, which are also encrypted using the Tiny Encryption Algorithm (TEA).
+PUNCHTRACK is loaded and executed by a highly obfuscated launcher.
+Sakula uses single-byte XOR obfuscation to obfuscate many of its files.
+The Helminth config file is encrypted with RC4.
+Some resources in Prikormka are encrypted with a simple XOR operation or encoded with Base64.
+HTTPBrowser's code may be obfuscated through structured exception handling and return-oriented programming.
+Leviathan has obfuscated code using base64 and gzip compression.
+SHOTPUT is obscured using XOR encoding and appended to a valid GIF file.
+Lazarus Group malware uses multiple types of encryption and encoding in its malware files, including AES, Caracachs, RC4, basic XOR with constant 0xA7, and other techniques.
+hides any strings related to its own indicators of compromise.
+APT34 has used base64-encoded files that are dropped to victims.
+The DustySky dropper uses a function to obfuscate the name of functions and other parts of the malware.
+Some data in Remsec is encrypted using RC5 in CBC mode, AES-CBC with a hardcoded key, RC4, or Salsa20. Some data is also base64-encoded.
+H1N1 uses multiple techniques to obfuscate strings, including XOR.
+BlackOasis's first stage shellcode contains a NOP sled with alternative instructions that was likely designed to bypass antivirus tools.
+TINYTYPHON has used XOR with 0x90 to obfuscate its configuration file.
+PowerSploit contains a collection of ScriptModification modules that compress and encode scripts and payloads.
+Reaver encrypts some of its files with XOR.
+APT3 obfuscates files or information to help evade defensive measures. 
+Matroyshka obfuscates API function names using a substitute cipher combined with Base64 encoding.
+Shamoon contains base64-encoded strings.
+MuddyWater has used Daniel Bohannon’s Invoke-Obfuscation framework. The group also used files with base64 encoded PowerShell commands.
+Hydraq uses basic obfuscation in the form of spaghetti code.
+A RedLeaves configuration file is encrypted with a simple XOR key, 0x53.
+Elise encrypts several of its files, including configuration files.
+POSHSPY appends a file signature header (randomly selected from six file types) to encrypted data prior to upload or download.
+Magic Hound malware has used base64-encoded commands and files, and has also encrypted embedded strings with AES.
+FIN8 has used environment variables and standard input (stdin) to obfuscate command-line arguments.FIN8 also obfuscates malicious macros delivered as payloads.
+Dust Storm has encoded payloads with a single-byte XOR, both skipping the key itself and zeroing in an attempt to avoid exposing the key.
+Some strings in HOMEFRY are obfuscated with XOR x56.
+OLDBAIT obfuscates internal strings and unpacks them at startup.
+The payload of CozyCar is encrypted with simple XOR with a rotating key. The CozyCar configuration file has been encrypted with RC4 keys.
+Daserf uses encrypted Windows APIs and also encrypts data using the alternative base64+RC4 or the Caesar cipher.
+FIN7 has used fragmented strings, environment variables, standard input (stdin), and native character-replacement functionalities to obfuscate commmands.
+--Example not given--
+ISMInjector is obfuscated with the off-the-shelf SmartAssembly .NET obfuscator created by red-gate.com.
+Many strings in JHUHUGIT are obfuscated with a XOR algorithm.
+Most of the strings in ADVSTORESHELL are encrypted with an XOR-based algorithm; some strings are also encrypted with 3DES and reversed. API function names are also reversed, presumably to avoid detection in memory.
+POWERSTATS uses character replacement, PowerShell environment variables, and XOR encoding to obfuscate code.
+Invoke-PSImage can be used to embed a PowerShell script within the pixels of a PNG file.
+Group5 disguised its malicious binaries with several layers of obfuscation, including encrypting the files.
+Droppers used by Putter Panda use RC4 or a 16-byte XOR key consisting of the bytes 0xA0 – 0xAF to obfuscate payloads.
+Pisloader obfuscates files by splitting strings into smaller sub-strings and including "garbage" strings that are never used. The malware also uses return-oriented programming (ROP) technique and single-byte XOR to obfuscate data.
+OilRig has encrypted and encoded data in its malware.
+Hi-Zor uses various XOR techniques to obfuscate its components.
+A JPIN uses a encrypted and compressed payload that is disguised as a bitmap within the resource section of the installer.
+RTM strings, network data, configuration, and modules are encrypted with a modified RC4 algorithm.
+APT32 has used the Invoke-Obfuscation framework to obfuscate their PowerShell.
+Gazer logs its actions into files that are encrypted with 3DES. It also uses RSA to encrypt resources.
+CORESHELL obfuscates strings using a custom stream cipher.
+A version of XTunnel introduced in July 2015 obfuscated the binary using opaque predicates and other techniques in a likely attempt to obfuscate it and bypass security products.
+StreamEx obfuscates some commands by using statically programmed fragments of strings when starting a DLL. It also uses a one-byte xor against 0x91 to encode configuration data.
+Some Orz strings are base64 encoded, such as the embedded DLL known as MockDll.
+ZeroT has encrypted its payload with RC4.

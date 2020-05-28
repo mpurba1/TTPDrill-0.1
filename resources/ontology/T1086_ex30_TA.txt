@@ -1,0 +1,1 @@
+uses malware commands PowerShell various functions perform information WMI executing C2 server 

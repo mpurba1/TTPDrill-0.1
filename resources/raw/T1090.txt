@@ -1,0 +1,18 @@
+APT28 used other victims as proxies to relay command traffic, for instance using a compromised Georgian military email server as a hop point to NATO victims. The group has also used a tool that acts as a proxy to allow C2 even if the victim is behind a router.
+Duqu can be configured to have commands relayed over a peer-to-peer network of infected hosts if some of the hosts do not have Internet access.
+HTRAN is used for proxying connections to obfuscate command and control infrastructure.
+CHOPSTICK used a proxy server between victims and the C2 server.
+Lazarus Group uses multiple proxies to obfuscate network traffic from victims.
+menuPass has used a global service provider's IP as a proxy for C2 traffic from a victim.
+Regin leveraged several compromised universities as proxies to obscure its origin.
+Gazer identifies a proxy server if it exists and uses it to make HTTP requests.
+Strider has used local servers with both local network and Internet access to act as internal proxy nodes to exfiltrate data from other parts of the network without direct Internet access.
+netsh can be used to set up a proxy tunnel to allow remote host access to an infected host.
+POWERSTATS has connected to C2 servers through proxies.
+The "ZJ" variant of BACKSPACE allows "ZJ link" infections with Internet access to relay traffic from "ZJ listen" to a command server.
+FLIPSIDE is a simple proxy that creates an outbound RDP connection.
+is capable of tunneling though a proxy.
+Cobalt Strike can be configured to have commands relayed over a peer-to-peer network of infected hosts.  This can be used to limit the number of egress points, or provide access to a host without direct internet access.
+XTunnel relays traffic between a C2 server and a victim.
+Hikit supports peer connections.
+--Example not given--

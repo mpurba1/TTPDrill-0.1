@@ -1,0 +1,1 @@
+uses POSHSPY a WMI event subscription establish persistence 

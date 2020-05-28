@@ -1,0 +1,1 @@
+surveys Turla a system discover operating configuration details <code> systeminfo </code> set commands using the 

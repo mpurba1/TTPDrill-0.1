@@ -1,0 +1,1 @@
+used PubPrn.vbs execute to malware bypassing defenses 

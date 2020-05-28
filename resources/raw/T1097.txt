@@ -1,0 +1,4 @@
+Some SeaDuke samples have a module to use pass the ticket with Kerberos for authentication.
+Mimikatz’s <code>LSADUMP::DCSync</code>, <code>KERBEROS::Golden</code>, and <code>KERBEROS::PTT</code> modules implement the three steps required to extract the krbtgt account hash and create/use Kerberos tickets.
+--Example not given--
+BRONZE BUTLER has created forged Kerberos Ticket Granting Ticket (TGT) and Ticket Granting Service (TGS) tickets to maintain administrative access.

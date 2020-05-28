@@ -1,0 +1,1 @@
+has remove Registry Run key persistence 

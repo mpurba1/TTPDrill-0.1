@@ -1,0 +1,9 @@
+--Example not given--
+A Patchwork payload uses process hollowing to hide the UAC bypass vulnerability exploitation inside svchost.exe.
+Cobalt Strike can use process hollowing for execution.
+Smoke Loader spawns a new copy of c:\windows\syswow64\explorer.exe and then replaces the executable code in memory with malware. 
+BADNEWS has a command to download an .exe and use process hollowing to inject it into a new process.
+ISMInjector hollows out a newly created process RegASM.exe and injects its payload into the hollowed process.
+Some Orz versions have an embedded DLL known as MockDll that uses process hollowing and Regsvr32 to execute another payload.
+BBSRAT has been seen loaded into msiexece.exe through process hollowing to hide its execution.
+Duqu is capable of loading executable code via process hollowing.

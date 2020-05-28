@@ -1,0 +1,1 @@
+established persistence setting by value used HKEY_USERS vpdn % establish to 

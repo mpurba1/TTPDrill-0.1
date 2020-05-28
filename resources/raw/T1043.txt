@@ -1,0 +1,36 @@
+One HTTPBrowser variant connected to its C2 server over port 8080.
+FTP operates over ports 21 and 20.
+Briba connects to external C2 infrastructure over port 443.
+S-Type uses ports 80, 443, and 8080 for C2.
+Pasam connects to external C2 infrastructure and opens a backdoor over port 443.
+Dragonfly established encrypted connections over port 443.
+MoonWind communicates over ports 80, 443, 53, and 8080 via raw sockets instead of the protocols usually associated with the ports.
+Volgmer has communicated to its C2 server over port 8080.
+RedLeaves uses a specific port of 443 and can also use ports 53 and 80 for C2.
+Duqu uses a custom command and control protocol that communicates over commonly used ports, and is frequently encapsulated by application layer protocols.
+Hi-Zor communicates with its C2 server over port 443.
+Shamoon has used TCP port 8080 for C2.
+Naid connects to external C2 infrastructure over port 443.
+connects to external C2 infrastructure over the HTTP port.
+Misdat network traffic communicates over common ports like 80, 443, or 1433.
+Mivast communicates over port 80 for C2.
+Some Lazarus Group malware uses a list of ordered port numbers to choose a port for C2 traffic, which includes commonly used ports such as 443, 53, 80, 25, and 8080.
+Cobalt Strike uses a custom command and control protocol that communicates over commonly used ports.  The C2 protocol is encapsulated in common application layer protocols.
+POWERSTATS has used port 80 for C2.
+FIN8 has tunneled RDP backdoors over port 443.
+EvilGrab uses port 8080 for C2.
+Mis-Type communicates over common ports such as TCP 80, 443, and 25.
+--Example not given--
+PowerDuke connects over 443 for C2.
+APT3 uses commonly used ports (like HTTPS/443) for command and control. 
+C2 traffic for most Threat Group-3390 tools occurs over ports 53, 80, and 443.
+BBSRAT uses HTTP TCP port 80 and HTTPS TCP port 443 for communications.
+ELMER uses HTTP over port 443 for command and control.
+Magic Hound malware has communicated with C2 servers over port 6667 (for IRC) and port 8080.
+Derusbi beacons to destination port 443.
+PlugX has beaconed to its C2 over port 443.
+APT37 has used port 8080 for C2.
+A variant of ADVSTORESHELL attempts communication to the C2 server over HTTP on port 443.
+Nidiran communicates with its C2 domain over ports 443 and 8443.
+LOWBALL command and control occurs via HTTPS over port 443.
+RIPTIDE is a RAT that communicates with HTTP.

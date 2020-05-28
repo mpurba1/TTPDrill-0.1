@@ -1,0 +1,27 @@
+APT29 has used encoded PowerShell scripts uploaded to CozyCar installations to download and install SeaDuke, as well as to evade defenses.
+Orz can execute commands with script as well as execute JavaScript.
+Stealth Falcon malware uses PowerShell and WMI to script data collection and command execution on the victim.
+MuddyWater has used VBScript and JavaScript files to execute its POWERSTATS payload.
+MoonWind uses batch scripts for various purposes, including to restart and uninstall itself.
+FIN6 has used a Metasploit PowerShell module to download and execute shellcode and to set up a local listener. FIN6 has also used scripting to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.
+Cobalt Strike can use PowerSploit or other scripting frameworks to perform execution.
+Dragonfly used various scripts for execution, and was observed installing Python 2.7 on a victim.
+FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.
+can execute other JavaScript.
+FIN10 has executed malicious .bat files containing PowerShell commands.
+An APT28 loader Trojan uses a batch script to run its payload.
+Magic Hound malware has used .vbs scripts for execution.
+SeaDuke uses a module to execute Mimikatz with PowerShell to perform Pass the Ticket.
+Leviathan has used multiple types of scripting for execution, including JavaScript, JavaScript Scriptlets in XML, and VBScript.
+APT3 has used PowerShell on victim systems to download and run payloads after exploitation.
+Deep Panda has used PowerShell scripts to download and execute programs in memory, without writing to disk.
+TA459 has a VBScript for execution.
+One version of Helminth consists of VBScript and PowerShell scripts. The malware also uses batch scripting.
+APT34 has used .bat and .vbs scripts for execution.
+Pupy can use an add on feature when creating payloads that allows you to create custom Python scripts (“scriptlets”) to perform tasks offline (without requiring a session) such as sandbox detection, adding persistence, etc.
+BRONZE BUTLER has used VBS, VBE, and batch scripts for execution.
+FIN8 has used a Batch file to automate frequently executed post compromise cleanup activities.
+OilRig has used various types of scripting for execution, including.
+APT1 has used batch scripting to automate execution of commands.
+--Example not given--
+Gamaredon Group has used various batch scripts to establish C2, download additional files, and conduct other functions.

@@ -1,0 +1,6 @@
+CosmicDuke steals user files from network shared drives with file extensions and keywords that match a predefined list.
+--Example not given--
+BRONZE BUTLER has exfiltrated files stolen from file shares.
+Sowbug extracted Word documents from a file server on a victim network.
+When it first starts, BADNEWS crawls the victim's mapped drives and collects documents with the following extensions: .doc, .docx, .pdf, .ppt, .pptx, and .txt.
+menuPass has collected data from remote systems by mounting network shares with <code>net use</code> and using Robocopy to transfer data.

@@ -1,0 +1,1 @@
+VBScript JavaScript files execute POWERSTATS payload 

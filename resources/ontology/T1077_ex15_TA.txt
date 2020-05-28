@@ -1,0 +1,1 @@
+uses Panda net.exe connect network shares <code> net use </code> commands using credentials 

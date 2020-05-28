@@ -1,0 +1,2 @@
+Cobalt Strike can perform browser pivoting and inject into a user's browser to inherit cookies, authenticated HTTP sessions, and client SSL certificates.
+--Example not given--

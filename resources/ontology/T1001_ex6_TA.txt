@@ -1,0 +1,1 @@
+encrypting C2 data converts BADNEWS it representation encodes base64 

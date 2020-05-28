@@ -1,0 +1,1 @@
+uses Duqu a custom command control protocol communicates ports encapsulated 

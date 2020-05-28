@@ -1,0 +1,1 @@
+uses Pisloader cmd.exe set the Registry Run key value has It a command spawn shell 

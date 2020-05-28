@@ -1,0 +1,1 @@
+has Mivast the capability gather NTLM password information 

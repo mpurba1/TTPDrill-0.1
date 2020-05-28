@@ -1,0 +1,1 @@
+use POWRUNER WMI collecting information victim 

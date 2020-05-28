@@ -1,0 +1,21 @@
+Hydraq creates a backdoor through which remote attackers can retrieve system information, such as CPU speed, from Registry keys.
+Shamoon queries several Registry keys to identify hard disk partitions to overwrite.
+PowerSploit contains a collection of Privesc-PowerUp modules that can query Registry keys for potential  opportunities.
+Lazarus Group malware IndiaIndia checks Registry keys within HKCU and HKLM to determine if certain applications are present, including SecureCRT, Terminal Services, RealVNC, TightVNC, UltraVNC, Radmin, mRemote, TeamViewer, FileZilla, pcAnyware, and Remote Desktop.Lazarus Group malware sample checks for the presence of the following Registry key:<code>HKEY_CURRENT_USER\Software\Bitcoin\Bitcoin-Qt</code>.
+JPIN can enumerate Registry keys.
+WINDSHIELD can gather Registry values.
+PlugX can query for information contained within the Windows Registry.
+Turla surveys a system upon check-in to discover information in the Windows Registry with the <code>reg query</code> command.
+DownPaper searches and reads the value of the Windows Update Registry Run key.
+Reg may be used to gather details from the Windows Registry of a local or remote system at the command-line interface.
+BACKSPACE is capable of enumerating and making modifications to an infected system's Registry.
+OSInfo queries the registry to look for information about Terminal Services .
+Stealth Falcon malware attempts to determine the installed version of .NET by querying the Registry.
+POWERSOURCE queries Registry keys in preparation for setting Run keys to achieve persistence.
+ADVSTORESHELL can enumerate registry keys.
+--Example not given--
+POWRUNER may query the Registry by running <code>reg query</code> on a victim.
+OilRig has used <code>reg query “HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default”</code> on a victim to query the Registry.
+Derusbi is capable of enumerating Registry keys and values.
+Reaver queries the Registry to determine the correct Startup path to use for persistence.
+CHOPSTICK provides access to the Windows Registry, which can be used to gather information.

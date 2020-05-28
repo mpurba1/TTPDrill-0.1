@@ -1,0 +1,3 @@
+--Example not given--
+The <code>net use \\system\share /delete</code> command can be used in Net to remove an established connection to a network share.
+Threat Group-3390 has detached network shares after exfiltrating files, likely to evade detection.

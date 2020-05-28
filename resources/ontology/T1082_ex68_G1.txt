@@ -1,0 +1,1 @@
+collected the sent information to C2 server name version type 

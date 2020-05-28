@@ -1,0 +1,1 @@
+collects Sys10 the local IP address of victim it sends C2 

@@ -1,0 +1,1 @@
+surveys Turla a system discover active local network connections <code> netstat using the </code> commands 

@@ -1,0 +1,1 @@
+encrypted using bitwise NOT XOR operations 

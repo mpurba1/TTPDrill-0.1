@@ -1,0 +1,1 @@
+encrypt using various XOR ciphers algorithm uses custom srand rand 

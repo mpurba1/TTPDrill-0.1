@@ -1,0 +1,1 @@
+queries OSInfo the registry look information 

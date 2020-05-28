@@ -1,0 +1,3 @@
+POWERSTATS can use DCOM (targeting the 127.0.0.1 loopback address) to execute additional payloads on compromised hosts.
+Cobalt Strike can deliver "beacon" payloads for lateral movement by leveraging remote COM execution.
+--Example not given--

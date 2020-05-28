@@ -1,0 +1,1 @@
+gather stealer username send C2 server 

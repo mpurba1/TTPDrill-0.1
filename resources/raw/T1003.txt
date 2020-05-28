@@ -1,0 +1,54 @@
+H1N1 dumps usernames and passwords from Firefox, Internet Explorer, and Outlook.
+OilRig has used credential dumping tools to steal credentials to accounts logged into the compromised system.
+gsecdump can dump Windows password hashes and LSA secrets.
+Cleaver has been known to dump credentials.
+Patchwork dumped the login data database from <code>\AppData\Local\Google\Chrome\User Data\Default\Login Data</code>.
+APT1 has been known to use credential dumping.
+PinchDuke steals credentials from compromised hosts. PinchDuke's credential stealing functionality is believed to be based on the source code of the Pinch credential stealing malware (also known as LdPinch). Credentials targeted by PinchDuke include ones associated with The Bat!, Yahoo!, Mail.ru, Passport.Net, Google Talk, Netscape Navigator, Mozilla Firefox, Mozilla Thunderbird, Internet Explorer, Microsoft Outlook, WinInet Credential Cache, and Lightweight Directory Access Protocol (LDAP).
+FIN8 harvests credentials using Invoke-Mimikatz or Windows Credentials Editor (WCE).
+Poseidon Group conducts credential dumping on victims, with a focus on obtaining credentials belonging to domain and database servers.
+Threat Group-3390 actors have used gsecdump and a modified version of Mimikatz called Wrapikatz to dump credentials. They have also dumped credentials from domain controllers.
+OnionDuke steals credentials from its victims.
+PowerSploit contains a collection of Exfiltration modules that can harvest credentials from Group Policy Preferences, Windows vault credential objects, or using Mimikatz.
+Matroyshka is capable of stealing Outlook passwords.
+Stealth Falcon malware gathers passwords from multiple sources, including Windows Credential Vault, Internet Explorer, Firefox, Chrome, and Outlook.
+CosmicDuke collects user credentials, including passwords, for various programs and browsers, including popular instant messaging applications, Web browsers, and email clients. Windows account hashes, domain accounts, and LSA secrets are also collected, as are WLAN keys.
+Lslsass can dump active logon session password hashes from the lsass process.
+pwdump can be used to dump credentials.
+Cachedump can extract cached password hashes from a system’s registry.
+A module in Prikormka collects passwords stored in applications installed on the victim.
+APT37 has used a credential stealer known as ZUMKONG that can harvest usernames and passwords stored in browsers.
+APT34 has dumped credentials from victims in several ways, including by using open source tools Mimikatz and Lazagne, or by harvesting credentials when users log into Outlook Web Access.
+OLDBAIT collects credentials from Internet Explorer, Mozilla Firefox, Eudora, and several email clients.
+FIN5 has dumped credentials from victims. Specifically, the group has used the tool GET5 Penetrator to look for remote login and hard-coded credentials.
+Cobalt Strike can recover hashed passwords.
+HOMEFRY can perform credential dumping.
+Pupy executes Mimikatz using PowerShell and can also perform pass-the-ticket and use Lazagne for harvesting credentials.
+Remsec can dump the SAM database.
+Strider has registered its persistence module on domain controllers as a Windows LSA (Local System Authority) password filter to dump credentials any time a domain, local user, or administrator logs in or changes a password.
+BRONZE BUTLER has used various tools to perform credential dumping.
+menuPass has used a modified version of pentesting tools wmiexec.vbs and secretsdump.py to dump credentials.
+Dragonfly dropped and executed SecretsDump, a tool that dumps password hashes.
+Password stealer and NTLM stealer modules in CozyCar harvest stored credentials from the victim, including credentials used as part of Windows NTLM user authentication. CozyCar has also executed Mimikatz for further victim penetration.
+Windows Credential Editor can dump credentials.
+ChChes steals credentials stored inside Internet Explorer.
+Molerats used the public tool BrowserPasswordDump10 to dump passwords saved in browsers on victims.
+Suckfly used a signed credential-dumping tool to obtain victim account credentials.
+PLATINUM has used keyloggers that are also capable of dumping credentials.
+Unknown Logger is capable of stealing usernames and passwords from browsers on the victim machine.
+Net Crawler uses credential dumpers such as Mimikatz and Windows Credential Editor to extract cached credentials from Windows systems.
+Mivast has the capability to gather NTLM password information.
+Some Backdoor.Oldrea samples contain a publicly available Web browser password recovery tool.
+Trojan.Karagany can dump passwords and save them into <code>\ProgramData\Mail\MailAg\pwds.txt</code>.
+Mimikatz performs credential dumping to obtain account and password information useful in gaining access to additional systems and enterprise network resources. It contains functionality to acquire information about credentials in many ways, including from the LSA, SAM table, credential vault, DCSync/NetSync, and DPAPI.
+MuddyWater has performed credential dumping with Mimikatz and Lazagne.
+Ke3chang dumps credentials.
+APT3 has used a tool to dump credentials by injecting itself into lsass.exe and triggering with the argument "dig." The group has also used a tools to dump passwords from browsers.
+MimiPenguin can dump process memory and extract clear-text credentials.
+Sowbug has used credential dumping tools.
+FIN6 has used Windows Credential Editor for credential dumping, as well as Metasploit’s PsExec NTDSGRAB module to obtain a copy of the victim's Active Directory database.
+APT28 regularly deploys both publicly available and custom password retrieval tools on victims.
+Crimson contains a module to steal credentials from Web browsers on the victim machine.
+--Example not given--
+Fgdump can dump Windows password hashes.
+Axiom has been known to dump credentials.

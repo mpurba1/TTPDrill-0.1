@@ -1,0 +1,2 @@
+Remsec harvests plain-text credentials as a password filter registered on domain controllers.
+--Example not given--

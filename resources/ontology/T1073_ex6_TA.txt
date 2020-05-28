@@ -1,0 +1,1 @@
+uses Sakula using a signed sample of Kaspersky Windows Workstations Outlook Scan About Box load malicious files 

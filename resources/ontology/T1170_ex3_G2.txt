@@ -1,0 +1,1 @@
+used mshta.exe malicious code execute to VBScript systems 

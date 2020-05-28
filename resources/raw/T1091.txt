@@ -1,0 +1,11 @@
+Flame contains modules to infect USB sticks and spread laterally to other Windows systems the stick is plugged into using autorun functionality.
+--Example not given--
+APT30 may have used the SHIPSHAPE malware to move onto air-gapped networks. SHIPSHAPE targets removable drives to spread to other systems by modifying the drive to use Autorun to execute or by hiding legitimate document files and copying an executable to the folder with the same name as the legitimate document.
+Unknown Logger is capable of spreading to USB devices.
+DustySky searches for removable media and duplicates itself onto it.
+H1N1 has functionality to copy itself to removable media.
+Darkhotel's selective infector modifies executables stored on removable media as a method of spreading across computers.
+Agent.btz drops itself onto removable media devices and creates an autorun.inf file with an instruction to run that file. When the device is inserted into another system, it opens autorun.inf and loads the malware.
+Part of APT28's operation involved using CHOPSTICK modules to copy itself to air-gapped machines and using files written to USB sticks to transfer data and command traffic.
+USBStealer drops itself onto removable media and relies on Autorun to execute the malicious file when a user opens the removable media on another system.
+APT28 uses a tool to infect connected USB devices and transmit itself to air-gapped computers when the infected USB device is inserted.

@@ -1,0 +1,17 @@
+menuPass uses a modified version of pentesting script wmiexec.vbs, which logs into a remote machine using WMI.
+A BlackEnergy 2  plug-in uses WMI to gather victim host details.
+Leviathan has used WMI for execution.
+PowerSploit's <code>Invoke-WmiCommand</code> CodeExecution module uses WMI to execute and retrieve the output from a PowerShell payload.
+POWRUNER may use WMI when collecting information about a victim.
+POWERSTATS can use WMI queries to retrieve data from compromised hosts.
+Lazarus Group malware SierraAlfa uses the Windows Management Instrumentation Command-line application wmic to start itself on a target system during lateral movement.
+The DustySky dropper uses Windows Management Instrumentation to extract information about the operating system and whether an anti-virus is active.
+HALFBAKED can use WMI queries to gather system information.
+Stealth Falcon malware gathers system information via Windows Management Instrumentation (WMI).
+--Example not given--
+APT29 used WMI to steal credentials and execute backdoors at a future time.
+Cobalt Strike can use WMI to deliver a payload to a remote host.
+The Deep Panda group is known to utilize WMI for lateral movement.
+KOMPROGO is capable of running WMI queries.
+APT34 has used WMI for execution.
+FIN8's malicious spearphishing payloads use WMI to launch malware and spawn cmd.exe execution.FIN8 has also used WMIC during  and post compromise cleanup activities.

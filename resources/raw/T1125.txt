@@ -1,0 +1,5 @@
+EvilGrab has the capability to capture video from a victim machine.
+Pupy can access a connected webcam and capture pictures.
+Derusbi is capable of capturing video.
+--Example not given--
+T9000 uses the Skype API to record audio and video calls. It writes encrypted data to <code>%APPDATA%\Intel\Skype</code>.

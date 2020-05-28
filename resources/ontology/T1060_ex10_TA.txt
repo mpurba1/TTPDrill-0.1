@@ -1,0 +1,1 @@
+achieves ADVSTORESHELL persistence itself adding <code> HKCU SOFTWARE Microsoft Windows CurrentVersion Run </code> Registry key 

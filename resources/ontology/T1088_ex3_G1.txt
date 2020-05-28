@@ -1,0 +1,1 @@
+perform ZeroT using eventvwr.exe execute a malicious file 

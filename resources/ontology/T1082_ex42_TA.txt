@@ -1,0 +1,1 @@
+gathers PinchDuke system configuration information 

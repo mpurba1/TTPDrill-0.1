@@ -1,0 +1,1 @@
+injects BlackEnergy DLL component svchost.exe 

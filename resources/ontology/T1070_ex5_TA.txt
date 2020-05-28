@@ -1,0 +1,1 @@
+has RTM the ability remove Registry entries created it 

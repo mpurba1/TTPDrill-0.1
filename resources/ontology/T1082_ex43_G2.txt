@@ -1,0 +1,1 @@
+gathers name version language sends it 

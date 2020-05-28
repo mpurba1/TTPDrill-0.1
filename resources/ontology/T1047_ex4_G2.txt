@@ -1,0 +1,1 @@
+uses WMI execute to output 

@@ -1,0 +1,6 @@
+FIN5 maintains access to victim environments by using Valid Accounts to access External Remote Services as well as establishing a backup RDP tunnel by using FLIPSIDE.
+APT3 has been known to use multiple backdoors per campaign.
+3PARA RAT will sleep until after a date/time value loaded from a .dat file has passed. This allows the RAT to remain dormant until a set date, which could allow a means to regain access if other parts of the actors' toolset are removed from a victim.
+Threat Group-3390 has deployed backup web shells and obtained OWA account credentials during intrusions that it subsequently used to attempt to regain access when evicted from a victim network.
+--Example not given--
+OilRig has used an IIS backdoor (RGDoor) via Web shell to establish redundant access. The group has also used harvested credentials to gain access to Internet-accessible resources such as Outlook Web Access, which could be used for redundant access.

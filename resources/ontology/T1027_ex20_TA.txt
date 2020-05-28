@@ -1,0 +1,1 @@
+used TINYTYPHON XOR 0x90 obfuscate configuration file 

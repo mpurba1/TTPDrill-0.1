@@ -1,0 +1,1 @@
+modifies Lazarus Group the allow incoming connections disable it using netsh attempts malware terminate various processes 

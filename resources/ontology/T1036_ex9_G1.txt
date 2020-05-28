@@ -1,0 +1,1 @@
+created a establish persistence named AdobeFlashSync 

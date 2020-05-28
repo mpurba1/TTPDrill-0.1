@@ -1,0 +1,1 @@
+uses channel an XOR algorithm hide data 

@@ -1,0 +1,1 @@
+HKCU HKLM SecureCRT Services RealVNC TightVNC UltraVNC Radmin mRemote TeamViewer FileZilla pcAnyware 

@@ -1,0 +1,1 @@
+encodes TRINITY using OxAA key cipher XOR 

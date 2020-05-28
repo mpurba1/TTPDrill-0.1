@@ -1,0 +1,1 @@
+use platform Windows admin shares move 

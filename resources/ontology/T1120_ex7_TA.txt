@@ -1,0 +1,1 @@
+gather BlackEnergy specific information attached USB devices include device instance ID drive geometry 

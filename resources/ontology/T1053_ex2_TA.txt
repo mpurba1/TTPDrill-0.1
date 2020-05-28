@@ -1,0 +1,1 @@
+creates downloader persistence task creating the following scheduled create schtasks tn mysc C </code> 

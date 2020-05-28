@@ -1,0 +1,3 @@
+The <code>net accounts</code> and <code>net accounts /domain</code> commands with Net can be used to obtain password policy information.
+APT34 has used net.exe in a script with <code>net accounts /domain</code> to find the password policy of a domain.
+--Example not given--

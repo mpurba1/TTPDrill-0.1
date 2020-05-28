@@ -1,0 +1,1 @@
+deliver Cobalt movement leveraging COM execution payloads lateral 

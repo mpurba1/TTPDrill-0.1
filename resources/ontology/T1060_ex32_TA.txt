@@ -1,0 +1,1 @@
+create Trojan.Karagany a link itself 

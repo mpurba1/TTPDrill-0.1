@@ -1,0 +1,1 @@
+execute POWRUNER commands C2 server 

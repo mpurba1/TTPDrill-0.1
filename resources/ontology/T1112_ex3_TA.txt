@@ -1,0 +1,1 @@
+store CHOPSTICK RC4 encrypted configuration information 

@@ -1,0 +1,1 @@
+uses Volgmer a custom binary protocol beacon back C2 server 

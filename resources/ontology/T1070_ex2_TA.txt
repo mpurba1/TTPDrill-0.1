@@ -1,0 +1,1 @@
+cleared APT28 event logs commands <code> using the wevtutil cl System </code> Security 

@@ -1,0 +1,1 @@
+used FIN7 mshta.exe execute VBScript 

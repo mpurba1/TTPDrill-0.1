@@ -1,0 +1,1 @@
+use Strike WMI deliver a payload remote host 

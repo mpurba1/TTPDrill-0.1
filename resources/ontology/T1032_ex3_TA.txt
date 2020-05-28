@@ -1,0 +1,1 @@
+decrypt NETEAGLE resources downloads it requests RC4 using ScoutEagle 

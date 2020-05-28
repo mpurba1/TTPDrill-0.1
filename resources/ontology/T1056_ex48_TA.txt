@@ -1,0 +1,1 @@
+has Rover keylogging functionality 

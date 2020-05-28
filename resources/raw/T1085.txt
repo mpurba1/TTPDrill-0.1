@@ -1,0 +1,23 @@
+PUNCHBUGGY can load a DLL using Rundll32.
+ADVSTORESHELL has used rundll32.exe in a Registry value to establish persistence.
+Briba uses rundll32 within Registry Run Keys / Start Folder entries to execute malicious DLLs.
+StreamEx uses rundll32 to call an exported function.
+Variants of Emissary have used rundll32.exe in Registry values added to establish persistence.
+PowerDuke uses rundll32.exe to load.
+Prikormka uses rundll32.exe to load its DLL.
+After copying itself to a DLL file, a variant of Elise calls the DLL file using rundll32.exe.
+Carbanak installs VNC server software that executes through rundll32.
+APT3 has a tool that can run DLLs.
+A gh0st variant has used rundll32 for execution.
+The Winnti installer loads a DLL using rundll32.
+The CozyCar dropper copies the system file rundll32.exe to the install location for the malware, then uses the copy of rundll32.exe to load and execute the main CozyCar component.
+CopyKittens uses rundll32 to load various tools on victims, including a lateral movement tool named Vminst, Cobalt Strike, and shellcode.
+APT28 executed CHOPSTICK by using rundll32 commands such as <code>rundll32.exe “C:\Windows\twain_64.dll”</code>.APT28 also executed a .dll for a first stage dropper using rundll32.exe.APT28 loader Trojan saved a batch script that uses rundll32 to execute a DLL payload.
+--Example not given--
+Pteranodon executes functions using rundll32.exe.
+Sakula calls cmd.exe to run various DLL files via rundll32.
+RTM runs its core DLL file using rundll32.exe.
+CORESHELL is installed via execution of rundll32 with an export named "init" or "InitW."
+Matroyshka uses rundll32.exe in a Registry Run key value for execution as part of its persistence mechanism.
+Rundll32.exe is used as a way of executing Flame at the command-line.
+JHUHUGIT is executed using rundll32.exe.

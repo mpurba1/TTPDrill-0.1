@@ -1,0 +1,7 @@
+--Example not given--
+Some Orz versions have an embedded DLL known as MockDll that uses Process Hollowing and regsvr32 to execute another payload.
+Derusbi variants have been seen that use Registry persistence to proxy execution through regsvr32.exe.
+Deep Panda has used regsvr32.exe to execute a server variant of Derusbi in victim networks.
+Leviathan has used regsvr32 for execution.
+APT32 created a Scheduled Task that used regsvr32.exe to execute a COM scriptlet that dynamically downloaded a backdoor and injected it into memory.
+Hi-Zor executes using regsvr32.exe called from the Registry Run Keys / Start Folder persistence mechanism.

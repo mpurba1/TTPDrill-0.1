@@ -1,0 +1,1 @@
+exfiltrates CosmicDuke collected files FTP WebDAV configured Exfiltration servers C2 

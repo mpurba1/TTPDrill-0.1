@@ -1,0 +1,1 @@
+component KillDisk capable deleting Windows Event Logs 

@@ -1,0 +1,1 @@
+contains XAgentOSX the deletFileFromPath function method delete a specified file NSFileManager using 

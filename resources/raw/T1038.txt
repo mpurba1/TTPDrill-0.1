@@ -1,0 +1,9 @@
+--Example not given--
+HTTPBrowser abuses the Windows DLL load order by using a legitimate Symantec anti-virus binary, VPDN_LU.exe, to load a malicious DLL that mimics a legitimate Symantec DLL, navlu.dll.
+Variants of WEBC2 achieve persistence by using DLL search order hijacking, usually by copying the DLL file to <code>%SYSTEMROOT%</code> (<code>C:\WINDOWS\ntshrui.dll</code>).
+A FinFisher variant uses DLL search order hijacking.
+RedLeaves is launched through use of DLL search order hijacking to load a malicious dll.
+Prikormka uses DLL search order hijacking for persistence by saving itself as ntshrui.dll to the Windows directory so it will load before the legitimate ntshrui.dll saved in the System32 subdirectory.
+PowerSploit contains a collection of Privesc-PowerUp modules that can discover DLL hijacking opportunities in services and processes.
+Downdelph uses DLL search order hijacking of the Windows executable sysprep.exe to escalate privileges.
+menuPass has used DLL search order hijacking.

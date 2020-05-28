@@ -1,0 +1,1 @@
+establishes downloader a SOCKS5 connection 192.157.198 using TCP port verified server response requests it 192.184.60 229 

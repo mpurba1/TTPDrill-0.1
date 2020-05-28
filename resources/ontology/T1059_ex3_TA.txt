@@ -1,0 +1,1 @@
+allows module arbitrary commands </code> executed <code> C invoking 

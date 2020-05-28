@@ -1,0 +1,14 @@
+Reaver creates a shortcut file and saves it in a Startup folder to establish persistence.
+--Example not given--
+Helminth establishes persistence by creating a shortcut.
+Leviathan has used a JavaScript to create a shortcut file in the Startup folder that points to its main backdoor.
+To establish persistence, SslMM identifies the Start Menu Startup directory and drops a link to its own executable disguised as an “Office Start,” “Yahoo Talk,” “MSN Gaming Z0ne,” or “MSN Talk” shortcut.
+A Lazarus Group malware sample adds persistence on the system by creating a shortcut in the user’s Startup folder.
+Gazer can establish persistence by creating a .lnk file in the Start menu or by modifying existing .lnk files to execute the malware through cmd.exe. 
+The BlackEnergy 3 variant drops its main DLL component and then creates a .lnk shortcut to that file in the startup folder.
+SPACESHIP achieves persistence by creating a shortcut in the current user's Startup folder.
+TinyZBot can create a shortcut in the Windows startup folder for persistence.
+S-Type may create the file <code>%HOMEPATH%\Start Menu\Programs\Startup\Realtek {Unique Identifier}.lnk</code>, which points to the malicious msdtc.exe file already created in the %CommonFiles% directory.
+SHIPSHAPE achieves persistence by creating a shortcut in the Startup folder.
+BACKSPACE achieves persistence by creating a shortcut to itself in the CSIDL_STARTUP directory.
+SeaDuke is capable of persisting via a .lnk file stored in the Startup directory.

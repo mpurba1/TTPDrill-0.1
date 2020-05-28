@@ -1,0 +1,612 @@
+SentenceNo,concept,CTNo,path,sentence,srcterm,dstterm
+Sentence1,object1,CT1,dobj->,APT28 has used CVE-2015-1701 to access the SYSTEM token and copy it into the,access ,SYSTEM token
+Sentence1,object1,CT2,dobj->amod->,APT28 has used CVE-2015-1701 to access the SYSTEM token and copy it into the,access ,SYSTEM token
+Sentence2,object1,CT1,dobj->compound->,Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call CreateProcessAsUserA under that user's context.,obtains ,user tokens
+Sentence2,object1,CT2,dobj->,Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call CreateProcessAsUserA under that user's context.,obtains ,user tokens
+Sentence2,object2,CT1,nmod:from->amod->,Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call CreateProcessAsUserA under that user's context.,obtains ,interactive sessions
+Sentence2,object2,CT2,nmod:from->,Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call CreateProcessAsUserA under that user's context.,obtains ,interactive sessions
+Sentence2,goal1,CT1,advcl:to->,Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call CreateProcessAsUserA under that user's context.,obtains ,execute itself
+Sentence2,goal1,CT2,advcl:to->dobj->,Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call CreateProcessAsUserA under that user's context.,obtains ,execute itself
+Sentence2,goal2,CT2,advcl:to->nmod:under->,Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call CreateProcessAsUserA under that user's context.,obtains ,user's context
+Sentence3,object1,CT1,dobj->compound->,Cobalt Strike can steal access tokens from exiting processes and make tokens from known credentials.,steal ,access tokens
+Sentence3,object1,CT2,dobj->,Cobalt Strike can steal access tokens from exiting processes and make tokens from known credentials.,steal ,access tokens
+Sentence3,object2,CT1,advcl:from->,Cobalt Strike can steal access tokens from exiting processes and make tokens from known credentials.,steal ,exiting processes
+Sentence3,object2,CT2,advcl:from->dobj->,Cobalt Strike can steal access tokens from exiting processes and make tokens from known credentials.,steal ,exiting processes
+Sentence5,object1,CT1,dobj->,It can also steal tokens to acquire administrative privileges.,steal ,tokens
+Sentence5,goal1,CT1,advcl:to->,It can also steal tokens to acquire administrative privileges.,steal ,acquire administrative privileges
+Sentence5,goal1,CT2,advcl:to->dobj->amod->,It can also steal tokens to acquire administrative privileges.,steal ,acquire administrative privileges
+Sentence5,goal1,CT3,advcl:to->dobj->,It can also steal tokens to acquire administrative privileges.,steal ,acquire administrative privileges
+Sentence6,object1,CT2,dobj->,Hydraq creates a backdoor through which remote attackers can adjust token privileges.,adjust ,oken privileges
+Sentence7,object1,CT1,conj:and-u->dobj-u->compound-u->,PowerSploit's Invoke-TokenManipulation Exfiltration module can be used to locate and impersonate user logon tokens.,impersonate ,user logon tokens
+Sentence7,object1,CT2,conj:and-u->dobj-u->compound-u->,PowerSploit's Invoke-TokenManipulation Exfiltration module can be used to locate and impersonate user logon tokens.,impersonate ,user logon tokens
+Sentence7,object1,CT3,conj:and-u->dobj-u->,PowerSploit's Invoke-TokenManipulation Exfiltration module can be used to locate and impersonate user logon tokens.,impersonate ,user logon tokens
+Sentence8,object1,CT1,dobj->compound->,Pupy can obtain a list of SIDs and provide the option for selecting process tokens to impersonate.,selecting ,process tokens
+Sentence8,object1,CT2,dobj->,Pupy can obtain a list of SIDs and provide the option for selecting process tokens to impersonate.,selecting ,process tokens
+Sentence8,goal1,CT1,advcl:to->,Pupy can obtain a list of SIDs and provide the option for selecting process tokens to impersonate.,selecting ,impersonate
+Sentence9,object1,CT1,dobj->,SslMM contains a feature to manipulate process privileges and tokens.,manipulate ,tokens
+Sentence10,object1,CT1,dobj->,APT29 used sticky-keys to obtain unauthenticated, privileged console access.,used ,sticky-keys
+Sentence10,goal1,CT1,advcl:to->,APT29 used sticky-keys to obtain unauthenticated, privileged console access.,used ,obtain unauthenticated privileged console access
+Sentence10,goal1,CT2,advcl:to->dobj->amod->,APT29 used sticky-keys to obtain unauthenticated, privileged console access.,used ,obtain unauthenticated privileged console access
+Sentence10,goal1,CT3,advcl:to->dobj->amod->dep->,APT29 used sticky-keys to obtain unauthenticated, privileged console access.,used ,obtain unauthenticated privileged console access
+Sentence10,goal1,CT4,advcl:to->dobj->compound->,APT29 used sticky-keys to obtain unauthenticated, privileged console access.,used ,obtain unauthenticated privileged console access
+Sentence10,goal1,CT5,advcl:to->dobj->,APT29 used sticky-keys to obtain unauthenticated, privileged console access.,used ,obtain unauthenticated privileged console access
+Sentence11,object1,CT1,dobj->compound->,APT3 replaces the Sticky Keys binary path for persistence.,replaces ,Sticky Keys binary path
+Sentence11,object1,CT2,dobj->compound->,APT3 replaces the Sticky Keys binary path for persistence.,replaces ,Sticky Keys binary path
+Sentence11,object1,CT3,dobj->amod->,APT3 replaces the Sticky Keys binary path for persistence.,replaces ,Sticky Keys binary path
+Sentence11,object1,CT4,dobj->,APT3 replaces the Sticky Keys binary path for persistence.,replaces ,Sticky Keys binary path
+Sentence11,goal1,CT1,dobj->nmod:for->,APT3 replaces the Sticky Keys binary path for persistence.,replaces ,persistence
+Sentence12,object1,CT1,dobj->compound->,Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.,use ,Sticky Keys replacement
+Sentence12,object1,CT2,dobj->compound->,Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.,use ,Sticky Keys replacement
+Sentence12,object1,CT3,dobj->,Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.,use ,Sticky Keys replacement
+Sentence12,object2,CT1,dobj->nmod:within->compound->,Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.,use ,RDP sessions
+Sentence12,object2,CT2,dobj->nmod:within->,Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.,use ,RDP sessions
+Sentence12,goal1,CT1,advcl:to->,Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.,use ,obtain persistence
+Sentence12,goal1,CT2,advcl:to->dobj->,Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.,use ,obtain persistence
+Sentence13,object1,CT1,dobj->compound->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,sticky-keys technique
+Sentence13,object1,CT2,dobj->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,sticky-keys technique
+Sentence13,goal1,CT1,advcl:to->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,bypass the RDP login screen
+Sentence13,goal1,CT2,dobj->det->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,bypass the RDP login screen
+Sentence13,goal1,CT3,advcl:to->dobj->compound->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,bypass the RDP login screen
+Sentence13,goal1,CT4,advcl:to->dobj->compound->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,bypass the RDP login screen
+Sentence13,goal1,CT5,advcl:to->dobj->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,bypass the RDP login screen
+Sentence13,goal2,CT1,advcl:to->nmod:on->amod->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,remote systems
+Sentence13,goal2,CT2,advcl:to->nmod:on->,Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.,used ,remote systems
+Sentence14,object1,CT1,dobj->,APT3 has used a tool that can obtain info about local and global group users, power users, and administrators.,obtain ,info
+Sentence14,object2,CT1,dobj->nmod:about->amod->,APT3 has used a tool that can obtain info about local and global group users, power users, and administrators.,obtain ,local
+Sentence15,object1,CT1,dobj->amod->,BRONZE BUTLER has used net user /domain to identify account information.,used ,net user
+Sentence15,object1,CT2,dobj->,BRONZE BUTLER has used net user /domain to identify account information.,used ,net user
+Sentence15,goal1,CT1,advcl:to->,BRONZE BUTLER has used net user /domain to identify account information.,used ,identify account information
+Sentence15,goal1,CT2,advcl:to->dobj->compound->,BRONZE BUTLER has used net user /domain to identify account information.,used ,identify account information
+Sentence15,goal1,CT3,advcl:to->dobj->,BRONZE BUTLER has used net user /domain to identify account information.,used ,identify account information
+Sentence16,object1,CT1,dobj->,FIN6 has used Metasploitâ€™s PsExec NTDSGRAB module to obtain a copy of the victim's Active Directory database.,obtain ,copy
+Sentence17,object1,CT1,dobj->compound->,Ke3chang performs account discovery using commands such as net on specific permissions groups.,performs ,account discovery
+Sentence17,object1,CT2,dobj->,Ke3chang performs account discovery using commands such as net on specific permissions groups.,performs ,account discovery
+Sentence17,object2,CT1,dobj->acl->dobj->,Ke3chang performs account discovery using commands such as net on specific permissions groups.,performs ,commands
+Sentence18,object1,CT1,dobj->amod->,OilRig has run net user to get account listings on a victim.,run ,net user
+Sentence18,object1,CT2,dobj->,OilRig has run net user to get account listings on a victim.,run ,net user
+Sentence18,goal1,CT1,advcl:to->,OilRig has run net user to get account listings on a victim.,run ,get account listings
+Sentence18,goal1,CT2,advcl:to->dobj->compound->,OilRig has run net user to get account listings on a victim.,run ,get account listings
+Sentence18,goal1,CT3,advcl:to->dobj->,OilRig has run net user to get account listings on a victim.,run ,get account listings
+Sentence18,goal2,CT1,advcl:to->nmod:on->,OilRig has run net user to get account listings on a victim.,run ,victim
+Sentence19,object1,CT1,nmod:for->compound->,Poseidon Group searches for administrator accounts on both the local victim machine and the network.,searches ,administrator accounts
+Sentence19,object1,CT2,nmod:for->,Poseidon Group searches for administrator accounts on both the local victim machine and the network.,searches ,administrator accounts
+Sentence19,object2,CT1,nmod:for->nmod:on->amod->,Poseidon Group searches for administrator accounts on both the local victim machine and the network.,searches ,local victim machine
+Sentence19,object2,CT2,nmod:for->nmod:on->compound->,Poseidon Group searches for administrator accounts on both the local victim machine and the network.,searches ,local victim machine
+Sentence19,object2,CT3,nmod:for->nmod:on->,Poseidon Group searches for administrator accounts on both the local victim machine and the network.,searches ,local victim machine
+Sentence20,object1,CT1,dobj->amod->,Threat Group-3390 has used net user to conduct internal discovery of systems.,conduct ,internal discovery
+Sentence20,object1,CT2,dobj->,Threat Group-3390 has used net user to conduct internal discovery of systems.,conduct ,internal discovery
+Sentence20,object2,CT1,dobj->nmod:of->,Threat Group-3390 has used net user to conduct internal discovery of systems.,conduct ,systems
+Sentence21,object1,CT1,dobj->,admin@338 actors used the following commands following exploitation of a machine with LOWBALL malware to enumerate user accounts.,used ,commands
+Sentence21,goal1,CT1,advcl:to->,admin@338 actors used the following commands following exploitation of a machine with LOWBALL malware to enumerate user accounts.,used ,enumerate user accounts
+Sentence21,goal1,CT2,advcl:to->dobj->compound->,admin@338 actors used the following commands following exploitation of a machine with LOWBALL malware to enumerate user accounts.,used ,enumerate user accounts
+Sentence21,goal1,CT3,advcl:to->dobj->,admin@338 actors used the following commands following exploitation of a machine with LOWBALL malware to enumerate user accounts.,used ,enumerate user accounts
+Sentence22,object1,CT1,dobj->compound->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,Microsoft administration tool execution file
+Sentence22,object1,CT2,dobj->compound->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,Microsoft administration tool execution file
+Sentence22,object1,CT3,dobj->compound->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,Microsoft administration tool execution file
+Sentence22,object1,CT4,dobj->compound->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,Microsoft administration tool execution file
+Sentence22,object1,CT5,dobj->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,Microsoft administration tool execution file
+Sentence22,goal1,CT1,advcl:to->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,export Active Directory data
+Sentence22,goal1,CT2,advcl:to->dobj->amod->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,export Active Directory data
+Sentence22,goal1,CT3,advcl:to->dobj->compound->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,export Active Directory data
+Sentence22,goal1,CT4,advcl:to->dobj->,menuPass has used the Microsoft administration tool execution file to export Active Directory data.,used ,export Active Directory data
+Sentence23,object1,CT1,dobj->,The discovery modules used with Duqu can collect information on accounts and permissions.,collect ,information
+Sentence23,object2,CT1,nmod:on->,The discovery modules used with Duqu can collect information on accounts and permissions.,collect ,accounts
+Sentence24,object1,CT1,dobj->amod->,Elise executes net user after initial communication is made to the remote server.,executes ,net user
+Sentence24,object1,CT2,dobj->,Elise executes net user after initial communication is made to the remote server.,executes ,net user
+Sentence25,object1,CT1,dobj->,GeminiDuke collects information on local user accounts from the victim.,collects ,information
+Sentence25,object2,CT1,dobj->nmod:on->amod->,GeminiDuke collects information on local user accounts from the victim.,collects ,local user accounts
+Sentence25,object2,CT2,dobj->nmod:on->compound->,GeminiDuke collects information on local user accounts from the victim.,collects ,local user accounts
+Sentence25,object2,CT3,dobj->nmod:on->,GeminiDuke collects information on local user accounts from the victim.,collects ,local user accounts
+Sentence26,object1,CT1,dobj->,MURKYTOP has the capability to retrieve information about users on remote hosts.,retrieve ,information
+Sentence26,object2,CT1,dobj->nmod:about->,MURKYTOP has the capability to retrieve information about users on remote hosts.,retrieve ,users
+Sentence27,object1,CT1,dobj->,Mis-Type may create a file containing the results of the command net user Commands under net user can be used in Net to gather information about and manipulate user accounts.,gather ,information
+Sentence27,object2,CT1,xcomp-u->parataxis-u->dobj-u->acl-u->dobj-u->nmod:of-u->compound-u->,Mis-Type may create a file containing the results of the command net user Commands under net user can be used in Net to gather information about and manipulate user accounts.,gather ,user accounts
+Sentence27,object2,CT2,dobj->nmod:manipulate->,Mis-Type may create a file containing the results of the command net user Commands under net user can be used in Net to gather information about and manipulate user accounts.,gather ,user accounts
+Sentence28,object1,CT1,dobj->amod->,OSInfo enumerates local and domain users.,enumerates ,local
+Sentence28,object2,CT1,dobj->amod->,OSInfo enumerates local and domain users.,enumerates ,domain users
+Sentence28,object2,CT2,dobj->,OSInfo enumerates local and domain users.,enumerates ,domain users
+Sentence29,object1,CT1,dobj->,POWERSTATS can retrieve usernames from compromised hosts.,retrieve ,usernames
+Sentence29,object2,CT1,dobj->nmod:from->amod->,POWERSTATS can retrieve usernames from compromised hosts.,retrieve ,compromised hosts
+Sentence29,object2,CT2,dobj->nmod:from->,POWERSTATS can retrieve usernames from compromised hosts.,retrieve ,compromised hosts
+Sentence30,object1,CT1,dobj->amod->,POWRUNER may collect user account information by running net user or a series of other commands on a victim.,running ,net user
+Sentence30,object1,CT2,advcl:by-u->dobj-u->compound-u->,POWRUNER may collect user account information by running net user or a series of other commands on a victim.,running ,net user
+Sentence30,object2,CT1,dobj->,POWRUNER may collect user account information by running net user or a series of other commands on a victim.,running ,commands
+Sentence30,goal1,CT1,advcl:by-u->,POWRUNER may collect user account information by running net user or a series of other commands on a victim.,running ,collect user account information
+Sentence30,goal1,CT2,advcl:by-u->dobj-u->compound-u->,POWRUNER may collect user account information by running net user or a series of other commands on a victim.,running ,collect user account information
+Sentence30,goal1,CT3,advcl:by-u->dobj-u->compound-u->,POWRUNER may collect user account information by running net user or a series of other commands on a victim.,running ,collect user account information
+Sentence30,goal1,CT4,advcl:by-u->dobj-u->,POWRUNER may collect user account information by running net user or a series of other commands on a victim.,running ,collect user account information
+Sentence31,object1,CT1,dobj->,PowerSploit's Get-ProcessTokenGroup Privesc-PowerUp module can enumerate all SIDs associated with its current token.,enumerate ,SIDs
+Sentence31,object2,CT1,dobj->acl->nmod:with->amod->,PowerSploit's Get-ProcessTokenGroup Privesc-PowerUp module can enumerate all SIDs associated with its current token.,enumerate ,current token
+Sentence31,object2,CT2,dobj->acl->nmod:with->,PowerSploit's Get-ProcessTokenGroup Privesc-PowerUp module can enumerate all SIDs associated with its current token.,enumerate ,current token
+Sentence32,object1,CT1,dobj->compound->,Pupy uses PowerView and Pywerview to perform discovery commands such as net user, net group, net local group, etc.,perform ,discovery commands
+Sentence32,object1,CT2,dobj->,Pupy uses PowerView and Pywerview to perform discovery commands such as net user, net group, net local group, etc.,perform ,discovery commands
+Sentence32,object2,CT1,dobj->nmod:such_as->amod->,Pupy uses PowerView and Pywerview to perform discovery commands such as net user, net group, net local group, etc.,perform ,net user, net group, net local group,
+Sentence32,object2,CT3,dobj->nmod:such_as->amod->,Pupy uses PowerView and Pywerview to perform discovery commands such as net user, net group, net local group, etc.,perform ,net user, net group, net local group,
+Sentence32,object2,CT5,dobj->nmod:such_as->amod->,Pupy uses PowerView and Pywerview to perform discovery commands such as net user, net group, net local group, etc.,perform ,net user, net group, net local group,
+Sentence32,object2,CT6,dobj->nmod:such_as->conj->amod->,Pupy uses PowerView and Pywerview to perform discovery commands such as net user, net group, net local group, etc.,perform ,net user, net group, net local group,
+Sentence33,object1,CT1,dobj->,Remsec can obtain a list of users.,obtain ,list of users
+Sentence33,object1,CT2,dobj->nmod:of->case->,Remsec can obtain a list of users.,obtain ,list of users
+Sentence33,object1,CT3,dobj->nmod:of->,Remsec can obtain a list of users.,obtain ,list of users
+Sentence34,object1,CT1,dobj->compound->,S-Type runs the command net user on a victim.,runs ,command net user
+Sentence34,object1,CT2,dobj->amod->,S-Type runs the command net user on a victim.,runs ,command net user
+Sentence34,object1,CT3,dobj->,S-Type runs the command net user on a victim.,runs ,command net user
+Sentence34,object2,CT1,nmod:on->,S-Type runs the command net user on a victim.,runs ,victim
+Sentence35,object1,CT1,dobj->,S-Type also runs tests to determine the privilege level of the compromised user.,runs ,tests
+Sentence35,goal1,CT1,advcl:to->,S-Type also runs tests to determine the privilege level of the compromised user.,runs ,determine the privilege level
+Sentence35,goal1,CT2,advcl:to->dobj->det->,S-Type also runs tests to determine the privilege level of the compromised user.,runs ,determine the privilege level
+Sentence35,goal1,CT3,advcl:to->dobj->compound->,S-Type also runs tests to determine the privilege level of the compromised user.,runs ,determine the privilege level
+Sentence35,goal1,CT4,advcl:to->dobj->,S-Type also runs tests to determine the privilege level of the compromised user.,runs ,determine the privilege level
+Sentence35,goal2,CT1,advcl:to->dobj->nmod:of->amod->,S-Type also runs tests to determine the privilege level of the compromised user.,runs ,compromised user
+Sentence35,goal2,CT2,advcl:to->dobj->nmod:of->,S-Type also runs tests to determine the privilege level of the compromised user.,runs ,compromised user
+Sentence36,object1,CT1,dobj->,SHOTPUT has a command to retrieve information about connected users.,has ,command
+Sentence36,goal1,CT1,dobj->acl:to->,SHOTPUT has a command to retrieve information about connected users.,has ,retrieve information
+Sentence36,goal1,CT2,dobj->acl:to->dobj->,SHOTPUT has a command to retrieve information about connected users.,has ,retrieve information
+Sentence36,goal2,CT1,dobj->acl:to->dobj->nmod:about->amod->,SHOTPUT has a command to retrieve information about connected users.,has ,connected users
+Sentence36,goal2,CT2,dobj->acl:to->dobj->nmod:about->,SHOTPUT has a command to retrieve information about connected users.,has ,connected users
+Sentence37,object1,CT1,dobj->amod->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,net group
+Sentence37,object1,CT2,dobj->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,net group
+Sentence37,goal1,CT1,advcl:to->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,display accounts
+Sentence37,goal1,CT2,advcl:to->dobj->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,display accounts
+Sentence37,goal2,CT1,advcl:to->advcl:to->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,list local system administrator group membership
+Sentence37,goal2,CT2,advcl:to->advcl:to->dobj->amod->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,list local system administrator group membership
+Sentence37,goal2,CT3,advcl:to->advcl:to->dobj->compound->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,list local system administrator group membership
+Sentence37,goal2,CT4,advcl:to->advcl:to->dobj->compound->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,list local system administrator group membership
+Sentence37,goal2,CT5,dobj->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,list local system administrator group membership
+Sentence37,goal2,CT6,advcl:to->advcl:to->dobj->,Sykipot may use net group to display accounts in the "domain admins" permissions group and net localgroup "administrators" to list local system administrator group membership.,use ,list local system administrator group membership
+Sentence38,object1,CT1,nsubjpass->,dsquery can be used to gather information on user accounts within a domain.,used ,dsquery
+Sentence38,goal1,CT1,xcomp->,dsquery can be used to gather information on user accounts within a domain.,used ,gather information
+Sentence38,goal1,CT2,xcomp->dobj->,dsquery can be used to gather information on user accounts within a domain.,used ,gather information
+Sentence38,goal2,CT1,xcomp->dobj->nmod:on->compound->,dsquery can be used to gather information on user accounts within a domain.,used ,user accounts
+Sentence38,goal2,CT2,xcomp->dobj->nmod:on->,dsquery can be used to gather information on user accounts within a domain.,used ,user accounts
+Sentence39,object1,CT2,ccomp->,Lazarus Group malware WhiskeyDelta-Two contains a function that attempts to rename the administratorâ€™s account.,rename ,administratorâ€™s account
+Sentence40,object1,CT1,dobj->compound->,The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality.,include ,Skeleton Key domain controller authentication bypass functionality
+Sentence40,object1,CT2,dobj->compound->,The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality.,include ,Skeleton Key domain controller authentication bypass functionality
+Sentence40,object1,CT3,dobj->compound->,The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality.,include ,Skeleton Key domain controller authentication bypass functionality
+Sentence40,object1,CT4,dobj->compound->,The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality.,include ,Skeleton Key domain controller authentication bypass functionality
+Sentence40,object1,CT5,dobj->compound->,The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality.,include ,Skeleton Key domain controller authentication bypass functionality
+Sentence40,object1,CT6,dobj->compound->,The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality.,include ,Skeleton Key domain controller authentication bypass functionality
+Sentence40,object1,CT7,dobj->,The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality.,include ,Skeleton Key domain controller authentication bypass functionality
+Sentence41,object1,CT1,dobj->compound->,The LSADUMP::ChangeNTLM and LSADUMP::SetNTLM modules can also manipulate the password hash of an account without knowing the clear text value.,manipulate ,password hash
+Sentence41,object1,CT2,dobj->,The LSADUMP::ChangeNTLM and LSADUMP::SetNTLM modules can also manipulate the password hash of an account without knowing the clear text value.,manipulate ,password hash
+Sentence41,object2,CT1,dobj->nmod:of->,The LSADUMP::ChangeNTLM and LSADUMP::SetNTLM modules can also manipulate the password hash of an account without knowing the clear text value.,manipulate ,account
+Sentence42,object1,CT1,nsubjpass->compound->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,Skeleton Key
+Sentence42,object1,CT2,nsubjpass->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,Skeleton Key
+Sentence42,goal1,CT1,xcomp->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,patch an enterprise domain controller authentication process
+Sentence42,goal1,CT2,xcomp->dobj->det->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,patch an enterprise domain controller authentication process
+Sentence42,goal1,CT3,xcomp->dobj->compound->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,patch an enterprise domain controller authentication process
+Sentence42,goal1,CT4,xcomp->dobj->compound->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,patch an enterprise domain controller authentication process
+Sentence42,goal1,CT5,xcomp->dobj->compound->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,patch an enterprise domain controller authentication process
+Sentence42,goal1,CT6,xcomp->dobj->compound->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,patch an enterprise domain controller authentication process
+Sentence42,goal1,CT7,xcomp->dobj->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,patch an enterprise domain controller authentication process
+Sentence42,goal2,CT1,xcomp->nmod:with->amod->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,backdoor password
+Sentence42,goal2,CT2,xcomp->nmod:with->,Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password.,used ,backdoor password
+Sentence43,object1,CT1,dobj->amod->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,standard authentication system
+Sentence43,object1,CT2,dobj->compound->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,standard authentication system
+Sentence43,object1,CT3,dobj->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,standard authentication system
+Sentence43,goal1,CT1,dobj->acl:to->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,use a defined password
+Sentence43,goal1,CT2,dobj->acl:to->dobj->det->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,use a defined password
+Sentence43,goal1,CT3,dobj->acl:to->dobj->amod->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,use a defined password
+Sentence43,goal1,CT4,dobj->acl:to->dobj->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,use a defined password
+Sentence43,goal2,CT1,dobj->acl:to->nmod:for->det->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,all accounts authenticating to that domain controller
+Sentence43,goal2,CT2,dobj->acl:to->nmod:for->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,all accounts authenticating to that domain controller
+Sentence43,goal2,CT3,dobj->acl:to->nmod:for->acl->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,all accounts authenticating to that domain controller
+Sentence43,goal2,CT4,mark->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,all accounts authenticating to that domain controller
+Sentence43,goal2,CT5,dobj->acl:to->nmod:for->acl->nmod:to->det->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,all accounts authenticating to that domain controller
+Sentence43,goal2,CT6,dobj->acl:to->nmod:for->acl->nmod:to->compound->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,all accounts authenticating to that domain controller
+Sentence43,goal2,CT7,dobj->acl:to->nmod:for->acl->nmod:to->,It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.,bypass ,all accounts authenticating to that domain controller
+Sentence44,object1,CT1,dobj->compound->,PUNCHBUGGY can establish Persistence using a AppCertDLLs Registry key.,using ,AppCertDLLs Registry key
+Sentence44,object1,CT2,dobj->compound->,PUNCHBUGGY can establish Persistence using a AppCertDLLs Registry key.,using ,AppCertDLLs Registry key
+Sentence44,object1,CT3,dobj->,PUNCHBUGGY can establish Persistence using a AppCertDLLs Registry key.,using ,AppCertDLLs Registry key
+Sentence44,goal1,CT1,xcomp-u->,PUNCHBUGGY can establish Persistence using a AppCertDLLs Registry key.,using ,establish Persistence
+Sentence44,goal1,CT2,xcomp-u->dobj-u->,PUNCHBUGGY can establish Persistence using a AppCertDLLs Registry key.,using ,establish Persistence
+Sentence45,object2,CT1,dobj->compound->,Some variants of Cherry Picker use AppInit_DLLs to achieve persistence by creating the following Registry key: Registry key.,creating load ,Registry key
+Sentence45,object2,CT2,dobj->,Some variants of Cherry Picker use AppInit_DLLs to achieve persistence by creating the following Registry key: Registry key.,creating load ,Registry key
+Sentence45,goal1,CT1,advcl:by-u->,Some variants of Cherry Picker use AppInit_DLLs to achieve persistence by creating the following Registry key: Registry key.,creating load ,achieve persistence
+Sentence45,goal1,CT2,advcl:by-u->dobj-u->,Some variants of Cherry Picker use AppInit_DLLs to achieve persistence by creating the following Registry key: Registry key.,creating load ,achieve persistence
+Sentence46,object1,CT1,dobj->compound->,FIN7 has used application shim databases for persistence.,used ,application shim databases
+Sentence46,object1,CT2,dobj->compound->,FIN7 has used application shim databases for persistence.,used ,application shim databases
+Sentence46,object1,CT3,dobj->,FIN7 has used application shim databases for persistence.,used ,application shim databases
+Sentence46,goal1,CT1,nmod:for->,FIN7 has used application shim databases for persistence.,used ,persistence
+Sentence47,object1,CT1,conj:and->dobj->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,obtains ,title of the window
+Sentence47,object1,CT2,conj:and->dobj->nmod:of->case->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,obtains ,title of the window
+Sentence47,object1,CT3,conj:and->dobj->det->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,obtains ,title of the window
+Sentence47,object1,CT4,conj:and->dobj->nmod:of->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,obtains ,title of the window
+Sentence47,object2,CT1,conj:and->dobj->nmod:for->amod->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,obtains ,running process
+Sentence47,object2,CT2,conj:and->dobj->nmod:for->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,obtains ,running process
+Sentence48,object1,CT1,nmod:to->compound->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,sends ,C2 server
+Sentence48,object1,CT2,nmod:to->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,sends ,C2 server
+Sentence48,object2,CT1,dobj->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,sends ,title of the window
+Sentence48,object2,CT2,dobj->nmod:of->case->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,sends ,title of the window
+Sentence48,object2,CT3,dobj->det->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,sends ,title of the window
+Sentence48,object2,CT4,dobj->nmod:of->,Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process.,sends ,title of the window
+Sentence49,object1,CT1,dobj->,The KilaAlfa keylogger also reports the title of the window in the foreground.,reports ,title
+Sentence49,object2,CT1,dobj->nmod:of->,The KilaAlfa keylogger also reports the title of the window in the foreground.,reports ,window
+Sentence50,object1,CT1,dobj->compound->,Malware captures window titles.,captures ,window titles
+Sentence50,object1,CT2,dobj->,Malware captures window titles.,captures ,window titles
+Sentence51,object1,CT1,dobj->,The discovery modules used with Duqu can collect information on open windows.,collect ,information
+Sentence51,object2,CT1,dobj->nmod:on->amod->,The discovery modules used with Duqu can collect information on open windows.,collect ,open windows
+Sentence51,object2,CT2,dobj->nmod:on->,The discovery modules used with Duqu can collect information on open windows.,collect ,open windows
+Sentence52,object1,CT1,compound-u->compound-u->,NetTraveler reports window names along with keylogger information to provide application context.,reports ,window names
+Sentence52,object1,CT2,compound-u->,NetTraveler reports window names along with keylogger information to provide application context.,reports ,window names
+Sentence52,object2,CT1,compound-u->nmod:along_with-u->compound-u->,NetTraveler reports window names along with keylogger information to provide application context.,reports ,keylogger information
+Sentence52,object2,CT2,compound-u->nmod:along_with-u->,NetTraveler reports window names along with keylogger information to provide application context.,reports ,keylogger information
+Sentence52,goal1,CT1,compound-u->nmod:along_with-u->acl:to-u->,NetTraveler reports window names along with keylogger information to provide application context.,reports ,provide application context
+Sentence52,goal1,CT2,compound-u->nmod:along_with-u->acl:to-u->dobj-u->compound-u->,NetTraveler reports window names along with keylogger information to provide application context.,reports ,provide application context
+Sentence52,goal1,CT3,compound-u->nmod:along_with-u->acl:to-u->dobj-u->,NetTraveler reports window names along with keylogger information to provide application context.,reports ,provide application context
+Sentence53,object1,CT1,dobj->,PowerDuke has a command to get text of the current foreground window.,has ,command
+Sentence53,goal1,CT1,dobj->acl:to->,PowerDuke has a command to get text of the current foreground window.,has ,get text
+Sentence53,goal1,CT2,dobj->acl:to->dobj->,PowerDuke has a command to get text of the current foreground window.,has ,get text
+Sentence53,goal2,CT1,dobj->acl:to->dobj->nmod:of->amod->,PowerDuke has a command to get text of the current foreground window.,has ,current foreground window
+Sentence53,goal2,CT2,dobj->acl:to->dobj->nmod:of->compound->,PowerDuke has a command to get text of the current foreground window.,has ,current foreground window
+Sentence53,goal2,CT3,dobj->acl:to->dobj->nmod:of->,PowerDuke has a command to get text of the current foreground window.,has ,current foreground window
+Sentence54,object1,CT1,dobj->compound->,SOUNDBITE is capable of enumerating application windows.,enumerating ,application windows
+Sentence54,object1,CT2,dobj->,SOUNDBITE is capable of enumerating application windows.,enumerating ,application windows
+Sentence55,object1,CT1,dobj->amod->,Malware can enumerate active windows.,enumerate ,active windows
+Sentence55,object1,CT2,dobj->,Malware can enumerate active windows.,enumerate ,active windows
+Sentence56,object1,CT1,dobj->amod->,APT37 has used an audio capturing utility known as SOUNDWAVE that captures microphone input.,used ,audio capturing utility
+Sentence56,object1,CT2,dobj->amod->,APT37 has used an audio capturing utility known as SOUNDWAVE that captures microphone input.,used ,audio capturing utility
+Sentence56,object1,CT3,dobj->,APT37 has used an audio capturing utility known as SOUNDWAVE that captures microphone input.,used ,audio capturing utility
+Sentence56,goal1,CT1,dobj->acl:relcl->,APT37 has used an audio capturing utility known as SOUNDWAVE that captures microphone input.,used ,captures microphone input
+Sentence56,goal1,CT2,dobj->acl:relcl->dobj->compound->,APT37 has used an audio capturing utility known as SOUNDWAVE that captures microphone input.,used ,captures microphone input
+Sentence56,goal1,CT3,dobj->acl:relcl->dobj->,APT37 has used an audio capturing utility known as SOUNDWAVE that captures microphone input.,used ,captures microphone input
+Sentence57,object1,CT1,dobj->amod->,Derusbi is capable of performing audio captures.,performing ,audio captures
+Sentence57,object1,CT2,dobj->,Derusbi is capable of performing audio captures.,performing ,audio captures
+Sentence58,object1,CT1,dobj->,EvilGrab has the capability to capture audio from a victim machine.,capture ,audio
+Sentence58,object2,CT1,nmod:from->compound->,EvilGrab has the capability to capture audio from a victim machine.,capture ,victim machine
+Sentence58,object2,CT2,nmod:from->,EvilGrab has the capability to capture audio from a victim machine.,capture ,victim machine
+Sentence59,object1,CT1,dobj->,Flame can record audio using any existing hardware recording devices.,record ,audio
+Sentence59,object2,CT1,dobj->acl->dobj->amod->,Flame can record audio using any existing hardware recording devices.,record ,existing hardware recording devices
+Sentence59,object2,CT2,dobj->acl->dobj->compound->,Flame can record audio using any existing hardware recording devices.,record ,existing hardware recording devices
+Sentence59,object2,CT3,dobj->acl->dobj->compound->,Flame can record audio using any existing hardware recording devices.,record ,existing hardware recording devices
+Sentence59,object2,CT4,dobj->acl->dobj->,Flame can record audio using any existing hardware recording devices.,record ,existing hardware recording devices
+Sentence60,object1,CT1,amod-u->,Janicab captured audio and sent it out to a C2 server.,captured ,audio
+Sentence61,object1,CT1,dobj->,Janicab captured audio and sent it out to a C2 server.,sent ,it
+Sentence61,object2,CT1,nmod:to->compound->,Janicab captured audio and sent it out to a C2 server.,sent ,C2 server
+Sentence61,object2,CT2,nmod:to->,Janicab captured audio and sent it out to a C2 server.,sent ,C2 server
+Sentence62,object1,CT1,dobj->compound->,PowerSploit's Get-MicrophoneAudio Exfiltration module can record system microphone audio.,record ,system microphone audio
+Sentence62,object1,CT2,dobj->compound->,PowerSploit's Get-MicrophoneAudio Exfiltration module can record system microphone audio.,record ,system microphone audio
+Sentence62,object1,CT3,dobj->,PowerSploit's Get-MicrophoneAudio Exfiltration module can record system microphone audio.,record ,system microphone audio
+Sentence63,object1,CT1,dobj->,Pupy can record sound with the microphone.,record ,sound
+Sentence63,object2,CT1,nmod:with->,Pupy can record sound with the microphone.,record ,microphone
+Sentence64,object1,CT1,dobj->compound->,T9000 uses the Skype API to record audio and video calls.,record ,audio
+Sentence64,object2,CT1,dobj->compound->,T9000 uses the Skype API to record audio and video calls.,record ,video calls
+Sentence64,object2,CT2,dobj->,T9000 uses the Skype API to record audio and video calls.,record ,video calls
+Sentence65,object1,CT1,dobj->amod->,It writes encrypted data to Skype.,writes ,encrypted data
+Sentence65,object1,CT2,dobj->,It writes encrypted data to Skype.,writes ,encrypted data
+Sentence65,object2,CT1,advcl:to->,It writes encrypted data to Skype.,writes ,Skype
+Sentence66,object1,CT1,dobj->compound->,Flame can use Windows Authentication Packages for persistence.,use ,Windows Authentication Packages
+Sentence66,object1,CT2,dobj->compound->,Flame can use Windows Authentication Packages for persistence.,use ,Windows Authentication Packages
+Sentence66,object1,CT3,dobj->,Flame can use Windows Authentication Packages for persistence.,use ,Windows Authentication Packages
+Sentence66,goal1,CT1,nmod:for->,Flame can use Windows Authentication Packages for persistence.,use ,persistence
+Sentence67,object1,CT1,dobj->amod->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,uses ,automated scripts
+Sentence67,object1,CT2,dobj->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,uses ,automated scripts
+Sentence67,goal1,CT1,advcl:to->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,uses ,pull back the results
+Sentence67,goal1,CT2,advcl:to->compound:prt->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,uses ,pull back the results
+Sentence67,goal1,CT3,conj:and-u->nmod:on-u->nmod:in-u->det-u->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,uses ,pull back the results
+Sentence67,goal1,CT4,advcl:to->dobj->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,uses ,pull back the results
+Sentence68,object1,CT1,dobj->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,scans ,processes
+Sentence68,object2,CT1,nmod:on->det->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,scans ,all victim systems in the environment
+Sentence68,object2,CT2,nmod:on->compound->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,scans ,all victim systems in the environment
+Sentence68,object2,CT3,nmod:on->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,scans ,all victim systems in the environment
+Sentence68,object2,CT4,nmod:on->nmod:in->case->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,scans ,all victim systems in the environment
+Sentence68,object2,CT5,nmod:on->nmod:in->det->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,scans ,all victim systems in the environment
+Sentence68,object2,CT6,nmod:on->nmod:in->,FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.,scans ,all victim systems in the environment
+Sentence69,object1,CT1,dobj->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,script
+Sentence69,goal1,CT1,advcl:to->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence69,goal1,CT2,advcl:to->nmod:through->case->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence69,goal1,CT3,dobj->det->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence69,goal1,CT4,advcl:to->nmod:through->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence69,goal1,CT5,advcl:to->nmod:through->nmod:of->case->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence69,goal1,CT6,advcl:to->nmod:through->nmod:of->amod->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence69,goal1,CT7,advcl:to->nmod:through->nmod:of->compound->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence69,goal1,CT8,advcl:to->nmod:through->nmod:of->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,used ,iterate through a list of compromised PoS systems
+Sentence70,object1,CT1,dobj->amod->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,remove ,original data files
+Sentence70,object1,CT2,conj:and-u->conj:and-u->dobj-u->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,remove ,original data files
+Sentence70,object1,CT3,dobj->,FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.,remove ,original data files
+Sentence71,object1,CT1,dobj->amod->,OilRig has used automated collection.,used ,automated collection
+Sentence71,object1,CT2,dobj->,OilRig has used automated collection.,used ,automated collection
+Sentence72,object1,CT1,dobj->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,command
+Sentence72,goal1,CT1,advcl:to->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,compile an archive of file types
+Sentence72,goal1,CT2,advcl:to->dobj->det->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,compile an archive of file types
+Sentence72,goal1,CT3,advcl:to->dobj->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,compile an archive of file types
+Sentence72,goal1,CT4,advcl:to->dobj->nmod:of->case->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,compile an archive of file types
+Sentence72,goal1,CT5,advcl:to->dobj->nmod:of->compound->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,compile an archive of file types
+Sentence72,goal1,CT6,advcl:to->dobj->nmod:of->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,compile an archive of file types
+Sentence72,goal2,CT1,advcl:to->dobj->nmod:of->nmod:of->nmod:from->nmod:poss->compound->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,victim user's directories
+Sentence72,goal2,CT3,advcl:to->dobj->nmod:of->nmod:of->nmod:from->,Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.,ran ,victim user's directories
+Sentence73,object1,CT1,dobj->compound->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,batch script
+Sentence73,object1,CT2,dobj->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,batch script
+Sentence73,goal1,CT1,advcl:to->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,execute a set of commands
+Sentence73,goal1,CT2,dobj->det->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,execute a set of commands
+Sentence73,goal1,CT3,advcl:to->dobj->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,execute a set of commands
+Sentence73,goal1,CT4,advcl:to->dobj->nmod:of->case->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,execute a set of commands
+Sentence73,goal1,CT5,advcl:to->dobj->nmod:of->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,execute a set of commands
+Sentence73,goal2,CT1,advcl:to->nmod:in->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,command prompt
+Sentence73,goal2,CT2,advcl:to->nmod:in->amod->,A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.,receives ,command prompt
+Sentence74,object1,CT1,dobj->,RTM monitors browsing activity and automatically captures screenshots if a victim browses to a URL matching one of a list of strings.,captures ,screenshots
+Sentence75,object1,CT1,dobj->,Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.,collects ,files
+Sentence75,object2,CT1,dobj->nmod:from->amod->,Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.,collects ,local system and removable drives
+Sentence75,object2,CT2,dobj->nmod:from->,Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.,collects ,local system and removable drives
+Sentence75,object2,CT3,dobj->nmod:from->cc->,Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.,collects ,local system and removable drives
+Sentence75,object2,CT4,dobj->nmod:from->amod->,Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.,collects ,local system and removable drives
+Sentence75,object2,CT5,dobj->nmod:from->,Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.,collects ,local system and removable drives
+Sentence76,object1,CT1,dobj->amod->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,removable storage devices
+Sentence76,object1,CT2,dobj->compound->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,removable storage devices
+Sentence76,object1,CT3,dobj->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,removable storage devices
+Sentence76,object2,CT1,nmod:for->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence76,object2,CT2,nmod:for->nmod:with->case->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence76,object2,CT3,nmod:for->nmod:with->det->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence76,object2,CT4,nmod:for->nmod:with->amod->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence76,object2,CT5,nmod:for->nmod:with->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence76,object2,CT6,nmod:for->nmod:with->nmod:of->case->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence76,object2,CT7,nmod:for->nmod:with->nmod:of->compound->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence76,object2,CT8,nmod:for->nmod:with->nmod:of->,T9000 searches removable storage devices for files with a pre-defined list of file extensions.,searches ,files with a pre-defined list of file extensions
+Sentence77,object1,CT1,nsubj->,Any matching files are encrypted and written to a local user directory.,encrypted ,files
+Sentence78,object1,CT1,nsubj->,Any matching files are encrypted and written to a local user directory.,written ,files
+Sentence78,object2,CT1,nmod:to->amod->,Any matching files are encrypted and written to a local user directory.,written ,local user directory
+Sentence78,object2,CT2,nmod:to->compound->,Any matching files are encrypted and written to a local user directory.,written ,local user directory
+Sentence78,object2,CT3,nmod:to->,Any matching files are encrypted and written to a local user directory.,written ,local user directory
+Sentence79,object1,CT1,dobj->,For all non-removable drives on a victim, USBStealer executes automated collection of certain files for later exfiltration.,executes ,collection
+Sentence79,object2,CT1,dobj->nmod:of->,For all non-removable drives on a victim, USBStealer executes automated collection of certain files for later exfiltration.,executes ,files
+Sentence79,goal1,CT1,nmod:for->,For all non-removable drives on a victim, USBStealer executes automated collection of certain files for later exfiltration.,executes ,exfiltration
+Sentence80,object1,CT1,dobj->amod->,CosmicDuke exfiltrates collected files automatically over FTP to remote servers.,exfiltrates ,collected files
+Sentence80,object1,CT2,dobj->,CosmicDuke exfiltrates collected files automatically over FTP to remote servers.,exfiltrates ,collected files
+Sentence80,object2,CT1,nmod:over->,CosmicDuke exfiltrates collected files automatically over FTP to remote servers.,exfiltrates ,FTP to remote servers
+Sentence80,object2,CT2,nmod:over->nmod:to->case->,CosmicDuke exfiltrates collected files automatically over FTP to remote servers.,exfiltrates ,FTP to remote servers
+Sentence80,object2,CT3,nmod:over->nmod:to->amod->,CosmicDuke exfiltrates collected files automatically over FTP to remote servers.,exfiltrates ,FTP to remote servers
+Sentence80,object2,CT4,nmod:over->nmod:to->,CosmicDuke exfiltrates collected files automatically over FTP to remote servers.,exfiltrates ,FTP to remote servers
+Sentence81,object1,CT1,dobj->,Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes.,sends ,them
+Sentence81,object2,CT1,nmod:to->,Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes.,sends ,command and control server
+Sentence81,object2,CT2,conj:and-u->cc-u->,Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes.,sends ,command and control server
+Sentence81,object2,CT3,nmod:to->compound->,Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes.,sends ,command and control server
+Sentence81,object2,CT4,nmod:to->,Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes.,sends ,command and control server
+Sentence82,object1,CT1,dobj->compound->,Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.,sends ,keylogger files
+Sentence82,object1,CT2,dobj->,Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.,sends ,keylogger files
+Sentence82,object2,CT1,nmod:to->compound->,Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.,sends ,C2 server
+Sentence82,object2,CT2,nmod:to->,Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.,sends ,C2 server
+Sentence83,object1,CT1,dobj->,Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.,sends ,screenshots
+Sentence83,object2,CT1,nmod:to->compound->,Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.,sends ,C2 server
+Sentence83,object2,CT2,nmod:to->,Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.,sends ,C2 server
+Sentence84,object1,CT1,dobj->,When a document is found matching one of the extensions in the configuration, TINYTYPHON uploads it to the C2 server.,uploads ,it
+Sentence84,object2,CT1,nmod:to->compound->,When a document is found matching one of the extensions in the configuration, TINYTYPHON uploads it to the C2 server.,uploads ,C2 server
+Sentence84,object2,CT2,nmod:to->,When a document is found matching one of the extensions in the configuration, TINYTYPHON uploads it to the C2 server.,uploads ,C2 server
+Sentence85,object1,CT1,dobj->amod->,USBStealer automatically exfiltrates collected files via removable media when an infected device is connected to the second victim after receiving commands from the first victim.,exfiltrates ,collected files
+Sentence85,object1,CT2,dobj->,USBStealer automatically exfiltrates collected files via removable media when an infected device is connected to the second victim after receiving commands from the first victim.,exfiltrates ,collected files
+Sentence85,object2,CT1,nmod:via->amod->,USBStealer automatically exfiltrates collected files via removable media when an infected device is connected to the second victim after receiving commands from the first victim.,exfiltrates ,removable media
+Sentence85,object2,CT2,nmod:via->,USBStealer automatically exfiltrates collected files via removable media when an infected device is connected to the second victim after receiving commands from the first victim.,exfiltrates ,removable media
+Sentence86,object1,CT1,dobj->nmod:at->nmod:of->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,file
+Sentence86,goal1,CT1,dobj->acl:to->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,inflate the file size
+Sentence86,goal1,CT2,dobj->nmod:at->det->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,inflate the file size
+Sentence86,goal1,CT3,dobj->nmod:at->nmod:of->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,inflate the file size
+Sentence86,goal1,CT4,dobj->acl:to->dobj->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,inflate the file size
+Sentence86,goal2,CT1,dobj->acl:to->nmod:in->acl:to->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,evade anti-virus detection
+Sentence86,goal2,CT2,dobj->acl:to->nmod:in->acl:to->dobj->amod->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,evade anti-virus detection
+Sentence86,goal2,CT3,dobj->acl:to->nmod:in->acl:to->dobj->,BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.,included ,evade anti-virus detection
+Sentence87,object1,CT1,dobj->compound->,Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.,inserted ,garbage characters
+Sentence87,object1,CT2,dobj->,Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.,inserted ,garbage characters
+Sentence87,object2,CT1,nmod:into->,Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.,inserted ,code
+Sentence87,goal1,CT1,xcomp->,Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.,inserted ,avoid anti-virus detection
+Sentence87,goal1,CT2,xcomp->dobj->amod->,Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.,inserted ,avoid anti-virus detection
+Sentence87,goal1,CT3,xcomp->dobj->,Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.,inserted ,avoid anti-virus detection
+Sentence88,object1,CT1,dobj->amod->,Moafee has been known to employ binary padding.,employ ,binary padding
+Sentence88,object1,CT2,dobj->,Moafee has been known to employ binary padding.,employ ,binary padding
+Sentence89,object1,CT1,dobj->amod->,CORESHELL contains unused machine instructions in a likely attempt to hinder analysis.,contains ,unused machine instructions
+Sentence89,object1,CT2,dobj->compound->,CORESHELL contains unused machine instructions in a likely attempt to hinder analysis.,contains ,unused machine instructions
+Sentence89,object1,CT3,dobj->,CORESHELL contains unused machine instructions in a likely attempt to hinder analysis.,contains ,unused machine instructions
+Sentence89,goal1,CT1,nmod:in->acl:to->,CORESHELL contains unused machine instructions in a likely attempt to hinder analysis.,contains ,hinder analysis
+Sentence89,goal1,CT2,nmod:in->acl:to->dobj->,CORESHELL contains unused machine instructions in a likely attempt to hinder analysis.,contains ,hinder analysis
+Sentence90,object1,CT1,dobj->compound->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,junk data
+Sentence90,object1,CT2,dobj->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,junk data
+Sentence90,object2,CT1,nmod:to->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,end of its DLL file
+Sentence90,object2,CT2,nsubj->nmod:of->case->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,end of its DLL file
+Sentence90,object2,CT3,nmod:to->nmod:of->nmod:poss->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,end of its DLL file
+Sentence90,object2,CT4,nmod:to->nmod:of->compound->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,end of its DLL file
+Sentence90,object2,CT5,nmod:to->nmod:of->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,end of its DLL file
+Sentence90,goal1,CT1,nmod:to->nmod:of->acl:to->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,create a large file
+Sentence90,goal1,CT2,nmod:to->nmod:of->acl:to->dobj->det->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,create a large file
+Sentence90,goal1,CT3,nmod:to->nmod:of->acl:to->dobj->amod->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,create a large file
+Sentence90,goal1,CT4,nmod:to->nmod:of->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,create a large file
+Sentence90,goal2,CT1,nmod:to->nmod:of->acl:to->dobj->acl:relcl->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,exceed the maximum size that anti-virus programs
+Sentence90,goal2,CT2,nmod:to->det->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,exceed the maximum size that anti-virus programs
+Sentence90,goal2,CT3,nmod:to->nmod:of->acl:to->dobj->acl:relcl->dobj->compound->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,exceed the maximum size that anti-virus programs
+Sentence90,goal2,CT4,nmod:to->nmod:of->acl:to->dobj->acl:relcl->dobj->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,exceed the maximum size that anti-virus programs
+Sentence90,goal2,CT5,nmod:to->nmod:of->acl:to->dobj->ref->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,exceed the maximum size that anti-virus programs
+Sentence90,goal2,CT6,nmod:to->nmod:of->acl:to->dobj->acl:relcl->dobj->acl:relcl->nsubj->amod->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,exceed the maximum size that anti-virus programs
+Sentence90,goal2,CT7,nmod:to->nmod:of->acl:to->dobj->acl:relcl->dobj->acl:relcl->nsubj->,A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.,appends ,exceed the maximum size that anti-virus programs
+Sentence91,object1,CT1,dobj->compound->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,junk code
+Sentence91,object1,CT2,dobj->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,junk code
+Sentence91,object2,CT1,nmod:into->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,binary
+Sentence91,goal1,CT1,nmod:in->acl:to->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,obfuscate it
+Sentence91,goal1,CT2,nmod:in->acl:to->dobj->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,obfuscate it
+Sentence91,goal2,CT1,nmod:in->acl:to->compound->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,bypass security products
+Sentence91,goal2,CT2,nmod:in->acl:to->compound->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,bypass security products
+Sentence91,goal2,CT3,nmod:in->acl:to->,A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.,inserted ,bypass security products
+Sentence92,object1,CT1,dobj->,ZeroT has obfuscated DLLs and functions using dummy API calls inserted between real instructions.,obfuscated ,DLLs
+Sentence92,object2,CT1,xcomp->dobj->compound->,ZeroT has obfuscated DLLs and functions using dummy API calls inserted between real instructions.,obfuscated ,dummy API calls
+Sentence92,object2,CT2,xcomp->dobj->,ZeroT has obfuscated DLLs and functions using dummy API calls inserted between real instructions.,obfuscated ,dummy API calls
+Sentence92,object2,CT3,xcomp->dep->,ZeroT has obfuscated DLLs and functions using dummy API calls inserted between real instructions.,obfuscated ,dummy API calls
+Sentence93,object1,CT1,dobj->,APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim.,deployed ,bootkit
+Sentence93,goal1,CT1,advcl:to->,APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim.,deployed ,ensure its persistence
+Sentence93,goal1,CT2,advcl:to->dobj->nmod:poss->,APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim.,deployed ,ensure its persistence
+Sentence93,goal1,CT3,advcl:to->dobj->,APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim.,deployed ,ensure its persistence
+Sentence94,object1,CT1,dobj->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,sector
+Sentence94,object2,CT1,dobj->nmod:of->compound->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,Master Boot Record
+Sentence94,object2,CT2,dobj->nmod:of->compound->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,Master Boot Record
+Sentence94,object2,CT3,dobj->nmod:of->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,Master Boot Record
+Sentence94,goal1,CT1,advcl:to->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,ensure that the malware will persist
+Sentence94,goal1,CT2,advcl:to->ccomp->mark->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,ensure that the malware will persist
+Sentence94,goal1,CT3,dobj->nmod:of->det->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,ensure that the malware will persist
+Sentence94,goal1,CT4,nsubj->compound->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,ensure that the malware will persist
+Sentence94,goal1,CT5,advcl:to->ccomp->aux->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,ensure that the malware will persist
+Sentence94,goal1,CT6,advcl:to->ccomp->,Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.,modifies ,ensure that the malware will persist
+Sentence95,object1,CT1,cop-u->compound-u->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,is ,Volume Boot Record (VBR) bootkit
+Sentence95,object1,CT2,cop-u->compound-u->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,is ,Volume Boot Record (VBR) bootkit
+Sentence95,object1,CT3,cop-u->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,is ,Volume Boot Record (VBR) bootkit
+Sentence95,object1,CT4,cop-u->dep-u->appos-u->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,is ,Volume Boot Record (VBR) bootkit
+Sentence95,object1,CT5,cop-u->dep-u->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,is ,Volume Boot Record (VBR) bootkit
+Sentence96,object1,CT1,nsubj->appos->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,uses ,VBR
+Sentence96,goal1,CT1,advcl:to->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,uses ,maintain persistence
+Sentence96,goal1,CT2,advcl:to->dobj->,BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.,uses ,maintain persistence
+Sentence97,object1,CT1,dobj->amod->,APT3 has been known to brute force password hashes to be able to leverage plain text credentials.,leverage ,plain text credentials
+Sentence97,object1,CT2,dobj->compound->,APT3 has been known to brute force password hashes to be able to leverage plain text credentials.,leverage ,plain text credentials
+Sentence97,object1,CT3,dobj->,APT3 has been known to brute force password hashes to be able to leverage plain text credentials.,leverage ,plain text credentials
+Sentence98,object1,CT1,dobj->amod->,APT34 has used brute force techniques to obtain credentials.,used ,brute force techniques
+Sentence98,object1,CT2,dobj->compound->,APT34 has used brute force techniques to obtain credentials.,used ,brute force techniques
+Sentence98,object1,CT3,dobj->,APT34 has used brute force techniques to obtain credentials.,used ,brute force techniques
+Sentence98,goal1,CT1,advcl:to->,APT34 has used brute force techniques to obtain credentials.,used ,obtain credentials
+Sentence98,goal1,CT2,advcl:to->dobj->,APT34 has used brute force techniques to obtain credentials.,used ,obtain credentials
+Sentence99,object1,CT1,conj:and-u->dobj-u->appos-u->compound-u->,Dragonfly dropped and executed Hydra, a password cracker.,executed ,password cracker
+Sentence99,object1,CT2,conj:and-u->dobj-u->appos-u->,Dragonfly dropped and executed Hydra, a password cracker.,executed ,password cracker
+Sentence100,object1,CT1,nmod:to->compound->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,connect ,Windows shares
+Sentence100,object1,CT2,nmod:to->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,connect ,Windows shares
+Sentence100,goal1,CT1,nmod:for->amod->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,connect ,lateral movement
+Sentence100,goal1,CT2,nmod:for->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,connect ,lateral movement
+Sentence101,object1,CT1,dobj->amod->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,using ,generated list of usernames
+Sentence101,object1,CT2,dobj->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,using ,generated list of usernames
+Sentence101,object1,CT3,dobj->nmod:of->case->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,using ,generated list of usernames
+Sentence101,object1,CT4,dobj->nmod:of->,Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.,using ,generated list of usernames
+Sentence102,object1,CT1,nmod:to->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,systems
+Sentence102,object2,CT1,xcomp->dobj->amod->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,net use commands
+Sentence102,object2,CT2,xcomp->dobj->compound->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,net use commands
+Sentence102,object2,CT3,xcomp->dobj->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,net use commands
+Sentence103,object1,CT2,nmod:within->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,victim's network
+Sentence103,object2,CT1,xcomp->dobj->amod->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,predefined list
+Sentence103,object2,CT2,xcomp->dobj->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,predefined list
+Sentence104,object1,CT1,nmod:to->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,systems
+Sentence104,object2,CT1,xcomp->dobj->conj:or->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,collection of passwords
+Sentence104,object2,CT2,xcomp->dobj->nmod:of->case->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,collection of passwords
+Sentence104,object2,CT3,xcomp->dobj->nmod:of->,Turla may attempt to connect to systems within a victim's network using net use commands and a predefined list or collection of passwords.,connect ,collection of passwords
+Sentence105,object1,CT1,dobj->amod->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,brute force attacks
+Sentence105,object1,CT2,dobj->compound->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,brute force attacks
+Sentence105,object1,CT3,dobj->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,brute force attacks
+Sentence105,object2,CT1,dobj->nmod:against->compound->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,SSH services
+Sentence105,object2,CT2,dobj->nmod:against->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,SSH services
+Sentence105,goal1,CT1,advcl:to->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,gain initial access
+Sentence105,goal1,CT2,advcl:to->dobj->amod->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,gain initial access
+Sentence105,goal1,CT3,advcl:to->dobj->,Chaos conducts brute force attacks against SSH services to gain initial access.,conducts ,gain initial access
+Sentence106,object1,CT1,dobj->,Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.,uses ,list of known credentials
+Sentence106,object1,CT2,dobj->nmod:of->case->,Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.,uses ,list of known credentials
+Sentence106,object1,CT3,dobj->nmod:of->amod->,Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.,uses ,list of known credentials
+Sentence106,object1,CT4,dobj->nmod:of->,Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.,uses ,list of known credentials
+Sentence106,goal1,CT1,dobj->nmod:of->acl->nmod:through->acl->xcomp->,Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.,uses ,guess passwords
+Sentence106,goal1,CT2,dobj->nmod:of->acl->nmod:through->acl->xcomp->dobj->,Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.,uses ,guess passwords
+Sentence106,goal2,CT1,dobj->nmod:of->acl->nmod:through->acl->xcomp->nmod:to->,Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.,uses ,accounts
+Sentence107,object1,CT1,dobj->,APT29 has bypassed UAC.,bypassed ,UAC
+Sentence108,object1,CT1,dobj->compound->,BRONZE BUTLER malware xxmm contains a UAC bypass tool for privilege escalation.,contains ,UAC bypass tool
+Sentence108,object1,CT2,dobj->compound->,BRONZE BUTLER malware xxmm contains a UAC bypass tool for privilege escalation.,contains ,UAC bypass tool
+Sentence108,object1,CT3,dobj->,BRONZE BUTLER malware xxmm contains a UAC bypass tool for privilege escalation.,contains ,UAC bypass tool
+Sentence108,goal1,CT1,dobj->nmod:for->compound->,BRONZE BUTLER malware xxmm contains a UAC bypass tool for privilege escalation.,contains ,privilege escalation
+Sentence108,goal1,CT2,dobj->nmod:for->,BRONZE BUTLER malware xxmm contains a UAC bypass tool for privilege escalation.,contains ,privilege escalation
+Sentence109,object1,CT1,dobj->compound->,Patchwork bypassed User Access Control (UAC).,bypassed ,User Access Control
+Sentence109,object1,CT2,dobj->compound->,Patchwork bypassed User Access Control (UAC).,bypassed ,User Access Control
+Sentence109,object1,CT3,dobj->,Patchwork bypassed User Access Control (UAC).,bypassed ,User Access Control
+Sentence110,object1,CT1,dobj->compound->,AutoIt backdoor attempts to escalate privileges by bypassing User Access Control.,bypassing ,User Access Control
+Sentence110,object1,CT2,dobj->compound->,AutoIt backdoor attempts to escalate privileges by bypassing User Access Control.,bypassing ,User Access Control
+Sentence110,object1,CT3,dobj->,AutoIt backdoor attempts to escalate privileges by bypassing User Access Control.,bypassing ,User Access Control
+Sentence110,goal1,CT1,advcl:by-u->,AutoIt backdoor attempts to escalate privileges by bypassing User Access Control.,bypassing ,escalate privileges
+Sentence110,goal1,CT2,advcl:by-u->dobj-u->,AutoIt backdoor attempts to escalate privileges by bypassing User Access Control.,bypassing ,escalate privileges
+Sentence111,object1,CT1,dobj->compound->compound->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,default User Access Control (UAC) settings
+Sentence111,object1,CT2,dobj->compound->compound->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,default User Access Control (UAC) settings
+Sentence111,object1,CT3,dobj->compound->compound->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,default User Access Control (UAC) settings
+Sentence111,object1,CT4,dobj->compound->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,default User Access Control (UAC) settings
+Sentence111,object1,CT5,dobj->compound->appos->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,default User Access Control (UAC) settings
+Sentence111,object1,CT6,dobj->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,default User Access Control (UAC) settings
+Sentence111,object2,CT1,advcl:by->dobj->acl->nmod:in->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,Windows 7
+Sentence111,object2,CT2,advcl:by->dobj->acl->nmod:in->nummod->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,Windows 7
+Sentence111,goal1,CT1,advcl:by->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,exploiting a backward-compatibility setting
+Sentence111,goal1,CT2,advcl:by->dobj->det->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,exploiting a backward-compatibility setting
+Sentence111,goal1,CT3,advcl:by->dobj->compound->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,exploiting a backward-compatibility setting
+Sentence111,goal1,CT4,advcl:by->dobj->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,bypass ,exploiting a backward-compatibility setting
+Sentence112,object1,CT1,dobj->compound->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,backward-compatibility setting
+Sentence112,object1,CT2,dobj->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,backward-compatibility setting
+Sentence112,object2,CT1,dobj->acl->nmod:in->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,Windows
+Sentence112,goal1,CT1,advcl:by-u->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,bypass default User Access Control (UAC) settings
+Sentence112,goal1,CT2,advcl:by-u->dobj-u->compound-u->compound-u->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,bypass default User Access Control (UAC) settings
+Sentence112,goal1,CT3,advcl:by-u->dobj-u->compound-u->compound-u->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,bypass default User Access Control (UAC) settings
+Sentence112,goal1,CT4,advcl:by-u->dobj-u->compound-u->compound-u->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,bypass default User Access Control (UAC) settings
+Sentence112,goal1,CT5,advcl:by-u->dobj-u->compound-u->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,bypass default User Access Control (UAC) settings
+Sentence112,goal1,CT6,advcl:by-u->dobj-u->compound-u->appos-u->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,bypass default User Access Control (UAC) settings
+Sentence112,goal1,CT7,advcl:by-u->dobj-u->,BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.,exploiting ,bypass default User Access Control (UAC) settings
+Sentence113,object1,CT1,dobj->,Cobalt Strike can use a number of known techniques to bypass Windows UAC.,use ,techniques
+Sentence113,goal1,CT1,advcl:to->,Cobalt Strike can use a number of known techniques to bypass Windows UAC.,use ,bypass Windows UAC
+Sentence113,goal1,CT2,advcl:to->dobj->compound->,Cobalt Strike can use a number of known techniques to bypass Windows UAC.,use ,bypass Windows UAC
+Sentence113,goal1,CT3,advcl:to->dobj->,Cobalt Strike can use a number of known techniques to bypass Windows UAC.,use ,bypass Windows UAC
+Sentence114,object1,CT1,dobj->,Downdelph bypasses UAC to escalate privileges by using a custom â€œRedirectEXEâ€? shim database.,bypasses ,UAC
+Sentence114,object2,CT1,xcomp->advcl:by->ccomp->nsubj->,Downdelph bypasses UAC to escalate privileges by using a custom â€œRedirectEXEâ€? shim database.,bypasses ,custom â€œRedirectEXEâ€? shim database
+Sentence114,object2,CT3,xcomp->advcl:by->ccomp->dobj->amod->dep->,Downdelph bypasses UAC to escalate privileges by using a custom â€œRedirectEXEâ€? shim database.,bypasses ,custom â€œRedirectEXEâ€? shim database
+Sentence114,object2,CT4,xcomp->advcl:by->ccomp->dobj->,Downdelph bypasses UAC to escalate privileges by using a custom â€œRedirectEXEâ€? shim database.,bypasses ,custom â€œRedirectEXEâ€? shim database
+Sentence114,goal1,CT1,xcomp->,Downdelph bypasses UAC to escalate privileges by using a custom â€œRedirectEXEâ€? shim database.,bypasses ,escalate privileges
+Sentence114,goal1,CT2,xcomp->dobj->,Downdelph bypasses UAC to escalate privileges by using a custom â€œRedirectEXEâ€? shim database.,bypasses ,escalate privileges
+Sentence115,object1,CT1,dobj->compound->,H1N1 bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer.,bypasses ,user access control
+Sentence115,object1,CT2,dobj->compound->,H1N1 bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer.,bypasses ,user access control
+Sentence115,object1,CT3,dobj->,H1N1 bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer.,bypasses ,user access control
+Sentence115,object2,CT1,advcl:by->dobj->compound->,H1N1 bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer.,bypasses ,DLL hijacking vulnerability
+Sentence115,object2,CT2,advcl:by->dobj->compound->,H1N1 bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer.,bypasses ,DLL hijacking vulnerability
+Sentence115,object2,CT3,advcl:by->dobj->,H1N1 bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer.,bypasses ,DLL hijacking vulnerability
+Sentence116,object1,CT1,dobj->compound->,Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.,bypass ,Windows UAC
+Sentence116,object1,CT2,dobj->,Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.,bypass ,Windows UAC
+Sentence117,object1,CT1,dobj->compound->,Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.,bypass ,Windows UAC
+Sentence117,object1,CT2,dobj->,Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.,bypass ,Windows UAC
+Sentence117,object2,CT1,nmod:through->compound->,Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.,bypass ,DLL hijacking, eventvwr, or appPaths
+Sentence117,object2,CT4,nmod:through->cc->,Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.,bypass ,DLL hijacking, eventvwr, or appPaths
+Sentence117,object2,CT5,nmod:through->,Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths.,bypass ,DLL hijacking, eventvwr, or appPaths
+Sentence118,object1,CT1,acl:to-u->nmod:in-u->nmod:to-u->,RTM can attempt to run the program as admin, then show a fake error message and a legitimate UAC bypass prompt to the user in an attempt to socially engineer the user into escalating privileges.,engineer ,user
+Sentence118,goal1,CT1,advcl:into->,RTM can attempt to run the program as admin, then show a fake error message and a legitimate UAC bypass prompt to the user in an attempt to socially engineer the user into escalating privileges.,engineer ,escalating privileges
+Sentence118,goal1,CT2,advcl:into->dobj->,RTM can attempt to run the program as admin, then show a fake error message and a legitimate UAC bypass prompt to the user in an attempt to socially engineer the user into escalating privileges.,engineer ,escalating privileges
+Sentence119,object1,CT1,dobj->compound->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,UAC bypass code
+Sentence119,object1,CT2,dobj->compound->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,UAC bypass code
+Sentence119,object1,CT3,dobj->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,UAC bypass code
+Sentence119,object2,CT1,dobj->nmod:for->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,64-bit systems
+Sentence119,object2,CT2,dobj->nmod:for->dep->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,64-bit systems
+Sentence120,object1,CT1,dobj->compound->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,UAC bypass code
+Sentence120,object1,CT2,dobj->compound->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,UAC bypass code
+Sentence120,object1,CT3,dobj->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,UAC bypass code
+Sentence120,object2,CT1,dobj->nmod:for->cc:preconj->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,both 32- and 64-bit systems
+Sentence120,object2,CT3,dobj->nmod:for->cc->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,both 32- and 64-bit systems
+Sentence120,object2,CT4,dobj->nmod:for->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,both 32- and 64-bit systems
+Sentence120,object2,CT5,dobj->nmod:for->dep->,Sakula contains UAC bypass code for both 32- and 64-bit systems.,contains ,both 32- and 64-bit systems
+Sentence121,object1,CT1,dobj->compound->,Shamoon attempts to disable UAC remote restrictions by modifying the Registry.,disable ,UAC remote restrictions
+Sentence121,object1,CT2,dobj->amod->,Shamoon attempts to disable UAC remote restrictions by modifying the Registry.,disable ,UAC remote restrictions
+Sentence121,object1,CT3,dobj->,Shamoon attempts to disable UAC remote restrictions by modifying the Registry.,disable ,UAC remote restrictions
+Sentence121,goal1,CT1,advcl:by->,Shamoon attempts to disable UAC remote restrictions by modifying the Registry.,disable ,modifying the Registry
+Sentence121,goal1,CT2,advcl:by->dobj->det->,Shamoon attempts to disable UAC remote restrictions by modifying the Registry.,disable ,modifying the Registry
+Sentence121,goal1,CT3,advcl:by->dobj->,Shamoon attempts to disable UAC remote restrictions by modifying the Registry.,disable ,modifying the Registry
+Sentence122,object1,CT1,dobj->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,methods
+Sentence122,goal1,CT1,dobj->acl:for->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,bypassing Windows User Account Control
+Sentence122,goal1,CT2,dobj->acl:for->dobj->compound->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,bypassing Windows User Account Control
+Sentence122,goal1,CT3,dobj->acl:for->dobj->compound->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,bypassing Windows User Account Control
+Sentence122,goal1,CT4,dobj->acl:for->dobj->compound->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,bypassing Windows User Account Control
+Sentence122,goal1,CT5,dobj->acl:for->dobj->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,bypassing Windows User Account Control
+Sentence122,goal2,CT1,dobj->acl:for->nmod:on->nmod:of->compound->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,operating system
+Sentence122,goal2,CT2,dobj->acl:for->nmod:on->nmod:of->,UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.,contains ,operating system
+Sentence123,object1,CT1,dobj->compound->,Many ZeroT samples can perform UAC bypass by using eventvwr to execute a malicious file.,perform ,UAC bypass
+Sentence123,object1,CT2,dobj->,Many ZeroT samples can perform UAC bypass by using eventvwr to execute a malicious file.,perform ,UAC bypass
+Sentence123,object2,CT1,advcl:by->dobj->,Many ZeroT samples can perform UAC bypass by using eventvwr to execute a malicious file.,perform ,eventvwr
+Sentence123,goal1,CT1,advcl:by->advcl:to->,Many ZeroT samples can perform UAC bypass by using eventvwr to execute a malicious file.,perform ,execute a malicious file
+Sentence123,goal1,CT2,advcl:by->advcl:to->dobj->det->,Many ZeroT samples can perform UAC bypass by using eventvwr to execute a malicious file.,perform ,execute a malicious file
+Sentence123,goal1,CT3,advcl:by->advcl:to->dobj->amod->,Many ZeroT samples can perform UAC bypass by using eventvwr to execute a malicious file.,perform ,execute a malicious file
+Sentence123,goal1,CT4,advcl:by->advcl:to->dobj->,Many ZeroT samples can perform UAC bypass by using eventvwr to execute a malicious file.,perform ,execute a malicious file
+Sentence124,object1,CT1,conj:and->dobj->compound->,CosmicDuke copies and exfiltrates the clipboard contents every 30 seconds.,copies ,clipboard contents
+Sentence124,object1,CT2,conj:and->dobj->,CosmicDuke copies and exfiltrates the clipboard contents every 30 seconds.,copies ,clipboard contents
+Sentence125,object1,CT1,dobj->,The executable version of Helminth has a module to log clipboard contents.,has ,module
+Sentence125,goal1,CT1,dobj->acl:to->,The executable version of Helminth has a module to log clipboard contents.,has ,log clipboard contents
+Sentence125,goal1,CT2,dobj->acl:to->dobj->compound->,The executable version of Helminth has a module to log clipboard contents.,has ,log clipboard contents
+Sentence125,goal1,CT3,dobj->acl:to->dobj->,The executable version of Helminth has a module to log clipboard contents.,has ,log clipboard contents
+Sentence126,object1,CT1,dobj->compound->,The executable version of Helminth has a module to log clipboard contents.,log ,clipboard contents
+Sentence126,object1,CT2,dobj->,The executable version of Helminth has a module to log clipboard contents.,log ,clipboard contents
+Sentence127,object1,CT1,dep->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,screenshot
+Sentence127,object2,CT1,dep->acl->nmod:in->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,clipboard
+Sentence127,goal1,CT1,conj:and->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,converts it to a JPG image
+Sentence127,goal1,CT2,conj:and->dobj->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,converts it to a JPG image
+Sentence127,goal1,CT3,conj:and->nmod:to->case->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,converts it to a JPG image
+Sentence127,goal1,CT4,dep->det->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,converts it to a JPG image
+Sentence127,goal1,CT5,conj:and->nmod:to->compound->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,converts it to a JPG image
+Sentence127,goal1,CT6,conj:and->nmod:to->,A JHUHUGIT variant accesses a screenshot saved in the clipboard and converts it to a JPG image.,accesses ,converts it to a JPG image
+Sentence128,object1,CT1,dobj->,RTM collects data from the clipboard.,collects ,data
+Sentence128,object2,CT1,dobj->nmod:from->,RTM collects data from the clipboard.,collects ,clipboard
+Sentence129,object1,CT1,dobj->,TinyZBot contains functionality to collect information from the clipboard.,contains ,functionality
+Sentence129,goal1,CT1,dobj->acl:to->,TinyZBot contains functionality to collect information from the clipboard.,contains ,collect information
+Sentence129,goal1,CT2,dobj->acl:to->dobj->,TinyZBot contains functionality to collect information from the clipboard.,contains ,collect information
+Sentence129,goal2,CT1,dobj->acl:to->nmod:from->,TinyZBot contains functionality to collect information from the clipboard.,contains ,clipboard
+Sentence130,object1,CT1,dobj->,TinyZBot contains functionality to collect information from the clipboard.,collect ,information
+Sentence130,object2,CT1,nmod:from->,TinyZBot contains functionality to collect information from the clipboard.,collect ,clipboard

@@ -1,0 +1,1 @@
+created malware a Registry Run key pointing malicious LNK file establish persistence 

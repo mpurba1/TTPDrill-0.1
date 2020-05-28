@@ -1,0 +1,1 @@
+loaded BBSRAT DLL set Citrix executable persist registry run key location <code> HKLM Microsoft Windows </code> 

@@ -1,0 +1,1 @@
+take to screenshots using CGGetActiveDisplayList CGDisplayCreateImage NSImage 

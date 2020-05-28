@@ -1,0 +1,1 @@
+used nbtstat local NetBIOS domain names discover 

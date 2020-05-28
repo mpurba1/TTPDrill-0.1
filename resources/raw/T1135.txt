@@ -1,0 +1,8 @@
+Pupy can list local and remote shared drives and folders over SMB.
+Dragonfly identified and browsed file servers on the victim network, viewing files pertaining to ICS or Supervisory Control and Data Acquisition (SCADA) systems.
+The <code>net view \\remotesystem</code> and <code>net share</code> commands in Net can be used to find shared drives and directories on remote and local systems respectively.
+Sowbug listed remote shared drives that were accessible from a victim.
+MURKYTOP has the capability to retrieve information about shares on remote hosts.
+OSInfo discovers shares on the network 
+Cobalt Strike can query shared drives on the local system.
+--Example not given--

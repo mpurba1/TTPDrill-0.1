@@ -1,0 +1,9 @@
+Mimikatz's <code>DPAPI</code> module can harvest protected credentials stored and/or cached by browsers and other user applications by interacting with Windows cryptographic application programming interface (API) functions.
+XTunnel is capable of accessing locally stored passwords on victims.
+APT28 has been known to specifically look for Firefox passwords on the file system 
+A module in Prikormka gathers logins and passwords stored in applications on the victims, including Google Chrome, Mozilla Firefox, and several other browsers.
+--Example not given--
+APT3 has a tool that can locate credentials in files on the file system such as those from Firefox or Chrome. 
+If an initial connectivity check fails, pngdowner attempts to extract proxy details and credentials from Windows Protected Storage and from the IE Credentials Store. This allows the adversary to use the proxy credentials for subsequent requests if they enable outbound HTTP access.
+BlackEnergy has used a plug-in to gather credentials stored in files on the host by various software programs, including The Bat! email client, Mozilla password manager, Google Chrome password manager, Outlook, Internet Explorer, and Windows Credential Store.
+XAgentOSX contains the getFirefoxPassword function to attempt to locate Firefox passwords.

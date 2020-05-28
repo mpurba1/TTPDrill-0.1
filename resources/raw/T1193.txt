@@ -1,0 +1,15 @@
+--Example not given--
+APT28 sent spearphishing emails with Microsoft Excel attachments containing malicious macro scripts.
+MuddyWater has compromised third parties and used compromised accounts to send spearphishing emails with targeted attachments to recipients.
+menuPass has sent malicious Office documents via email as part of spearphishing campaigns as well as executables disguised as documents. 
+SHUTTERSPEED has been delivered via spearphishing emails containing documents exploiting RTF vulnerability CVE-2017-0199.
+APT29 has used spearphishing with an attachment to deliver files with exploits to initial victims. 
+Elderwood has delivered zero-day exploits and malware to victims via targeted emails containing malicious attachments.
+Patchwork has used spearphishing with an attachment to deliver files with exploits to initial victims.
+TA459 has targeted victims using spearphishing emails with malicious Microsoft Word attachments.
+Leviathan has sent spearphishing emails with malicious attachments, including .rtf, .doc, and .xls files.
+SLOWDRIFT was delivered using lure emails with documents leveraging the HWP exploit.
+FIN8 has distributed targeted emails containing Word documents with embedded malicious macros.
+APT37 has used weaponized spearphishing attachments to deliver malware.
+Magic Hound sent malicious attachments to victims over email, including an Excel spreadsheet containing macros to download Pupy.
+PLATINUM has sent spearphishing emails with attachments to victims as its primary initial access vector.

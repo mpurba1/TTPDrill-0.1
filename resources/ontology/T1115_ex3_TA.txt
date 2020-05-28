@@ -1,0 +1,1 @@
+copies the clipboard contents seconds exfiltrates 

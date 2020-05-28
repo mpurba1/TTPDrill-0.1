@@ -1,0 +1,1 @@
+uses ISMInjector the <code> certutil </code> command decode a payload file 

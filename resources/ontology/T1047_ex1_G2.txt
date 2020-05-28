@@ -1,0 +1,1 @@
+uses version pentesting of wmiexec.vbs using WMI 

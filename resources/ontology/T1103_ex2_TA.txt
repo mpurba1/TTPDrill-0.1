@@ -1,0 +1,1 @@
+use variants of AppInit_DLLs achieve persistence Registry key creating the following HKEY_LOCAL_MACHINE = pserver32.dll </code> 

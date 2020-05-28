@@ -1,0 +1,1 @@
+gathers sends it to C2 server address information 

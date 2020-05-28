@@ -1,0 +1,1 @@
+created APT32 a Scheduled Task used regsvr32.exe execute COM scriptlet downloaded backdoor it injected memory 

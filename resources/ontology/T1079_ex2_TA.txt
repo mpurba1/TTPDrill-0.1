@@ -1,0 +1,1 @@
+communicates Sykipot HTTPS a custom encryption cipher using uses encrypt the message body 

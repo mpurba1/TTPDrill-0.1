@@ -1,0 +1,1 @@
+adds establish persistence a masquerade 

@@ -1,0 +1,1 @@
+used APT12 the RIPTIDE RAT communicates HTTP payload encrypted RC4 

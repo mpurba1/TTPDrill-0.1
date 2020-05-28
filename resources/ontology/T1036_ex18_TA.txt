@@ -1,0 +1,1 @@
+contains installer a malicious file named RAT decrypt the name navlu.dll 

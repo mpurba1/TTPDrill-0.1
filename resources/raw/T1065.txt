@@ -1,0 +1,11 @@
+Group5 C2 servers communicated with malware over TCP 8081, 8282, and 8083.
+Volgmer has communicated to its C2 server over port 8088.
+Magic Hound malware has communicated with its C2 server over ports 4443 and 3543.
+RedLeaves can use port 995 for C2.
+POWERSTATS has used ports 8060 and 8888 for C2.
+Some Lazarus Group malware uses a list of ordered port numbers to choose a port for C2 traffic, which includes uncommonly used ports such as 995, 1816, 465, 1521, 3306, and many others.
+opens a backdoor on TCP ports 6868 and 7777.
+A Remsec module has a default C2 port of 13000.
+--Example not given--
+MobileOrder communicates with its C2 server over TCP port 3728.
+An APT3 downloader establishes SOCKS5 connections to two separate IP addresses over TCP port 1913 and TCP port 81.

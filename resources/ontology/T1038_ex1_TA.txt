@@ -1,0 +1,1 @@
+abuses the Windows DLL load order a using legitimate Symantec binary malicious 

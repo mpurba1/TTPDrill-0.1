@@ -1,0 +1,1 @@
+exfiltrates USBStealer collected files removable media victims 

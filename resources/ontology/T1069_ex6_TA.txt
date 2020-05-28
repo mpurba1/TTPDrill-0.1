@@ -1,0 +1,1 @@
+has Emissary </code> execute command <code> net localgroup administrators capability 

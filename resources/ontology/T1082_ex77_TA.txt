@@ -1,0 +1,1 @@
+gathers malware system information WMI number serial version manufacturer model total physical memory build 

@@ -1,0 +1,1 @@
+has capability users retrieve to information 

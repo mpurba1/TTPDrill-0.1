@@ -1,0 +1,23 @@
+The Dyre crimeware toolkit has refined its detection of sandbox analysis environments by inspecting the process list and Registry.
+Crimson contains a command to collect information about anti-virus software on the victim.
+FIN8 has used Registry keys to detect and avoid executing in potential sandboxes.
+Naikon uses commands such as <code>netsh advfirewall firewall</code> to discover local firewall settings.
+The main CozyCar dropper checks whether the victim has an anti-virus product installed. If the installed product is on a predetermined list, the dropper will exit. Newer versions of CozyCar will check to ensure it is not being executed inside a virtual machine or a known malware analysis sandbox environment. If it detects that it is, it will exit. 
+POWERSTATS has detected security tools.
+Flame identifies security software such as antivirus through the Security module.
+POWRUNER may collect information the victim's anti-virus software.
+Patchwork scanned the “Program Files” directories for a directory with the string “Total Security” (the installation path of the “360 Total Security” antivirus tool).
+T9000 performs checks for various antivirus and security products during installation.
+CHOPSTICK checks for anti-virus, forensics, and virtualization software.
+Tasklist can be used to enumerate security software currently running on a system by process name of known products.
+Felismus checks for processes associated with anti-virus vendors.
+Kasidet has the ability to identify any anti-virus installed on the infected system.
+A module in Prikormka collects information from the victim about installed anti-virus software.
+JPIN checks for the presence of certain security-related processes and deletes its installer/uninstaller component if it identifies any of them.
+DustySky checks for the existence of anti-virus.
+Wingbird checks for the presence of Bitdefender security software.
+--Example not given--
+RTM can obtain information about security software on the victim.
+StreamEx has the ability to scan for security tools such as firewalls and antivirus tools.
+Remsec has a plugin to detect active drivers of some security products.
+netsh can be used to discover system firewall settings.

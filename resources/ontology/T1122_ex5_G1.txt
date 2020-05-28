@@ -1,0 +1,1 @@
+hijacking establish persistence a class registering the payload named MMDeviceEnumerator 

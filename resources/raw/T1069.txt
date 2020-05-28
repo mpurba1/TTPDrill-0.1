@@ -1,0 +1,14 @@
+JPIN can obtain the victim user name.
+Sys10 collects the group name of the logged-in user and sends it to the C2.
+--Example not given--
+POWRUNER may collect permission group information by running <code>net group /domain</code> or a series of other commands on a victim.
+Commands such as <code>net group</code> and <code>net localgroup</code> can be used in Net to gather information about and manipulate groups.
+admin@338 actors used the following command following exploitation of a machine with LOWBALL malware to list local groups: <code>net localgroup administrator >> %temp%\download</code>
+Emissary has the capability to execute the command <code>net localgroup administrators</code>.
+MURKYTOP has the capability to retrieve information about groups.
+Ke3chang performs discovery of permission groups <code>net group /domain</code>.
+Helminth has checked for the local admin group domain admin group and Exchange Trusted Subsystem groups using the commands <code>net group Exchange Trusted Subsystem /domain</code> and <code>net group domain admins /domain</code>.
+OSInfo specifically looks for Domain Admins, Power Users, and the Administrators groups within the domain and locally 
+OilRig has used <code>net group /domain</code>, <code>net localgroup administrators</code>, <code>net group “domain admins” /domain</code>, and <code>net group “Exchange Trusted Subsystem” /domain</code> to find group permission settings on a victim.
+APT3 has a tool that can enumerate the permissions associated with Windows groups.
+dsquery can be used to gather information on permission groups within a domain.

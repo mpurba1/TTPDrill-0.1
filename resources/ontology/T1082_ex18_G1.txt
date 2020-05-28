@@ -1,0 +1,1 @@
+collects the sends information to C2 server name number 

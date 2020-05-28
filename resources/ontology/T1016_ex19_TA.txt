@@ -1,0 +1,1 @@
+gathers malware table Protocol ARP victim 

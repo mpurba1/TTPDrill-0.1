@@ -1,0 +1,1 @@
+installs Volgmer a copy of itself overwrites the ServiceDLL entry 

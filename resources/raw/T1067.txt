@@ -1,0 +1,5 @@
+ROCKBOOT is a Master Boot Record (MBR) bootkit that uses the MBR to establish persistence.
+--Example not given--
+BOOTRASH is a Volume Boot Record (VBR) bootkit that uses the VBR to maintain persistence.
+Lazarus Group malware WhiskeyAlfa-Three modifies sector 0 of the Master Boot Record (MBR) to ensure that the malware will persist even if a victim machine shuts down.
+APT28 has deployed a bootkit along with Downdelph to ensure its persistence on the victim. The bootkit shares code with some variants of BlackEnergy.

@@ -1,0 +1,6 @@
+--Example not given--
+The Regin malware platform uses Extended Attributes to store encrypted executables.
+PowerDuke hides many of its backdoor payloads in an alternate data stream (ADS).
+If the victim is using PowerShell 3.0 or later, POWERSOURCE writes its decoded payload to an alternate data stream (ADS) named kernel32.dll that is saved in <code>%PROGRAMDATA%\Windows\</code>.
+Gazer stores configuration items in alternate data streams (ADSs) if the Registry is not accessible.
+Some variants of the Zeroaccess Trojan have been known to store data in Extended Attributes.

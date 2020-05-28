@@ -1,0 +1,1 @@
+obfuscates using a custom stream cipher 

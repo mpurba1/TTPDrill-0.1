@@ -1,0 +1,1 @@
+has the open a remote shell run basic commands 

@@ -1,0 +1,1 @@
+run OilRig <code> ipconfig </code> a victim 

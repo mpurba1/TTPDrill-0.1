@@ -1,0 +1,13 @@
+OilRig has used custom DNS Tunneling protocols for C2.
+Volgmer uses a custom binary protocol to beacon back to its C2 server.
+APT37 credential stealer ZUMKONG emails credentials from the victim using HTTP POST requests.
+RedLeaves can communicate to its C2 over TCP using a custom binary protocol.
+APT32 uses Cobalt Strike's malleable C2 functionality to blend in with network traffic.
+Duqu is capable of using its command and control protocol over port 443. However, Duqu is also capable of encapsulating its command protocol over standard application layer protocols. The Duqu command and control protocol implements many of the same features as TCP and is a reliable transport protocol.
+Chaos Chaos provides a reverse shell connection on 8338/TCP, encrypted via AES.  
+--Example not given--
+RTM uses HTTP POST requests with data formatted using a custom protocol.
+Lazarus Group malware uses a unique form of communication encryption that mimics TLS but uses a different encryption method, evading SSL man-in-the-middle decryption attacks.
+Naid connects to C2 infrastructure and establishes backdoors over a custom communications protocol.
+A Dipsind variant uses a C2 mechanism similar to port knocking that allows attackers to connect to a victim without leaving the connection open for more than a few sectonds.
+Cobalt Strike allows adversaries to modify the way the "beacon" payload communicates.  This is called "Malleable C2" in the Cobalt Strike manual and is intended to allow a penetration test team to mimic known APT C2 methods.

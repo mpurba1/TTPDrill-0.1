@@ -1,0 +1,1 @@
+runs PowerDuke <code> cmd.exe the output </code> sends C2 

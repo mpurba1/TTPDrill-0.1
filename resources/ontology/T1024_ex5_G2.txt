@@ -1,0 +1,1 @@
+uses Security communicate to encoding data 

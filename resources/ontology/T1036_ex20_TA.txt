@@ -1,0 +1,1 @@
+establish persistence adds Truvasys a Registry Run key value TaskMgr 

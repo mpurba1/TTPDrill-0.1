@@ -1,0 +1,1 @@
+used native functionality find to files directories 

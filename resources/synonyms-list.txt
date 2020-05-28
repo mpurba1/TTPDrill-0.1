@@ -1,0 +1,21 @@
+download;copy,transfer,load,upload	google
+data;information,intelligence,material,input	google
+communicate;connect,contact,acquaint,advertise	thesaurus
+capture;occupy,invade,conquer,seize,take	google,thesaurus
+end;kill,die,destroy,stop,terminate	thesaurus
+obtain;get,attain,gain,acquire	thesaurus
+multiple;many,several,various	thesaurus
+enumerate;list	google
+run;execute	thesaurus
+website;location	attack
+code;binary,file	attack
+local system sources;file system,databases	attack
+utility;tool,program,software	attack
+c2;command and control	attack
+traffic;messages	attack
+pack;compress,encrypt	attack
+security tools;anti-virus,defensive tools,IDS,Intrusion Detection Systems,security software	attack
+drop;create,copy,add	attack
+operating system information;version,patches,hotfixes,service packs	attack
+credentials;password,username	attack
+wipe;remove,delete	gcorp

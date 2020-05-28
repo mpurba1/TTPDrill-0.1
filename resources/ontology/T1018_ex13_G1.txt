@@ -1,0 +1,1 @@
+surveys a discover remote systems DOMAIN commands using the 

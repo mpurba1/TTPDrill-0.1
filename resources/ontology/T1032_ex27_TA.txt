@@ -1,0 +1,1 @@
+encrypts RedLeaves C2 traffic RC4 secret key of 88888888 using a 

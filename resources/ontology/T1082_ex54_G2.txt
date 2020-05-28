@@ -1,0 +1,1 @@
+obtain hostname number platform information time 

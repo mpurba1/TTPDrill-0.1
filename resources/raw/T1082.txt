@@ -1,0 +1,83 @@
+Unknown Logger can obtain information about the victim computer name, physical memory, country, and date.
+creates a backdoor through which remote attackers can retrieve system information.
+ADVSTORESHELL can run Systeminfo to gather information about the victim.
+OilRig has run <code>hostname</code> and <code>systeminfo</code> on a victim.
+SLOWDRIFT collects and sends system information to its C2.
+Elise executes <code>systeminfo</code> after initial communication is made to the remote server.
+A system info module in CozyCar gathers information on the victim host’s configuration.
+During its initial execution, BACKSPACE extracts operating system information from the infected host.
+PowerDuke has commands to get information about the victim's name, build, version, serial number, and memory usage.
+MURKYTOP has the capability to retrieve information about the OS.
+Orz can gather the victim OS version and whether it is 64 or 32 bit.
+Shamoon obtains the victim's operating system version and keyboard layout and sends the information to the C2 server.
+4H RAT sends an OS version identifier in its beacons.
+WinMM collects the system name, OS version including service pack, and system install date and sends the information to the C2 server.
+ZLib has the ability to enumerate system information.
+Volgmer can gather system information from a victim.
+A Gamaredon Group file stealer can gather the victim's computer name and drive serial numbers to send to a C2 server.
+DownPaper collects the victim host name and serial number, and then sends the information to the C2 server.
+SHUTTERSPEED can collect system information.
+KOMPROGO is capable of retrieving information about the infected system.
+T9000 gathers and beacons the operating system build number and CPU Architecture (32-bit/64-bit) during installation.
+Kasidet has the ability to obtain a victim's system name and operating system version.
+Emissary has the capability to execute ver, systeminfo, and gpresult commands.
+Hydraq creates a backdoor through which remote attackers can retrieve information such as computer name, OS version, processor speed, memory size, and CPU speed.
+Crimson contains a command to collect the victim PC name and operating system.
+POWERSTATS can retrieve OS name/architecture and computer/domain name information from compromised hosts.
+Several Lazarus Group malware families collect information on the type and version of the victim OS, as well as the victim computer name and CPU information.
+CORESHELL collects hostname, volume serial number and OS version data from the victim and sends the information to its C2 server.
+Sys10 collects the computer name, OS versioning information, and OS install date and sends the information to the C2.
+SOUNDBITE is capable of gathering system information.
+Derusbi gathers the name of the local host, version of GNU Compiler Collection (GCC), and the system information about the machine and operating system.
+FALLCHILL can collect operating system (OS) version information, processor information, system name, and information about installed disks from the victim.
+can collect system information, including computer name, system manufacturer, IsDebuggerPresent state, and execution path.
+APT28 has enumerated installed applications on macOS devices with built-in utilities such as <code>ls -al /Applications</code>.
+Naid collects a unique identifier (UID) from a compromised host.
+MoonWind can obtain the victim hostname, Windows version, RAM amount, number of drives, and screen resolution.
+WINDSHIELD can gather the victim computer name.
+cmd can be used to find information about the operating system.
+OSInfo discovers information about the infected machine .
+StreamEx has the ability to enumerate system information.
+A module in Prikormka collects information from the victim about Windows OS version, computer name, battery info, and physical memory.
+PinchDuke gathers system configuration information.
+ZeroT gathers the victim's computer name, Windows version, and system language, and then sends it to its C2 server.
+Pupy can grab a system’s information including the OS version, architecture, etc.
+The initial beacon packet for S-Type contains the operating system version and file system of the victim.
+can collect system information.
+The initial beacon packet for Misdat contains the operating system version of the victim.
+Remsec can obtain the OS version information, computer name, processor architecture, machine role, and OS edition.
+TURNEDUP is capable of gathering system information.
+Felismus collects the system information, including hostname and OS version, and sends it to the C2 server.
+MobileOrder has a command to upload to its C2 server victim mobile device information, including IMEI, IMSI, SIM card serial number, phone number, Android version, and other information.
+ChChes collects the victim computer name.
+POWRUNER may collect information about the system by running <code>hostname</code> and <code>systeminfo</code> on a victim.
+RedLeaves can obtain the hostname, OS version number, platform, memory information, time elapsed since system startup, and CPU information.
+JPIN can obtain system information such as OS version and disk space.
+The initial beacon packet for Mis-Type contains the operating system version and file system of the victim.
+APT3 has a tool that can obtain information about the local system. 
+Magic Hound malware has used a PowerShell command to check the victim system architecture to determine if it is an x64 machine. Other malware has obtained the OS version, UUID, and computer/host name to send to the C2 server.
+DustySky extracts basic information about the operating system.
+Systeminfo can be used to gather information about the operating system.
+--Example not given--
+Pasam creates a backdoor through which remote attackers can retrieve information such as hostname and free disk space.
+RTM can obtain the computer name, OS version, and default language identifier.
+HALFBAKED can obtain information about the OS, processor, and BIOS.
+JHUHUGIT obtains a build identifier as well as victim hard drive information from Windows registry key <code>HKLM\SYSTEM\CurrentControlSet\Services\Disk\Enum</code>.JHUHUGIT variant gathers the victim storage volume serial number and the storage device name.
+Sowbug obtained OS version and hardware configuration from a victim.
+Turla surveys a system upon check-in to discover operating system configuration details using the <code>systeminfo</code> and <code>set</code> commands.
+can discover and collect victim system information.
+Patchwork collected the victim computer name, OS version, and architecture type and sent the information to its C2 server .
+BUBBLEWRAP collects system information, including the operating system version and hostname.
+admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about the OS: <code>ver >> %temp%\download</code> <code>systeminfo >> %temp%\download</code>
+XAgentOSX contains the getInstalledAPP function to run <code>ls -la /Applications</code> to gather what applications are installed.
+can gather the victim computer name and serial number.
+can gather information about the host.
+Pisloader has a command to collect victim system information, including the system name and OS version.
+Reaver collects system information from the victim, including CPU speed, computer name, volume serial number, ANSI code page, OEM code page identifier for the OS, Microsoft Windows version, and memory information.
+BlackEnergy has used Systeminfo to gather the OS version, as well as information on the system configuration, BIOS, the motherboard, and the processor. 
+Stealth Falcon malware gathers system information via WMI, including the system directory, build number, serial number, version, manufacturer, model, and total physical memory.
+POORAIM can identify system information, including battery status.
+Backdoor.Oldrea collects information about the OS, computer name, and Internet adapter configuration.
+Ke3chang performs operating system information discovery using <code>systeminfo</code> commands.
+SslMM sends information to its hard-coded C2, including OS version, service pack information, processor speed, system name, and OS install date.
+Wingbird checks the victim OS version after executing to determine where to drop files based on whether the victim is 32-bit or 64-bit.

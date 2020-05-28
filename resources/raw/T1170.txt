@@ -1,0 +1,4 @@
+MuddyWater has used Mshta.exe to execute its POWERSTATS payload.
+--Example not given--
+POWERSTATS can use Mshta.exe to execute additional payloads on compromised hosts.
+FIN7 has used mshta.exe to execute VBScript to execute malicious code on victim systems.

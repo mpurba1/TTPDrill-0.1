@@ -1,0 +1,35 @@
+Misdat saves itself as a file named msdtc.exe, which is also the name of the legitimate Microsoft Distributed Transaction Coordinator service.
+In one instance, menuPass added PlugX as a service with a display name of "Corel Writing Tools Utility."
+If installing itself as a service fails, Elise instead writes itself as a file named svchost.exe saved in %APPDATA%\Microsoft\Network.
+OwaAuth uses the filename owaauth.dll, which is a legitimate file that normally resides in <code>%ProgramFiles%\Microsoft\Exchange Server\ClientAccess\Owa\Auth\</code>; the malicious file by the same name is saved in <code>%ProgramFiles%\Microsoft\Exchange Server\ClientAccess\Owa\bin\</code>.
+S-Type may save itself as a file named msdtc.exe, which is also the name of the legitimate Microsoft Distributed Transaction Coordinator service.
+BRONZE BUTLER has given malware the same name as an existing file on the file share server to cause users to unwittingly launch and install the malware on additional systems.
+Felismus has masqueraded as legitimate Adobe Content Management System files.
+New services created by RawPOS are made to appear like legitimate Windows services, with names such as "Windows Management Help Service", "Microsoft Support", and "Windows Advanced Task Manager".
+FIN7 has created a scheduled task named “AdobeFlashSync” to establish persistence.
+OLDBAIT installs itself in <code>%ALLUSERPROFILE%\\Application Data\Microsoft\MediaPlayer\updatewindws.exe</code>; the directory name is missing a space and the file name is missing the letter "o."
+Shamoon creates a new service named “ntssrv” that attempts to appear legitimate; the service's display name is “Microsoft Network Realtime Inspection Service” and its description is “Helps guard against time change attempts targeting known and newly discovered vulnerabilities in network time protocols.”
+MuddyWater has used filenames and Registry key names associated with Windows Defender.
+Patchwork installed its payload in the startup programs folder as "Baidu Software Update." The group also adds its second stage payload to the startup programs as “Net Monitor."
+The Remsec loader implements itself with the name Security Support Provider, a legitimate Windows function. Various Remsec .exe files mimic legitimate file names used by Microsoft, Symantec, Kaspersky, Hewlett-Packard, and VMWare.Remsec also disguised malicious modules using similar filenames as custom network encryption software on victims.
+admin@338 actors used the following command to rename one of their tools to a benign file name: <code>ren "%temp%\upload" audiodg.exe</code>
+Mis-Type saves itself as a file named msdtc.exe, which is also the name of the legitimate Microsoft Distributed Transaction Coordinator service.
+PUNCHBUGGY mimics filenames from %SYSTEM%\System32 to hide DLLs in %WINDIR% and/or %TEMP%.
+--Example not given--
+HTTPBrowser's installer contains a malicious file named navlu.dll to decrypt and run the RAT. navlu.dll is also the name of a legitimate Symantec DLL.
+APT32 has used hidden or non-printing characters to help masquerade file names on a system, such as appending a Unicode no-break space character to a legitimate service name.
+To establish persistence, Truvasys adds a Registry Run key with a value "TaskMgr" in an attempt to masquerade as the legitimate Windows Task Manager.
+Accounts created by Dragonfly masqueraded as legitimate service accounts.
+Starloader has masqueraded as legitimate software update packages such as Adobe Acrobat Reader and Intel.
+Nidiran can create a new service named msamger (Microsoft Security Accounts Manager), which mimics the legitimate Microsoft database by the same name.
+The CozyCar dropper has masqueraded a copy of the infected system's rundll32.exe executable that was moved to the malware's install directory and renamed according to a predefined configuration file.
+USBStealer mimics a legitimate Russian program called USB Disk Security.
+Carbanak malware names itself "svchost.exe," which is the name of the Windows shared service host program.
+BADNEWS attempts to hide its payloads using legitimate filenames.
+To establish persistence, SslMM identifies the Start Menu Startup directory and drops a link to its own executable disguised as an “Office Start,” “Yahoo Talk,” “MSN Gaming Z0ne,” or “MSN Talk” shortcut.
+The file name AcroRD32.exe, a legitimate process name for Adobe's Acrobat Reader, was used by APT1 as a name for malware.
+Sowbug named its tools to masquerade as Windows or Adobe Reader software, such as by using the file name adobecms.exe and the directory <code>CSIDL_APPDATA\microsoft\security</code>.
+Poseidon Group tools attempt to spoof anti-virus processes as a means of self-defense.
+ChChes copies itself to an .exe file with a filename that is likely intended to imitate Norton Antivirus but has several letters reversed (e.g. notron.exe).
+A Winnti implant file was named ASPNET_FILTER.DLL, mimicking the legitimate ASP.NET ISAPI filter DLL with the same name.
+ZLib mimics the resource version information of legitimate Realtek Semiconductor, Nvidia, or Synaptics modules.

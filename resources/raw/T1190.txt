@@ -1,0 +1,4 @@
+sqlmap can be used to automate exploitation of SQL injection vulnerabilities.
+--Example not given--
+Havij is used to automate SQL injection.
+Axiom has been observed using SQL injection to gain access to systems.

@@ -1,0 +1,1 @@
+collects Agent.btz IP MAC address addresses of default gateway primary/secondary WINS DHCP DNS servers them saves file 

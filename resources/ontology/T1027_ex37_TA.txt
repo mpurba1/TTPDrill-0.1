@@ -1,0 +1,1 @@
+uses Daserf encrypted Windows APIs data encrypts alternative base64andRC4 Caesar cipher using the 

@@ -1,0 +1,1 @@
+copies disk an run Registry entry creates associated key 

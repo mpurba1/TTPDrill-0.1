@@ -1,0 +1,4 @@
+H1N1 has functionality to copy itself to network shares.
+Darkhotel uses a virus that propagates by infecting executables stored on shared drives.
+--Example not given--
+Miner-C copies itself into the public folder of Network Attached Storage (NAS) devices and infects new victims who open the file.

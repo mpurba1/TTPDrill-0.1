@@ -1,0 +1,1 @@
+C2 HTTP encodes Helminth data it base64 sends field DNS converts ASCII characters values the 

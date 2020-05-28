@@ -1,0 +1,1 @@
+allows NETEAGLE adversaries shell commands execute the host 

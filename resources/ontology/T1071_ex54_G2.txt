@@ -1,0 +1,1 @@
+GET requests obtain to commands send data back the 

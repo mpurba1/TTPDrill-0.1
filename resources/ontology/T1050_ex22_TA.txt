@@ -1,0 +1,1 @@
+creates variant of a new service generated name using either 

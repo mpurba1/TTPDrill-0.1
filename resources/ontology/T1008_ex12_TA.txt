@@ -1,0 +1,1 @@
+sends SierraAlfa data a server fails transmission chooses new 

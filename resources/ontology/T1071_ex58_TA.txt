@@ -1,0 +1,1 @@
+connects ADVSTORESHELL port C2 server using Wininet API 

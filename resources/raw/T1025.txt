@@ -1,0 +1,10 @@
+Once a removable media device is inserted back into the first victim, USBStealer collects data from it that was exfiltrated from a second victim.
+Rover searches for files on attached removable drives based on a predefined list of file extensions every five seconds.
+A Gamaredon Group file stealer has the capability to steal data from newly connected logical volumes on a system, including USB drives.
+An APT28 backdoor may collect the entire contents of an inserted USB device.
+Remsec has a package that collects documents from any inserted USB sticks.
+Prikormka contains a module that collects documents with certain extensions from removable media or fixed drives connected via USB.
+Crimson contains a module to collect data from removable drives.
+--Example not given--
+FLASHFLOOD searches for interesting files (either a default or customized set of file extensions) on removable media and copies them to a staging area. The default file types copied would include data copied to the drive by SPACESHIP.
+CosmicDuke steals user files from removable media with file extensions and keywords that match a predefined list.

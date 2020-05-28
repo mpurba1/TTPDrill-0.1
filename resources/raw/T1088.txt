@@ -1,0 +1,15 @@
+BlackEnergy attempts to bypass default User Access Control (UAC) settings by exploiting a backward-compatibility setting found in Windows 7 and later.
+RTM can attempt to run the program as admin, then show a fake error message and a legitimate UAC bypass prompt to the user in an attempt to socially engineer the user into escalating privileges.
+Many ZeroT samples can perform UAC bypass by using eventvwr.exe to execute a malicious file.
+Pupy can bypass Windows UAC through either DLL hijacking, eventvwr, or appPaths. 
+Sakula contains UAC bypass code for both 32- and 64-bit systems.
+--Example not given--
+BRONZE BUTLER malware xxmm contains a UAC bypass tool for privilege escalation.
+AutoIt backdoor attempts to escalate privileges by bypassing User Access Control.
+Downdelph bypasses UAC to escalate privileges by using a custom “RedirectEXE” shim database.
+Cobalt Strike can use a number of known techniques to bypass Windows UAC.
+H1N1 bypasses user access control by using a DLL hijacking vulnerability in the Windows Update Standalone Installer (wusa.exe).
+Shamoon attempts to disable UAC remote restrictions by modifying the Registry.
+Patchwork bypassed User Access Control (UAC).
+UACMe contains many methods for bypassing Windows User Account Control on multiple versions of the operating system.
+APT29 has bypassed UAC.

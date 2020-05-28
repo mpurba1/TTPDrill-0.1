@@ -1,0 +1,1 @@
+scans FIN5 processes all victim systems in the environment scripts uses automated pull results 

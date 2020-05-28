@@ -1,0 +1,1 @@
+encrypts Helminth data sent C2 server HTTP RC4 

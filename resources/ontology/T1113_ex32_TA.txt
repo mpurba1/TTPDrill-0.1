@@ -1,0 +1,1 @@
+contains XAgentOSX functions methods takeScreenShot screenshots take CGGetActiveDisplayList CGDisplayCreateImage NSImage using 

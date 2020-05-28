@@ -1,0 +1,1 @@
+The Equation group is known to have the capability to overwrite the firmware on hard drives from some manufacturers.

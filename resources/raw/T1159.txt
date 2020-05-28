@@ -1,0 +1,2 @@
+--Example not given--
+The Komplex trojan creates a persistent launch agent called with <code>$HOME/Library/LaunchAgents/com.apple.updates.plist</code> with <code>launchctl load -w ~/Library/LaunchAgents/com.apple.updates.plist</code>.

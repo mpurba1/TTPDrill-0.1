@@ -1,0 +1,1 @@
+perform samples UAC bypass eventvwr.exe using execute a malicious file 

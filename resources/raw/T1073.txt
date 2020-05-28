@@ -1,0 +1,14 @@
+Wingbird side loads a malicious file, sspisrv.dll, in part of a spoofed lssas.exe service.
+BADNEWS typically loads its DLL file into a legitimate signed Java or VMware executable.
+Threat Group-3390 actors have used DLL side-loading. Actors have used legitimate Kaspersky anti-virus variants in which the DLL acts as a stub loader that loads and executes the shell code.
+PlugX has used to use DLL side-loading to evade anti-virus and to maintain persistence on a victim.
+ZeroT has used DLL side-loading to load malicious payloads.
+--Example not given--
+Sakula uses DLL side-loading, typically using a digitally signed sample of Kaspersky Anti-Virus (AV) 6.0 for Windows Workstations or McAfee's Outlook Scan About Box to load malicious DLL files.
+During the T9000 installation process, it drops a copy of the legitimate Microsoft binary igfxtray.exe. The executable contains a side-loading weakness which is used to load a portion of the malware.
+A gh0st variant has used DLL side-loading.
+DLL side-loading has been used to execute BBSRAT through a legitimate Citrix executable ssonsvr.exe which is vulnerable to the technique. The Citrix executable was dropped along with BBSRAT by the dropper.
+HTTPBrowser has used DLL side-loading.
+APT3 has been known to side load DLLs with a valid version of Chrome with one of their tools. 
+OwaAuth has been loaded onto Exchange servers and disguised as an ISAPI filter (DLL file). The IIS w3wp.exe process then loads the malicious DLL.
+menuPass has used DLL side-loading to launch versions of Mimikatz and PwDump6.

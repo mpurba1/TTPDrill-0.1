@@ -1,0 +1,1 @@
+obscured using XOR encoding appended to GIF file 

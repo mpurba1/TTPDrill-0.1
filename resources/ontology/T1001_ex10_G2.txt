@@ -1,0 +1,1 @@
+uses Base64 encoding schemes body obfuscate to command traffic 

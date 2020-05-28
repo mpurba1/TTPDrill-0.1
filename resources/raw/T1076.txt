@@ -1,0 +1,15 @@
+APT34 uses Remote Desktop Protocol for lateral movement. The group has also used tunneling tools to tunnel RDP into the environment.
+--Example not given--
+OilRig has used Remote Desktop Protocol to access compromised systems.
+Patchwork attempted to use RDP to move laterally.
+FIN8 has used RDP for .
+Cobalt Strike can start a VNC-based remote desktop server and tunnel the connection through the already established C2 channel.
+Dragonfly used RDP to connect to additional victims.
+The Axiom group is known to have used RDP during operations.
+Pupy can enable/disable RDP connection and can start a remote desktop session using a browser web socket client.
+FIN6 used RDP to move laterally in victim networks.
+FIN10 has used RDP to move laterally to systems in the victim environment.
+menuPass has used RDP connections to move across the victim network.
+Lazarus Group malware SierraCharlie uses RDP for propagation.
+APT3 enables the Remote Desktop Protocol for persistence. 
+The APT1 group is known to have used RDP during operations.

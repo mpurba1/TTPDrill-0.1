@@ -1,0 +1,1 @@
+has module loading for scripts 

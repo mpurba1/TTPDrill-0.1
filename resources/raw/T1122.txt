@@ -1,0 +1,6 @@
+Some variants of ADVSTORESHELL achieve persistence by registering the payload as a Shell Icon Overlay handler COM object.
+APT28 has used COM hijacking for persistence by replacing the legitimate <code>MMDeviceEnumerator</code> object with a payload.
+ComRAT samples have been seen which hijack COM objects for persistence by replacing the path to shell32.dll in registry location <code>HKCU\Software\Classes\CLSID\{42aedc87-2188-41fd-b9a3-0c966feabec1}\InprocServer32</code>.
+BBSRAT has been seen persisting via COM hijacking through replacement of the COM object for MruPidlList <code>{42aedc87-2188-41fd-b9a3-0c966feabec1}</code> or Microsoft WBEM New Event Subsystem <code>{F3130CDB-AA52-4C3A-AB32-85FFC23AF9C1}</code> depending on the system's CPU architecture.
+JHUHUGIT has used COM hijacking to establish persistence by hijacking a class named MMDeviceEnumerator and also by registering the payload as a Shell Icon Overlay handler COM object ({3543619C-D563-43f7-95EA-4DA7E1CC396A}).
+--Example not given--

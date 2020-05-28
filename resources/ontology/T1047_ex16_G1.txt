@@ -1,0 +1,1 @@
+use spearphishing launch malware spawn cmd.exe execution.FIN8 during activities 

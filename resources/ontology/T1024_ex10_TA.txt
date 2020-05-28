@@ -1,0 +1,1 @@
+encrypts httpclient C2 content XOR single byte using a 

@@ -1,0 +1,1 @@
+have Orz an uses Process Hollowing regsvr32 execute another payload 

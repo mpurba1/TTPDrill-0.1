@@ -1,0 +1,69 @@
+Variants of Emissary have added Run Registry keys to establish persistence.
+Pisloader establishes persistence via a Registry Run key.
+APT37 malware MILKDROP sets a Registry key for persistence.
+creates a Registry start-up entry to establish persistence.
+Backdoor.Oldrea adds Registry Run keys to achieve persistence.
+SHIPSHAPE achieves persistence by creating a shortcut in the Startup folder.
+Magic Hound malware has used Registry Run keys to establish persistence.
+Rover persists by creating a Registry entry in <code>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\</code>.
+HTTPBrowser has established persistence by setting the <code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</code> key value for <code>wdm</code> to the path of the executable. It has also used the Registry entry <code>HKEY_USERS\Software\Microsoft\Windows\CurrentVersion\Run vpdn “%ALLUSERPROFILE%\%APPDATA%\vpdn\VPDN_LU.exe”</code> to establish persistence.
+ADVSTORESHELL achieves persistence by adding itself to the <code>HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</code> Registry key.
+Leviathan has used a JavaScript to create a shortcut file in the Startup folder that points to its main backdoor.
+Helminth establishes persistence by creating a shortcut in the Start Menu folder.
+ChChes establishes persistence by adding a Registry Run key.
+Gazer can establish persistence by creating a .lnk file in the Start menu. 
+One persistence mechanism used by CozyCar is to set itself to be executed at system startup by adding a Registry value under one of the following Registry keys: <br><code>HKLM\Software\Microsoft\Windows\CurrentVersion\Run\</code> <br><code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run\</code> <br><code>HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run</code> <br><code>HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run</code>
+APT29 added Registry Run keys to establish persistence.
+RTM tries to add a Registry Run key under the name "Windows Update" to establish persistence.
+Most Sakula samples maintain persistence by setting the Registry Run key <code>SOFTWARE\Microsoft\Windows\CurrentVersion\Run\</code> in the HKLM or HKCU hive, with the Registry value and file name varying by sample.
+Reaver creates a shortcut file and saves it in a Startup folder to establish persistence.
+FLASHFLOOD achieves persistence by making an entry in the Registry's Run key.
+Patchwork added the path of its second-stage malware to the startup folder to achieve persistence.
+Pteranodon copies itself to the Startup folder to establish persistence.
+Matroyshka can establish persistence by adding Registry Run keys.
+copies itself to disk and creates an associated run key Registry entry to establish .
+BBSRAT has been loaded through DLL side-loading of a legitimate Citrix executable that is set to persist through the registry run key location: <code>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\ssonsvr.exe</code>
+FIN6 has used Registry Run keys to establish persistence for its downloader tools known as HARDTACK and SHIPBREAD.
+Hi-Zor creates a Registry Run key to establish persistence.
+A dropper used by Putter Panda installs itself into the ASEP Registry key <code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run</code> with a value named McUpdate.
+PUNCHBUGGY can establish  using a Registry run key.
+MuddyWater has added Registry Run keys to establish persistence.
+Truvasys adds a Registry Run key to establish persistence.
+Trojan.Karagany can create a link to itself in the Startup folder to automatically start itself upon system restart.
+Mivast creates the following Registry entry: <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Micromedia</code>.
+USBStealer registers itself under a Registry Run key with the name "USB Disk Security."
+JHUHUGIT has used a Registry Run key to establish persistence by executing JavaScript code within the rundll32.exe process.
+The "SCOUT" variant of NETEAGLE achieves persistence by adding itself to the <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</code> Registry key.
+SPACESHIP achieves persistence by creating a shortcut in the current user's Startup folder.
+Lazarus Group malware attempts to maintain persistence by saving itself in the Start menu folder or by adding a Registry Run key.
+FIN7 malware has created a Registry Run key pointing to its malicious LNK file to establish persistence.
+TINYTYPHON installs itself under Registry Run key to establish persistence.
+FIN10 has established persistence by using the Registry option in PowerShell Empire to add a Run key.
+Briba creates run key Registry entries pointing to malicious DLLs dropped to disk.
+PowerSploit's <code>New-UserPersistenceOption</code> Persistence argument can be used to establish  via the <code>HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</code> Registry key.
+BACKSPACE achieves persistence by creating a shortcut to itself in the CSIDL_STARTUP directory.
+DownPaper uses PowerShell to add a Registry Run key in order to establish persistence.
+Kasidet creates a Registry Run key to establish persistence. 
+creates run key Registry entries pointing to a malicious executable dropped to disk.
+To establish persistence, SslMM identifies the Start Menu Startup directory and drops a link to its own executable disguised as an “Office Start,” “Yahoo Talk,” “MSN Gaming Z0ne,” or “MSN Talk” shortcut.
+BADNEWS installs a registry Run key to establish persistence.
+--Example not given--
+DustySky achieves persistence by creating a Registry entry in <code>HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</code>.
+PlugX can add a Run key entry in the Registry to establish persistence.
+TinyZBot can create a shortcut in the Windows startup folder for persistence.
+POWERSOURCE achieves persistence by setting a Registry Run key, with the path depending on whether the victim account has user or administrator access.
+SeaDuke is capable of persisting via the Registry Run key or a .lnk file stored in the Startup directory.
+Sykipot has been known to establish persistence by adding programs to the Run Registry key.
+Prikormka adds itself to a Registry Run key with the name guidVGA or guidVSA.
+SNUGRIDE establishes persistence through a Registry Run key.
+APT3 places scripts in the startup folder for persistence. 
+EvilGrab adds a Registry Run key for ctfmon.exe to establish persistence.
+The BlackEnergy 3 variant drops its main DLL component and then creates a .lnk shortcut to that file in the startup folder.
+Darkhotel has been known to establish persistence by adding programs to the Run Registry key.
+S-Type may create a .lnk file to itself that is saved in the Start menu folder. It may also create the Registry key <code>HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\ IMJPMIJ8.1{3 characters of Unique Identifier}</code>.
+BRONZE BUTLER has used a batch script that adds a Registry Run key to establish malware persistence.
+Pupy adds itself to the startup folder or adds itself to the Registry key <code>SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run</code> for persistence.
+CORESHELL has established persistence by creating autostart extensibility point (ASEP) Registry entries in the Run key and other Registry keys, as well as by creating shortcuts in the Internet Explorer Quick Start folder.
+RedLeaves attempts to add a shortcut file in the Startup folder to achieve persistence; if this fails, it attempts to add Registry Run keys.
+PowerDuke achieves persistence by using various Registry Run keys.
+If establishing persistence by installation as a new service fails, one variant of Elise establishes persistence for the created .exe file by setting the following Registry key: <code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run\svchost : %APPDATA%\Microsoft\Network\svchost.exe</code>. Other variants have set the following Registry key for persistence: <code>HKCU\Software\Microsoft\Windows\CurrentVersion\Run\imejp : [self]</code>. 

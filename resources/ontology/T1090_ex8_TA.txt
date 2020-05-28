@@ -1,0 +1,1 @@
+identifies Gazer a proxy server exists it uses make HTTP requests 

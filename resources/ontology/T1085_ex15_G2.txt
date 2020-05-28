@@ -1,0 +1,1 @@
+executed CHOPSTICK using by commands a Trojan saved script uses rundll32 execute to payload 

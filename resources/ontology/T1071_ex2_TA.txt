@@ -1,0 +1,1 @@
+communicates ChChes C2 server HTTP data embeds header 

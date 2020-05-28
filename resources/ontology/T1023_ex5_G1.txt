@@ -1,0 +1,1 @@
+adds Lazarus Group malware creating a shortcut 

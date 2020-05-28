@@ -1,0 +1,1 @@
+collect POWRUNER user account information <code> running net victim 

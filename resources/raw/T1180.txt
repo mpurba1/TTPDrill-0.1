@@ -1,0 +1,2 @@
+--Example not given--
+Gazer can establish persistence through the system screensaver by configuring it to execute the malware.

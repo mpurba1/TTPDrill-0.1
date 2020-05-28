@@ -1,0 +1,1 @@
+gather Lazarus Group malware a running send it to C2 server 

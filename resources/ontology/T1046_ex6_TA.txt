@@ -1,0 +1,1 @@
+network hosts with ports open 8080 5900 40 

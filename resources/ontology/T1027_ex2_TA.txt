@@ -1,0 +1,1 @@
+encrypt Variants of payloads various XOR ciphers using uses algorithm functions srand rand 

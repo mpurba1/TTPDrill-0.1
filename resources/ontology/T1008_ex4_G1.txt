@@ -1,0 +1,1 @@
+falls OilRig malware unable reach the C2 server 

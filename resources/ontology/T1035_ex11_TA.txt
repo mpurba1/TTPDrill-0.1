@@ -1,0 +1,1 @@
+use Strike PsExec execute a payload host It Service Control Manager start new services 

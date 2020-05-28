@@ -1,0 +1,2 @@
+Flame can use Windows Authentication Packages for persistence.
+--Example not given--

@@ -1,0 +1,1 @@
+captures Responder hashes credentials sent system poisoned name services 

@@ -1,0 +1,1 @@
+run Systeminfo gather to information 

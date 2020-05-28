@@ -1,0 +1,2 @@
+--Example not given--
+APT32 has used PubPrn.vbs within execution scripts to execute malware, possibly bypassing defenses.

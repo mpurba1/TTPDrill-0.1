@@ -1,0 +1,16 @@
+Threat Group-1314 actors mapped network drives using <code>net use</code>.
+--Example not given--
+PsExec, a tool that has been used by adversaries, writes programs to the <code>ADMIN$</code> network share to execute commands on remote systems.
+Shamoon accesses network share(s), enables share access to the target device, and copies an executable payload to the target system, and uses a Scheduled Task to execute the malware.
+Ke3chang actors have been known to copy files to the network shares of other computers to move laterally.
+Turla uses <code>net use</code> commands to connect to lateral systems within a network.
+BlackEnergy has run a plug-in on a victim to spread through the local network by using PsExec and accessing admin shares.
+Adversaries can instruct Duqu to spread laterally by copying itself to shares it has enumerated and for which it has obtained legitimate credentials (via keylogging or other means). The remote host is then infected by using the compromised credentials to schedule a task on remote machines that executes the malware.
+APT3 will copy files over to Windows Admin Shares (like ADMIN$) as part of lateral movement. 
+Lateral movement can be done with Net through <code>net use</code> commands to connect to the  on remote systems.
+FIN8 has attempted to map to C$ on enumerated hosts to test the scope of their current credentials/context.
+The Regin malware platform can use Windows admin shares to move laterally.
+Cobalt Strike can use Window admin shares (C$ and ADMIN$) for lateral movement.
+Lazarus Group malware SierraAlfa accesses the <code>ADMIN$</code> share via SMB to conduct lateral movement.
+Net Crawler uses Windows admin shares to establish authenticated sessions to remote systems over SMB as part of lateral movement.
+Deep Panda uses net.exe to connect to network shares using <code>net use</code> commands with compromised credentials.

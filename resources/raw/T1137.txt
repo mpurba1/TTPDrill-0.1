@@ -1,0 +1,2 @@
+--Example not given--
+APT28 has used the Office Test persistence mechanism within Microsoft Office by adding the Registry key <code>HKCU\Software\Microsoft\Office test\Special\Perf</code> to execute code.

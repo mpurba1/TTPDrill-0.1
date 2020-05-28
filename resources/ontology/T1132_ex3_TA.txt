@@ -1,0 +1,1 @@
+used Patchwork Base64 encode C2 traffic 

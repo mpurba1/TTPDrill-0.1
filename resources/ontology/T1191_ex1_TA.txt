@@ -1,0 +1,1 @@
+used MuddyWater CMSTP.exe a malicious INF execute POWERSTATS payload 

@@ -1,0 +1,1 @@
+obfuscates files uses technique XOR obfuscate to data 

@@ -1,0 +1,1 @@
+adds EvilGrab a Registry Run key ctfmon.exe establish persistence 

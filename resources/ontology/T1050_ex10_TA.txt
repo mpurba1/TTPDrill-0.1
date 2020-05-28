@@ -1,0 +1,1 @@
+establishes StreamEx persistence service installing a new pointing setting DLL the 

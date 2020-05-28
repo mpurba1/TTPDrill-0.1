@@ -1,0 +1,1 @@
+bypasses Downdelph UAC privileges escalate custom RedirectEXE shim database using a 

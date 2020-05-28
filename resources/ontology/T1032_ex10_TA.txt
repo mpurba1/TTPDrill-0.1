@@ -1,0 +1,1 @@
+encrypts Dipsind C2 data AES256 

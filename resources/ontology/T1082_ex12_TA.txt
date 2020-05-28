@@ -1,0 +1,1 @@
+obtains Shamoon operating system version keyboard layout information sends C2 server 

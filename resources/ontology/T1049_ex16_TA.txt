@@ -1,0 +1,1 @@
+collect POWRUNER active network connections <code> netstat running </code> a victim 

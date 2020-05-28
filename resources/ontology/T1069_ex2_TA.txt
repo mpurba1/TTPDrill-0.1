@@ -1,0 +1,1 @@
+collects Sys10 the group name of user it sends C2 

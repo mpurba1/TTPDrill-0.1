@@ -1,0 +1,1 @@
+disable POWERSTATS Microsoft Office Protected View Registry keys changing 

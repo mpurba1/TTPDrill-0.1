@@ -1,0 +1,1 @@
+contains shellcode a NOP sled instructions likely designed antivirus tools bypass 

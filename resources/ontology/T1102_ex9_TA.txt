@@ -1,0 +1,1 @@
+uses PlugX Pastebin store real C2 addresses 

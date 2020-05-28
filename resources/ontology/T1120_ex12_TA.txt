@@ -1,0 +1,1 @@
+checks drives victim the listening WM_DEVICECHANGE window message 

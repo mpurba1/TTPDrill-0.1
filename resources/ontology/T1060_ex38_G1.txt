@@ -1,0 +1,1 @@
+attempts Lazarus Group maintain persistence saving itself adding a Registry Run key 

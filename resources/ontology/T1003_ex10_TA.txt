@@ -1,0 +1,1 @@
+used actors gsecdump a modified version of Mimikatz called Wrapikatz credentials dump dumped They domain controllers 

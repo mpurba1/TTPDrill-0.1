@@ -1,0 +1,3 @@
+APT29 has used the meek domain fronting plugin for Tor to hide the destination of C2 traffic.
+meek uses Domain Fronting to disguise the destination of network traffic as another server that is hosted in the same Content Delivery Network (CDN) as the intended desitnation.
+--Example not given--

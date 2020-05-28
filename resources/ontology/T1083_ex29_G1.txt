@@ -1,0 +1,1 @@
+allows enumerate modify file system searching directories retrieving attributes information contents reading writing to files 

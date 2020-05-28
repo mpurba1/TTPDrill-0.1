@@ -1,0 +1,1 @@
+capable PLATINUM using Windows hook interfaces information gathering 

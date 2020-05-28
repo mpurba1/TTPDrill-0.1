@@ -1,0 +1,7 @@
+Pass-The-Hash Toolkit can perform pass the hash.
+APT28 has used pass the hash for lateral movement.
+--Example not given--
+The APT1 group is known to have used pass the hash.
+APT29 used Kerberos ticket attacks for lateral movement.
+Mimikatz's <code>SEKURLSA::Pth</code> module can impersonate a user, with only a password hash, to execute arbitrary commands.
+Cobalt Strike can perform pass the hash.

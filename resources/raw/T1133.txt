@@ -1,0 +1,6 @@
+APT18 actors leverage legitimate credentials to log into external remote services.
+Dragonfly used remote access services, including VPN and Outlook Web Access (OWA).
+FIN5 has used legitimate VPN, RDP, Citrix, or VNC credentials to maintain access to a victim environment.
+--Example not given--
+Threat Group-3390 actors look for and use VPN profiles during an operation to access the network using external VPN services.
+APT34 uses remote services such as VPN, Citrix, or OWA to persist in an environment.

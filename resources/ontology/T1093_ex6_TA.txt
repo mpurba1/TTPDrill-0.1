@@ -1,0 +1,1 @@
+have versions an embedded DLL uses process hollowing Regsvr32 execute another payload 

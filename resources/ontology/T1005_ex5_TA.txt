@@ -1,0 +1,1 @@
+contains PowerSploit a collection of Exfiltration modules access data local files volumes processes 

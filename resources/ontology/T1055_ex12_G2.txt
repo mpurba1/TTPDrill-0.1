@@ -1,0 +1,1 @@
+inject content load to module 

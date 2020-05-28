@@ -1,0 +1,1 @@
+created Task used regsvr32.exe execute to scriptlet downloaded backdoor injected it 

@@ -1,0 +1,1 @@
+gathers module information configuration 

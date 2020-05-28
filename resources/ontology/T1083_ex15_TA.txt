@@ -1,0 +1,1 @@
+has PowerDuke commands get the current directory name size of file It obtain information logical drives type free space 

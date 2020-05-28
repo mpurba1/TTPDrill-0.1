@@ -1,0 +1,1 @@
+receive RedLeaves commands execute cmd.exe provide It a reverse shell 

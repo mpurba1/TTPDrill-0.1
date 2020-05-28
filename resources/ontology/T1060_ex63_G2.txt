@@ -1,0 +1,1 @@
+used script adds key establish to persistence 

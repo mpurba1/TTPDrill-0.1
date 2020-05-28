@@ -1,0 +1,1 @@
+contains PowerSploit a collection of ScriptModification modules compress scripts payloads encode 

@@ -1,0 +1,1 @@
+query POWRUNER the Registry <code> reg </code> running a victim 

@@ -1,0 +1,1 @@
+saves IndiaIndia information gathered file uploaded one its C2 servers.Lazarus sample performs exfiltration channel 

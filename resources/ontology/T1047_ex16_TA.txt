@@ -1,0 +1,1 @@
+use payloads WMI malware cmd.exe execution.FIN8 launch spawn used WMIC 

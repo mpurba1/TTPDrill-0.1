@@ -1,0 +1,1 @@
+collects function the current running username 

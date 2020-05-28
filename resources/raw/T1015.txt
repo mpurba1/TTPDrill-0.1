@@ -1,0 +1,5 @@
+--Example not given--
+APT3 replaces the Sticky Keys binary <code>C:\Windows\System32\sethc.exe</code> for persistence. 
+Deep Panda has used the sticky-keys technique to bypass the RDP login screen on remote systems during intrusions.
+Axiom actors have been known to use the Sticky Keys replacement within RDP sessions to obtain persistence.
+APT29 used sticky-keys to obtain unauthenticated, privileged console access.

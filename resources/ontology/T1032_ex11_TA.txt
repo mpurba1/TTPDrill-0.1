@@ -1,0 +1,1 @@
+use variants of RC4 encrypt C2 traffic 

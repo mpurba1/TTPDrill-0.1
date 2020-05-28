@@ -1,0 +1,24 @@
+BADNEWS can use multiple C2 channels, including RSS feeds, Github, forums, and blogs.BADNEWS also collects C2 information via a dead drop resolver.
+Orz has used Technet and Pastebin web pages for command and control.
+Leviathan has received C2 instructions from user profiles created on legitimate websites such as Github and TechNet.
+Some MiniDuke components use Twitter to initially obtain the address of a C2 server or as a backup if no hard-coded C2 server responds.
+The CALENDAR malware communicates through the use of events in Google Calendar.
+CozyCar uses Twitter as a backup C2 channel to Twitter accounts specified in its configuration file.
+SLOWDRIFT uses cloud based services for C2.
+APT37 malware has used AOL Instant Messenger as well as pCloud and Dropbox APIs for C2.
+PlugX uses Pastebin to store its real C2 addresses.
+One variant of CloudDuke uses a Microsoft OneDrive account to exchange commands and stolen data with its operators.
+OnionDuke uses Twitter as a backup C2 method. It also has a module designed to post messages to the Russian VKontakte social media site.
+Magic Hound malware can use a SOAP Web service to communicate with its C2 server.
+BLACKCOFFEE uses Microsoft’s TechNet Web portal to obtain a dead drop resolver containing an encoded tag with the IP address of a command and control server. It has also obfuscated its C2 traffic as normal traffic to sites such as Github.
+LOWBALL uses the Dropbox cloud storage service for command and control.
+--Example not given--
+RTM has used an RSS feed on Livejournal to update a list of encrypted C2 server names.
+Carbanak has used a VBScript named "ggldr" that uses Google Apps Script, Sheets, and Forms services for C2.
+BRONZE BUTLER's MSGET downloader uses a dead drop resolver to access malicious payloads.
+Patchwork hides base64-encoded and encrypted C2 server locations in comments on legitimate websites.
+GLOOXMAIL communicates to servers operated by Google using the Jabber/XMPP protocol.
+can use public cloud-based storage providers for command and control.
+is capable of leveraging cloud storage APIs such as Cloud, Box, Dropbox, and Yandex for C2.
+The "tDiscoverer" variant of HAMMERTOSS establishes a C2 channel by downloading resources from Web services like Twitter and GitHub. HAMMERTOSS binaries contain an algorithm that generates a different Twitter handle for the malware to check for instructions every day.
+POORAIM has used AOL Instant Messenger for C2.

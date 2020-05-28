@@ -1,0 +1,1 @@
+collects compresses encrypts exfiltrates data to C2 server 

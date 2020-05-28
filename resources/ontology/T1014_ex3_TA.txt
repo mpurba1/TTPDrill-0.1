@@ -1,0 +1,1 @@
+rootkit HIDEDRV hides certain operating system artifacts 

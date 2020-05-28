@@ -1,0 +1,2 @@
+FIN7 has used application shim databases for persistence.
+--Example not given--

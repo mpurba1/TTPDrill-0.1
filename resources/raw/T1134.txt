@@ -1,0 +1,9 @@
+Lazarus Group keylogger KiloAlfa obtains user tokens from interactive sessions to execute itself with API call <code>CreateProcessAsUserA</code> under that user's context.
+PowerSploit's <code>Invoke-TokenManipulation</code> Exfiltration module can be used to locate and impersonate user logon tokens.
+Cobalt Strike can steal access tokens from exiting processes and make tokens from known credentials.
+SslMM contains a feature to manipulate process privileges and tokens.
+Duqu examines running system processes for tokens that have specific system privileges.  If it finds one, it will copy the token and store it for later use.  Eventually it will start new processes with the stored token attached.  It can also steal tokens to acquire administrative privileges.
+APT28 has used CVE-2015-1701 to access the SYSTEM token and copy it into the current process as part of privilege escalation.
+Pupy can obtain a list of SIDs and provide the option for selecting process tokens to impersonate. 
+Hydraq creates a backdoor through which remote attackers can adjust token privileges.
+--Example not given--

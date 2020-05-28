@@ -1,0 +1,1 @@
+provides CHOPSTICK access Windows Registry used information gather 

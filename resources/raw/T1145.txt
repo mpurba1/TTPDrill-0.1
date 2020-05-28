@@ -1,0 +1,2 @@
+Mimikatz's <code>CRYPTO::Extract</code> module can extract keys by interacting with Windows cryptographic application programming interface (API) functions.
+--Example not given--

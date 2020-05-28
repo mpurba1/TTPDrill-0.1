@@ -1,0 +1,1 @@
+attempts hide payloads using legitimate filenames 

@@ -1,0 +1,4 @@
+Lazarus Group malware WhiskeyDelta-Two contains a function that attempts to rename the administrator’s account.
+The Mimikatz credential dumper has been extended to include Skeleton Key domain controller authentication bypass functionality. The <code>LSADUMP::ChangeNTLM</code> and <code>LSADUMP::SetNTLM</code> modules can also manipulate the password hash of an account without knowing the clear text value.
+--Example not given--
+Skeleton Key is used to patch an enterprise domain controller authentication process with a backdoor password. It allows adversaries to bypass the standard authentication system to use a defined password for all accounts authenticating to that domain controller.

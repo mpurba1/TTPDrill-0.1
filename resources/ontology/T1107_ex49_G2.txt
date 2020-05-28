@@ -1,0 +1,1 @@
+contains Destroy destroys data overwriting by contents 

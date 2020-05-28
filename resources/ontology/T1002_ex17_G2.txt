@@ -1,0 +1,1 @@
+compress data sending before it 

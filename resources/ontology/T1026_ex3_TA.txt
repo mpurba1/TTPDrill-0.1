@@ -1,0 +1,1 @@
+uses malware multiple channels C2 parses channel data forms virtual sessions 

@@ -1,0 +1,1 @@
+uses APT28 the decode contents of a storing encoded txt 

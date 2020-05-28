@@ -1,0 +1,4 @@
+Threat Group-3390 actors have split RAR files for exfiltration into parts.
+POSHSPY uploads data in 2048-byte chunks.
+--Example not given--
+Helminth splits data into chunks up to 23 bytes and sends the data in DNS queries to its C2 server.

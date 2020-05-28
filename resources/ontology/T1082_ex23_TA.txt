@@ -1,0 +1,1 @@
+has Emissary the capability execute ver systeminfo gpresult commands 

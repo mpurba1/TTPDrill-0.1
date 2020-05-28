@@ -1,0 +1,1 @@
+PowerView Pupy perform net commands system domain accounts create local 

@@ -1,0 +1,1 @@
+has capability machine capture to audio 

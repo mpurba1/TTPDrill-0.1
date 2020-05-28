@@ -1,0 +1,1 @@
+uses Lazarus Group a choose C2 traffic includes 443 53 80 25 8080 

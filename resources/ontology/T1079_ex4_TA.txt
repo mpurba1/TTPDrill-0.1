@@ -1,0 +1,1 @@
+encrypts C2 traffic HTTPS it encodes key 

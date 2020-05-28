@@ -1,0 +1,2 @@
+--Example not given--
+Sykipot is known to contain functionality that enables targeting of smart card technologies to proxy authentication for connections to restricted network resources using detected hardware tokens.

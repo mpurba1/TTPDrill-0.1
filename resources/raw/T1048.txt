@@ -1,0 +1,11 @@
+Lazarus Group malware SierraBravo-Two generates an email message via SMTP containing information about newly infected victims.
+FIN8 has used FTP to exfiltrate collected data.
+Remsec can exfiltrate data via a DNS tunnel or email, separately from its C2 channel.
+HAMMERTOSS exfiltrates data by uploading it to accounts created by the actors on Web cloud storage providers for the adversaries to retrieve later.
+CosmicDuke exfiltrates collected files over FTP or WebDAV. Exfiltration servers can be separately configured from C2 servers.
+--Example not given--
+OilRig has exfiltrated data over FTP separately from its primary C2 channel over DNS.
+can be used to create BITS Jobs to upload files from a compromised host.
+FTP may be used to exfiltrate data separate from the main command and control protocol.
+Hydraq connects to a predefined domain on port 443 to exfil gathered information.
+Cherry Picker exfiltrates files over FTP.

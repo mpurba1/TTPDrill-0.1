@@ -1,0 +1,18 @@
+Helminth samples have been signed with legitimate, compromised code signing certificates owned by software company AI Squared.
+Molerats has used forged Microsoft code-signing certificates on malware.
+Regin stage 1 modules for 64-bit systems have been found to be signed with fake certificates masquerading as originating from Microsoft Corporation and Broadcom Corporation.
+APT37 has signed its malware with an invalid digital certificates listed as “Tencent Technology (Shenzhen) Company Limited.”
+drops a signed Microsoft DLL to disk.
+RTM samples have been signed with a code-signing certificates.
+Turla has used valid digital certificates from Sysprint AG to sign its Epic dropper.
+Leviathan has used stolen code signing certificates used to sign malware.
+The  client has been signed by fake and invalid digital certificates.
+Darkhotel has used code-signing certificates on its malware that are either forged due to weak keys or stolen.
+Gazer versions are signed with various valid certificates; one was likely faked and issued by Comodo for "Solid Loop Ltd," and another was issued for "Ultimate Computer Support Ltd."
+is digitally signed by Microsoft.
+Suckfly has used stolen certificates to sign its malware.
+Winnti Group used stolen certificates to sign its malware.
+CopyKittens digitally signed an executable with a stolen certificate from legitimate company AI Squared.
+--Example not given--
+Janicab used a valid AppleDeveloperID to sign the code to get past security restrictions.
+ChChes samples were digitally signed with a certificate originally used by Hacking Team that was later leaked and subsequently revoked.

@@ -1,0 +1,1 @@
+uses menuPass a modified version pentesting script wmiexec.vbs logs machine using WMI 

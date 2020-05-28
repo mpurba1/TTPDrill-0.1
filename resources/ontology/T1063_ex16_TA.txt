@@ -1,0 +1,1 @@
+checks presence installer/uninstaller component deletes identifies it any them 

@@ -1,0 +1,20 @@
+C2 traffic from ADVSTORESHELL is encrypted, then encoded with Base64 encoding.
+SeaDuke C2 traffic is base64-encoded.
+Patchwork used Base64 to encode C2 traffic.
+A JHUHUGIT variant encodes C2 POST data base64.
+CORESHELL C2 messages are Base64-encoded.
+Daserf uses custom base64 encoding to obfuscate HTTP traffic.
+Responses from the Pisloader C2 server are base32-encoded.
+Several BRONZE BUTLER tools encode data with base64 when posting it to a C2 server.
+BADNEWS encodes C2 traffic with base64.
+Mis-Type uses Base64 encoding for C2 traffic.
+AutoIt backdoor has sent a C2 response that was base64-encoded.
+S-Type uses Base64 encoding for C2 traffic.
+A Lazarus Group malware sample encodes data with base64.
+Dipsind encodes C2 traffic with base64.
+Prikormka encodes C2 traffic with Base64.
+Misdat network traffic is Base64-encoded plaintext.
+BS2005 uses Base64 encoding for communication in the message body of an HTTP request.
+--Example not given--
+Elise exfiltrates data using cookie values that are Base64-encoded.
+For C2 over HTTP, Helminth encodes data with base64 and sends it via the "Cookie" field of HTTP requests. For C2 over DNS, Helminth converts ASCII characters into their hexadecimal values and sends the data in cleartext.

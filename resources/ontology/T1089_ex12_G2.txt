@@ -1,0 +1,1 @@
+modifies firewall allow to connections disable it using netsh terminate processes 

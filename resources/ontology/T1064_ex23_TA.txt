@@ -1,0 +1,1 @@
+used FIN8 a Batch file automate executed post compromise cleanup activities 

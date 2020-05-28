@@ -1,0 +1,1 @@
+mimics ZLib the resource version information of legitimate Realtek Semiconductor Nvidia Synaptics modules 

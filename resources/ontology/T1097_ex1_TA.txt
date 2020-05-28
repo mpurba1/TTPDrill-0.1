@@ -1,0 +1,1 @@
+have samples a module use pass authentication the ticket Kerberos 

@@ -1,0 +1,1 @@
+collect POWRUNER information about the user logged <code> whoami </code> running a victim 

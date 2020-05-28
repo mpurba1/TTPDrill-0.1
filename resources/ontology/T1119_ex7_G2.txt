@@ -1,0 +1,1 @@
+used script iterate to copy data remove files 

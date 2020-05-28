@@ -1,0 +1,1 @@
+appears Regin functionality have sniff credentials passed HTTP SMTP SMB 

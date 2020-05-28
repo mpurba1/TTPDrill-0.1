@@ -1,0 +1,2 @@
+--Example not given--
+MuddyWater has used CMSTP.exe and a malicious INF to execute its POWERSTATS payload.

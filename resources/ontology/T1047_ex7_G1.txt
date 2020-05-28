@@ -1,0 +1,1 @@
+uses Lazarus Group malware the wmic start itself 

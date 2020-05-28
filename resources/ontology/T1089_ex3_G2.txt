@@ -1,0 +1,1 @@
+disable View changing by keys 

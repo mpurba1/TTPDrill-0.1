@@ -1,0 +1,1 @@
+injects Derusbi itself shell process 

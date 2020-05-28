@@ -1,0 +1,1 @@
+encrypts using a custom encryption cipher uses XOR key an YHCRA rotation code evade detection modified communications making ineffective 

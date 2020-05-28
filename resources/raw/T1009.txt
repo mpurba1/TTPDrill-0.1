@@ -1,0 +1,8 @@
+A version of XTunnel introduced in July 2015 inserted junk code into the binary in a likely attempt to obfuscate it and bypass security products.
+--Example not given--
+Leviathan has inserted garbage characters into code, presumably to avoid anti-virus detection.
+ZeroT has obfuscated DLLs and functions using dummy API calls inserted between real instructions.
+Moafee has been known to employ binary padding.
+CORESHELL contains unused machine instructions in a likely attempt to hinder analysis.
+BRONZE BUTLER downloader code has included "0" characters at the end of the file to inflate the file size in a likely attempt to evade anti-virus detection.
+A variant of Emissary appends junk data to the end of its DLL file to create a large file that may exceed the maximum size that anti-virus programs can scan.

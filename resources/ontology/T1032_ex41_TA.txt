@@ -1,0 +1,1 @@
+encrypts CHOPSTICK C2 communications RC4 TLS 

@@ -1,0 +1,1 @@
+includes component stream feed 

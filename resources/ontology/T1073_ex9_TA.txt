@@ -1,0 +1,1 @@
+used DLL BBSRAT execute Citrix ssonsvr.exe vulnerable technique dropped executable 

@@ -1,0 +1,1 @@
+has Shamoon access network share enables it the RemoteRegistry service target system connect It RegConnectRegistryW Registry modify disable UAC remote restrictions SOFTWARE setting <code> System LocalAccountTokenFilterPolicy </code> Policies 

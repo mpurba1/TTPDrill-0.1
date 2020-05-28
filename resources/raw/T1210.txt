@@ -1,0 +1,3 @@
+Flame can use MS10-061 to exploit a print spooler vulnerability in a remote system with a shared printer in order to move laterally.
+--Example not given--
+APT28 exploited a Windows SMB Remote Code Execution Vulnerability to conduct lateral movement.

@@ -1,0 +1,4 @@
+Responder captures hashes and credentials that are sent to the system after the name services have been poisoned.
+--Example not given--
+APT28 deployed the open source tool Responder to conduct NetBIOS Name Service poisoning, which captured usernames and hashed passwords that allowed access to legitimate credentials.
+Regin appears to have functionality to sniff for credentials passed over HTTP, SMTP, and SMB.

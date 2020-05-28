@@ -1,0 +1,1 @@
+adds Pupy itself startup folder SOFTWARE CurrentVersion </code> persistence 

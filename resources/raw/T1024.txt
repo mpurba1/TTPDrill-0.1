@@ -1,0 +1,26 @@
+Sys10 uses an XOR 0x1 loop to encrypt its C2 domain.
+BADNEWS encrypts C2 data with a ROR by 3 and an XOR by 0x23.
+Lurid performs XOR encryption.
+Hikit performs XOR encryption.
+FALLCHILL uses fake Transport Layer Security (TLS) to communicate with its C2 server, encoding data with RC4 encryption.
+Before being appended to image files, HAMMERTOSS commands are encrypted with a key composed of both a hard-coded value and a string contained on that day's tweet. To decrypt the commands, an investigator would need access to the intended malware sample, the day's tweet, and the image file containing the command.
+--Example not given--
+3PARA RAT will use an 8-byte XOR key derived from the string HYF54&%9&jkMCXuiS instead if the DES decoding fails.
+The C2 server response to a beacon sent by a variant of Emissary contains a 36-character GUID value that is used as an encryption key for subsequent network communications. Some variants of Emissary use various XOR operations to encrypt C2 data.
+Sakula encodes C2 traffic with single-byte XOR keys.
+httpclient encrypts C2 content with XOR using a single byte, 0x12.
+ChChes can encrypt C2 data with a custom technique using MD5, base64-encoding, and RC4.
+4H RAT obfuscates C2 communication using a 1-byte XOR with the key 0xBE.
+Hydraq C2 traffic is encrypted using bitwise NOT and XOR operations.
+BBSRAT uses a custom encryption algorithm on data sent back to the C2 server over HTTP.
+RTM encrypts C2 traffic with a custom RC4 variant.
+The original variant of FakeM encrypts C2 traffic using a custom encryption cipher that uses an XOR key of “YHCRA” and bit rotation between each XOR operation. FakeM has also included HTML code in C2 traffic in an apparent attempt to evade detection. Additionally, some variants of FakeM use modified SSL code for communications back to C2 servers, making SSL decryption ineffective.
+Derusbi obfuscates C2 traffic with variable 4-byte XOR keys.
+The Komplex C2 channel uses an 11-byte XOR algorithm to hide data .
+Taidoor is known to utilize encryption within network protocols.
+Gazer uses custom encryption for C2 using 3DES and RSA.
+BRONZE BUTLER has used a tool called RarStar that encodes data with a custom XOR algorithm when posting it to a C2 server.
+Several Lazarus Group malware families encrypt C2 traffic using custom code that uses XOR with an ADD operation and XOR with a SUB operation.Lazarus Group malware sample XORs C2 traffic.
+CORESHELL C2 messages are encrypted with custom stream ciphers using six-byte or eight-byte keys.
+Some Felismus samples use a custom encryption method for C2 traffic using AES, base64 encoding, and multiple keys.
+CosmicDuke contains a custom version of the RC4 algorithm that includes a programming error.

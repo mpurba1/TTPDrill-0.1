@@ -1,0 +1,17 @@
+PHOREAL is capable of manipulating the Registry.
+BACKSPACE is capable of deleting Registry keys, sub-keys, and values on a victim system.
+CHOPSTICK may store RC4 encrypted configuration information in the Windows Registry.
+Hydraq creates a Registry subkey to register its created service, and can also uninstall itself later by deleting this value. Hydraq's backdoor also enables remote attackers to modify and delete subkeys.
+SOUNDBITE is capable of modifying the Registry.
+StreamEx has the ability to modify the Registry.
+RTM can delete all Registry entries created during its execution.
+ADVSTORESHELL is capable of setting and deleting Registry values.
+Naid creates Registry entries that store information about a created service and point to a malicious DLL dropped to disk.
+Once Shamoon has access to a network share, it enables the RemoteRegistry service on the target system. It will then connect to the system with RegConnectRegistryW and modify the Registry to disable UAC remote restrictions by setting <code>SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\LocalAccountTokenFilterPolicy</code> to 1.
+Reg may be used to interact with and modify the Windows Registry of a local or remote system at the command-line interface.
+Rover has functionality to remove Registry Run key persistence as a cleanup procedure.
+creates a Registry subkey that registers a new system device.
+creates a Registry subkey that registers a new service.
+FIN8 has deleted Registry keys during post compromise cleanup activities.
+Regin appears to have functionality to modify remote Registry information.
+--Example not given--

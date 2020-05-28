@@ -1,0 +1,41 @@
+Pteranodon can capture screenshots at a configurable interval.
+A JHUHUGIT variant takes screenshots by simulating the user pressing the "Take Screenshot" key (VK_SCREENSHOT), accessing the screenshot saved in the clipboard, and converting it to a JPG image.
+Pupy can drop a mouse-logger that will take small screenshots around at each click and then send back to the server.
+TURNEDUP is capable of taking screenshots.
+Trojan.Karagany can take a desktop screenshot and save the file into <code>\ProgramData\Mail\MailAg\shot.png</code>.
+BADNEWS has a command to take a screenshot and send it to the C2 server.
+APT34 has a tool called CANDYKING to capture a screenshot of user's desktop.
+BlackEnergy is capable of taking screenshots.
+Prikormka contains a module that captures screenshots of the victim's desktop.
+BRONZE BUTLER has used a tool to capture screenshots.
+--Example not given--
+APT28 regularly deploys a custom tool to take regular screenshots of victims.
+RedLeaves can capture screenshots.
+POORAIM can perform screen capturing.
+Rover takes screenshots of the compromised system's desktop and saves them to <code>C:\system\screenshot.bmp</code> for exfiltration every 60 minutes.
+Magic Hound malware can take a screenshot and upload the file to its C2 server.
+Daserf can take screenshots.
+TinyZBot contains screen capture functionality.
+Crimson contains a command to perform screen captures.
+ZLib has the ability to obtain screenshots of the compromised system.
+CosmicDuke takes periodic screenshots and exfiltrates them.
+PowerSploit's <code>Get-TimedScreenshot</code> Exfiltration module can take screenshots at regular intervals.
+Flame can take regular screenshots when certain applications are open that are sent to the command and control server.
+Cobalt Strike's "beacon" payload is capable of capturing screen shots.
+is capable of capturing screenshots.
+Malware used by Group5 is capable of watching the victim's screen.
+Dragonfly has performed screen captures of victims.
+Matroyshka is capable of performing screen captures.
+Hydraq includes a component based on the code of VNC that can stream a live feed of the desktop of an infected host.
+Kasidet has the ability to initiate keylogging and screen captures.
+EvilGrab has the capability to capture screenshots.
+HALFBAKED can obtain screenshots from the victim.
+XAgentOSX contains the takeScreenShot (along with startTakeScreenShot and stopTakeScreenShot) functions to take screenshots using the CGGetActiveDisplayList, CGDisplayCreateImage, and NSImage:initWithCGImage methods.
+Derusbi is capable of performing screen captures.
+can capture the victim's screen.
+SHUTTERSPEED can capture screenshots.
+T9000 can take screenshots of the desktop and target application windows, saving them to user directories as one byte XOR encrypted .dat files.
+POWERSTATS can retrieve screenshots from compromised hosts.
+POWRUNER can capture a screenshot from a victim.
+RTM can capture screenshots.
+Janicab captured screenshots and sent them out to a C2 server .

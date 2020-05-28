@@ -1,0 +1,1 @@
+obtains sends information to C2 server version layout 

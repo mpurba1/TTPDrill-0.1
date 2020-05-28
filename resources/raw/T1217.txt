@@ -1,0 +1,2 @@
+--Example not given--
+MobileOrder has a command to upload to its C2 server victim browser bookmarks.

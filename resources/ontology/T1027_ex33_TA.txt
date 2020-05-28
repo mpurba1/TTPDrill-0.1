@@ -1,0 +1,1 @@
+encoded Storm payloads XOR skipping zeroing the key 

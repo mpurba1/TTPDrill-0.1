@@ -1,0 +1,16 @@
+WINDSHIELD C2 traffic can communicate via TCP raw sockets.
+PlugX can be configured to use raw TCP or UDP for command and control.
+Remsec is capable of using ICMP, TCP, and UDP for C2.
+MoonWind completes network communication via raw sockets.
+Misdat network traffic communicates over a raw socket.
+Some Reaver variants use raw TCP for C2.
+--Example not given--
+If NETEAGLE does not detect a proxy configured on the infected machine, it will send beacons via UDP/6000. Also, after retrieving a C2 IP address and Port Number, NETEAGLE will initiate a TCP connection to this socket. The ensuing connection is a plaintext C2 channel in which commands are specified by DWORDs.
+BUBBLEWRAP can communicate using SOCKS.
+Derusbi binds to a raw socket on a random source port between 31800 and 31900 for C2.
+PLATINUM has used the Intel® Active Management Technology (AMT) Serial-over-LAN (SOL) channel for command and control.
+Mis-Type network traffic can communicate over a raw socket.
+Crimson uses a custom TCP protocol for C2.
+An APT3 downloader establishes SOCKS5 connections for its initial C2.
+The Regin malware platform can use ICMP to communicate between infected computers.
+PHOREAL communicates via ICMP for C2.

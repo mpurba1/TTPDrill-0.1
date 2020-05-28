@@ -1,0 +1,1 @@
+use Pupy an add feature creating payloads allows you custom Python scripts create perform scriptlets tasks offline requiring a session adding persistence etc. 

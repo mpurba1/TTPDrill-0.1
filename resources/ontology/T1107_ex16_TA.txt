@@ -1,0 +1,1 @@
+uses shell <code> del </code> delete a text file of passwords reading it 

@@ -1,0 +1,1 @@
+used OilRig custom DNS Tunneling protocols C2 

@@ -1,0 +1,1 @@
+use WMI launch to malware spawn execution.FIN8 used WMIC 

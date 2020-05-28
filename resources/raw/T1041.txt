@@ -1,0 +1,14 @@
+NETEAGLE is capable of reading files over the C2 channel.
+Pupy can send screenshots files, keylogger data, files, and recorded audio back to the C2 server.
+Ke3chang transferred compressed and encrypted RAR files containing exfiltration through the established backdoor command and control channel during operations.
+MobileOrder exfiltrates data to its C2 server over the same protocol as C2 communications.
+Lazarus Group malware IndiaIndia saves information gathered about the victim to a file that is uploaded to one of its 10 C2 servers.Lazarus Group malware sample also performs exfiltration over the C2 channel.
+APT3 has a tool that exfiltrates data over the C2 channel.
+Adversaries can direct BACKSPACE to upload files to the C2 Server.
+Psylo exfiltrates data to its C2 server over the same protocol as C2 communications.
+Pteranodon exfiltrates screenshot files to its C2 server.
+--Example not given--
+A Gamaredon Group file stealer transfers collected files to a hardcoded C2 server.
+ADVSTORESHELL exfiltrates data over the same channel used for C2.
+CallMe exfiltrates data to its C2 server over the same protocol as C2 communications.
+After data is collected by Stealth Falcon malware, it is exfiltrated over the existing C2 channel.

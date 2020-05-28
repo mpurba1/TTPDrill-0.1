@@ -1,0 +1,1 @@
+has command do session discover to information 

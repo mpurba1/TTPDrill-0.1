@@ -1,0 +1,1 @@
+uses dropper Windows Management Instrumentation extract active information system 

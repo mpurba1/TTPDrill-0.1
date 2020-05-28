@@ -1,0 +1,1 @@
+collects USBStealer files certain criteria directory matching victim and stores them exfiltration 

@@ -1,0 +1,1 @@
+exfiltrates USBStealer collected files removable media connected device second victim receiving commands first 

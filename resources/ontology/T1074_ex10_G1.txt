@@ -1,0 +1,1 @@
+creates store output sending the information 

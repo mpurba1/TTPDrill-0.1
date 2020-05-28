@@ -1,0 +1,25 @@
+stages collected data in a text file.
+Threat Group-3390 has staged encrypted archives for exfiltration on Internet-facing servers that had previously been compromised with China Chopper.
+FIN5 scripts save memory dump data into a specific directory on hosts in the victim environment.
+--Example not given--
+ADVSTORESHELL stores output from command execution in a .dat file in the %TEMP% directory.
+Lazarus Group malware IndiaIndia saves information gathered about the victim to a file that is saved in the %TEMP% directory, then compressed, encrypted, and uploaded to a C2 server.
+Modules can be pushed to and executed by Duqu that copy data to a staging area, compress it, and XOR encrypt it.
+Trojan.Karagany can create a directory (<code>C:\ProgramData\Mail\MailAg\gl</code>) to use as a temporary directory for uploading files.
+APT3 has been known to stage files for exfiltration in a single location. 
+MoonWind saves information from its keylogging routine as a .zip file in the present working directory.
+Helminth creates folders to store output from batch scripts prior to sending the information to its C2 server.
+Rover copies files from removable drives to <code>C:\system</code>.
+SPACESHIP identifies files with certain extensions and copies them to a directory in the user's profile.
+Data captured by RawPOS is placed in a temporary file under a directory named "memdump".
+Leviathan has used C:\Windows\Debug and C:\Perflogs as staging directories.
+FIN8 aggregates staged data from a network into a single location.
+menuPass stages data prior to exfiltration in multi-part archives, often saved in the Recycle Bin.
+Pteranodon creates various subdirectories under <code>%Temp%\reports\%</code> and copies files to those subdirectories. It also creates a folder at <code>C:\Users\<Username>\AppData\Roaming\Microsoft\store</code> to store screenshot JPEG files.
+BADNEWS copies documents under 15MB found on the victim system to is the user's <code>%temp%\SMB\</code> folder.
+Prikormka creates a directory, <code>%USERPROFILE%\AppData\Local\SKC\</code>, which is used to store collected log files.
+FLASHFLOOD stages data it copies from the local system or removable drives in the "%WINDIR%\$NtUninstallKB885884$\" directory.
+TRINITY malware used by FIN6 identifies payment card track data on the victim and then copies it to a local file in a subdirectory of <code>C:\Windows\</code>. Once the malware collects the data, FIN6 actors compressed data and moved it to another staging system before exfiltration.
+APT28 has stored captured credential information in a file named pi.log.
+PUNCHTRACK aggregates collected data in a tmp file.
+USBStealer collects files matching certain criteria from the victim and stores them in a local directory for later exfiltration.

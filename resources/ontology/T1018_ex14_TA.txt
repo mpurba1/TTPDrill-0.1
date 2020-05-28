@@ -1,0 +1,1 @@
+scans Shamoon the subnet of IPs interfaces 

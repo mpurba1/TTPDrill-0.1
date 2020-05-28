@@ -1,0 +1,28 @@
+BRONZE BUTLER has exfiltrated files stolen from local systems.
+When it first starts, BADNEWS crawls the victim's local drives and collects documents with the following extensions: .doc, .docx, .pdf, .ppt, .pptx, and .txt.
+PUNCHTRACK scrapes memory for properly formatted payment card data.
+FLASHFLOOD searches for interesting files (either a default or customized set of file extensions) on the local system. FLASHFLOOD will scan the My Recent Documents, Desktop, Temporary Internet Files, and TEMP directories. FLASHFLOOD also collects information stored in the Windows Address Book.
+--Example not given--
+PowerSploit contains a collection of Exfiltration modules that can access data from local files, volumes, and processes.
+APT1 has collected files from a local victim.
+creates a backdoor through which remote attackers can steal system information.
+Lazarus Group malware IndiaIndia saves information gathered about the victim to a file that is uploaded to one of its 10 C2 servers.Lazarus Group malware RomeoDelta copies specified directories from the victim's machine, then archives and encrypts the directories before uploading to its C2 server.
+Hydraq creates a backdoor through which remote attackers can read data from files.
+MobileOrder exfiltrates data collected from the victim mobile device.
+APT37 has collected data from victims' local systems.
+Dust Storm has used Android backdoors capable of exfiltrating specific files directly from the infected devices.
+APT28 has used Forfiles to stage documents before .
+Rover searches for files on local drives based on a predefined list of file extensions.
+Ke3chang gathered information and files from local directories for exfiltration.
+Patchwork collected and exfiltrated files from the infected system.
+APT3 will identify Microsoft Office documents on the victim's computer. 
+RawPOS dumps memory from specific processes on a victim system, parses the dumped files, and scrapes them for credit card data.
+Forfiles can be used to act on (ex: copy, move, etc.) files/directories in a system during  (ex: copy files into a staging area before ).
+POWERSTATS can upload files from compromised hosts.
+Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.
+Stealth Falcon malware gathers data from the local victim system.
+creates a backdoor through which remote attackers can obtain data from local systems.
+PinchDuke collects user files from the compromised host based on predefined file extensions.
+CosmicDuke steals user files from local hard drives with file extensions that match a predefined list.
+Pasam creates a backdoor through which remote attackers can retrieve files.
+Cobalt Strike can collect data from a local system.

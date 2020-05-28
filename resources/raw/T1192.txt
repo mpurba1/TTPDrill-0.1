@@ -1,0 +1,8 @@
+--Example not given--
+Elderwood has delivered zero-day exploits and malware to victims via targeted emails containing a link to malicious content hosted on an uncommon Web server.
+FIN8 has distributed targeted emails containing links to malicious documents with embedded macros.
+Leviathan has sent spearphishing emails with links, often using a fraudulent lookalike domain and stolen branding.
+APT33 sent spear phishing emails containing links to .hta files.
+Magic Hound sent shortened URL links over email to victims. The URLs linked to Word documents with malicious macros that execute PowerShells scripts to download Pupy.
+APT29 has used spearphishing with a link to trick victims into clicking on a link to a zip file containing malicious files. 
+Patchwork has used spearphishing with links to deliver files with exploits to initial victims.

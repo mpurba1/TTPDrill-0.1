@@ -1,0 +1,1 @@
+capable BADNEWS executing commands cmd.exe 

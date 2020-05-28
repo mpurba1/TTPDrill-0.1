@@ -1,0 +1,1 @@
+obfuscates some using fragments starting a uses encode configuration data 

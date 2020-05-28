@@ -1,0 +1,1 @@
+captures hashes credentials sent the poisoned after 

@@ -1,0 +1,1 @@
+obfuscates StreamEx some commands fragments using programmed of strings starting a DLL uses It xor encode configuration data 

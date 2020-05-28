@@ -1,0 +1,1 @@
+created a used regsvr32.exe Scheduled execute COM scriptlet downloaded backdoor injected it 

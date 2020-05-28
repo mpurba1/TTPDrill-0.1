@@ -1,0 +1,1 @@
+encrypts SNUGRIDE C2 traffic AES using key 

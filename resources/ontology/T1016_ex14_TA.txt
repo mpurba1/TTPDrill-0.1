@@ -1,0 +1,1 @@
+sends C2 server information available WINS 

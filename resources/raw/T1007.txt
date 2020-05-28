@@ -1,0 +1,19 @@
+Sykipot may use <code>net start</code> to display running services.
+The <code>net start</code> command can be used in Net to find information about Windows services.
+Elise executes <code>net start</code> after initial communication is made to the remote server.
+--Example not given--
+Tasklist can be used to discover services running on a system.
+OilRig has used <code>sc query</code> on a victim to gather information about services.
+Turla surveys a system upon check-in to discover running services and associated processes using the <code>tasklist /svc</code> command.
+BBSRAT can query service configuration information.
+Volgmer queries the system to identify existing services.
+After compromising a victim, Poseidon Group discovers all running services.
+Ke3chang performs service discovery using <code>net start</code> commands.
+Hydraq creates a backdoor through which remote attackers can monitor services.
+S-Type runs the command <code>net start</code> on a victim.
+GeminiDuke collects information on programs and services on the victim that are configured to automatically run at startup.
+ZLib has the ability to discover and manipulate Windows services.
+Emissary has the capability to execute the command <code>net start</code> to interact with services.
+can enumerate services.
+JPIN can list running services.
+admin@338 actors used the following command following exploitation of a machine with LOWBALL malware to obtain information about services: <code>net start >> %temp%\download</code>

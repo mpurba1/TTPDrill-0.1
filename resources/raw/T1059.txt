@@ -1,0 +1,82 @@
+SeaDuke is capable of executing commands.
+Daserf can execute shell commands.
+A module in CozyCar allows arbitrary commands to be executed by invoking <code>C:\Windows\System32\cmd.exe</code>.
+Orz can execute shell commands.
+creates a backdoor through which remote attackers can open a command-line interface.
+Pisloader uses cmd.exe to set the Registry Run key value. It also has a command to spawn a command shell.
+Several tools used by Suckfly have been command-line driven.
+Pteranodon can execute commands on the victim.
+Magic Hound has used the command-line interface.
+China Chopper is capable of opening a command terminal.
+RTM uses the command line and rundll32.exe to execute.
+JPIN can use the command-line utility cacls.exe to change file permissions.
+Threat Group-3390 has used command-line interfaces for execution.
+Threat Group-1314 actors spawned shells on remote systems on a victim network to execute commands.
+Emissary has the capability to create a remote shell and execute specified commands.
+OilRig has used a command-line interface for execution.
+Umbreon provides access using both standard facilities like SSH and additional access using its backdoor Espeon, providing a reverse shell upon receipt of a special packet 
+CHOPSTICK is capable of performing remote command execution.
+Kasidet can execute commands using cmd.exe.
+XTunnel has been used to execute remote commands.
+Derusbi is capable of creating a remote Bash shell and executing commands.
+HTTPBrowser is capable of spawning a reverse shell on a victim.
+BRONZE BUTLER uses the command-line interface.
+hcdLoader provides command-line access to the compromised system.
+Matroyshka is capable of providing Meterpreter shell access.
+Adversaries can direct BACKSPACE to execute from the command-line on infected hosts, or have BACKSPACE create a reverse shell.
+Mis-Type uses cmd.exe to run commands for enumerating the host.
+BLACKCOFFEE has the capability to create a reverse shell.
+An APT3 downloader uses the Windows command <code>"cmd.exe" /C whoami</code>. The group also uses a tool to execute commands on remote computers.
+4H RAT has the capability to create a remote shell.
+Chaos Chaos provides a reverse shell connection on 8338/TCP, encrypted via AES.  
+H1N1 kills and disables services by using cmd.exe.
+MURKYTOP uses the command-line interface.
+creates a backdoor through which remote attackers can open a command line interface.
+gh0st RAT is able to open a command shell.
+Dipsind can spawn remote shells.
+ADVSTORESHELL can create a remote shell and run a given command.
+SEASHARPEE can execute commands on victims.
+TURNEDUP is capable of creating a reverse shell.
+creates a backdoor through which remote attackers can start a remote shell.
+PlugX allows actors to spawn a reverse shell on a victim.
+APT34 has used the command-line interface for execution.
+can create a reverse shell that utilizes statically-linked Wine cmd.exe code to emulate Windows command prompt commands.
+NETEAGLE allows adversaries to execute shell commands on the infected host.
+RedLeaves can receive and execute commands with cmd.exe. It can also provide a reverse shell.
+ZLib has the ability to execute shell commands.
+Volgmer can execute commands.
+Sowbug has used command line during its intrusions.
+BADNEWS is capable of executing commands via cmd.exe.
+Sakula calls cmd.exe to run various DLL files via rundll32 and also to perform file cleanup. Sakula also has the capability to invoke a reverse shell.
+Malware used by Ke3chang can run commands on the command-line interface.
+Cobalt Strike uses a command-line interface to interact with systems.
+POWRUNER can execute commands from its C2 server.
+Hi-Zor has the ability to create a reverse shell.
+FIN8 executes commands remotely via cmd.exe.
+Helminth can provide a remote shell.
+httpclient opens cmd.exe on the victim.
+--Example not given--
+Leviathan uses a backdoor known as BADFLICK that is is capable of generating a reverse shell.
+Misdat is capable of providing shell functionality to the attacker to execute commands.
+MoonWind can execute commands via an interactive command shell.
+TEXTMATE executes cmd.exe to provide  a reverse shell to adversaries.
+CallMe has the capability to create a reverse shell on victims.
+Patchwork ran a reverse shell with Meterpreter.
+APT37 has used the command-line interface.
+TDTESS provides a reverse shell on the victim.
+can run a copy of cmd.exe.
+APT1 has used the Windows command shell to execute commands.
+Lazarus Group malware uses cmd.exe to execute commands on victims.
+menuPass executes commands using a command-line interface and reverse shell. The group has used a modified version of pentesting script wmiexec.vbs to execute commands.
+SNUGRIDE is capable of executing commands and spawning a reverse shell.
+PowerDuke runs <code>cmd.exe /c</code> and sends the output to its C2.
+PHOREAL is capable of creating reverse shell.
+DownPaper uses the command line.
+KOMPROGO is capable of creating a reverse shell.
+Mivast has the capability to open a remote shell and run basic commands.
+StreamEx has the ability to remotely execute commands.
+cmd is used to execute programs and other actions at the command-line interface.
+Following exploitation with LOWBALL malware, admin@338 actors created a file containing a list of commands to be executed on the compromised computer.
+HOMEFRY uses a command-line interface.
+TinyZBot supports execution from the command-line.
+Felismus uses command line for execution.

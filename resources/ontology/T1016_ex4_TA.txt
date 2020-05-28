@@ -1,0 +1,1 @@
+has PowerDuke a command get domain NetBIOS name 

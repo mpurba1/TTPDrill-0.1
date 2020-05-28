@@ -1,0 +1,1 @@
+copies an executable payload target system using Windows Admin Shares task scheduling unnamed execute malware 

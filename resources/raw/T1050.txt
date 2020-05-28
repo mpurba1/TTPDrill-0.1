@@ -1,0 +1,33 @@
+Winnti sets its DLL file as a new service in the Registry to establish persistence.
+Briba installs a service pointing to a malicious DLL dropped to disk.
+MoonWind installs itself as a new service with automatic startup to establish persistence. The service checks every 60 seconds to determine if the malware is running; if not, it will spawn a new instance.
+CosmicDuke uses Windows services typically named "javamtsup" for persistence.
+ZeroT can add a new service to ensure PlugX persists on the system when delivered as another payload onto the system.
+Elise configures itself as a service.
+ZLib creates Registry keys to allow itself to run as various services.
+Duqu creates a new service that loads a malicious driver when the system starts. When Duqu is active, the operating system believes that the driver is legitimate, as it has been signed with a valid private key.
+Shamoon creates a new service named “ntssrv” to execute the payload.
+StreamEx establishes persistence by installing a new service pointing to its DLL and setting the service to auto-start.
+creates a Registry subkey that registers a new service.
+creates a backdoor through which remote attackers can create a service.
+creates a Registry subkey that registers a new service.
+Hydraq creates new services to establish .
+hcdLoader installs itself as a service for persistence.
+TinyZBot can install as a Windows service for persistence.
+Wingbird uses services.exe to register a new autostart service named "Audit Service" using a copy of the local lsass.exe file.
+Carbanak malware installs itself as a service to provide persistence and SYSTEM privileges.
+JHUHUGIT has registered itself as a service to establish persistence.
+Naid creates a new service to establish .
+--Example not given--
+APT3 has a tool that creates a new service for persistence. 
+One variant of BlackEnergy creates a new service using either a hard-coded or randomly generated name.
+One persistence mechanism used by CozyCar is to register itself as a Windows service.
+PlugX can be added as a service to establish persistence.
+RawPOS installs itself as a service to maintain persistence.
+Cobalt Strike can install a new service.
+Some Sakula samples install themselves as services for persistence by calling WinExec with the <code>net start</code> argument.
+If running as administrator, TDTESS installs itself as a new service named bmwappushservice to establish persistence.
+Several Lazarus Group malware families install themselves as new services on victims.
+Emissary is capable of configuring itself as a service.
+Reaver installs itself as a new service.
+Nidiran can create a new service named msamger (Microsoft Security Accounts Manager).

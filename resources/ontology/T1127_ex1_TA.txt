@@ -1,0 +1,1 @@
+shellcode a using msbuild.exe bypass application whitelisting techniques 

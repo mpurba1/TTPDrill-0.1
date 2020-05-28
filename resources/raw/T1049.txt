@@ -1,0 +1,21 @@
+menuPass has used <code>net use</code> to conduct connectivity checks to machines.
+Poseidon Group obtains and saves information about victim network interfaces and addresses.
+Remsec can obtain a list of active connections and open ports.
+netstat can be used to enumerate local network connections, including active TCP connections and other network statistics.
+Turla surveys a system upon check-in to discover active local network connections using the <code>netstat -an</code>, <code>net use</code>, <code>net file</code>, and <code>net session</code> commands.
+Commands such as <code>net use</code> and <code>net session</code> can be used in Net to gather information about network connections from a particular host.
+APT3 has a tool that can enumerate current network connections. 
+BlackEnergy has gathered information about local network connections using netstat.
+OSInfo enumerates the current network connections similar to <code> net use </code> .
+Sykipot may use <code>netstat -ano</code> to display active network connections.
+OilRig has used <code>netstat -an</code> on a victim to get a listing of network connections.
+The discovery modules used with Duqu can collect information on network connections.
+nbtstat can be used to discover current NetBIOS sessions.
+admin@338 actors used the following command following exploitation of a machine with LOWBALL malware to display network connections: <code>netstat -ano >> %temp%\download</code>
+SHOTPUT uses netstat to list TCP connection status.
+--Example not given--
+POWRUNER may collect active network connections by running <code>netstat -an</code> on a victim.
+Ke3chang performs local network connection discovery using <code>netstat -ano</code> commands.
+Pupy has a built-in utility command for netstat, can do net session through PowerView, and has an interactive shell which can be used to discover additional information.
+RedLeaves can enumerate drives and Remote Desktop sessions.
+Threat Group-3390 has used <code>net use</code> to conduct internal discovery of systems. The group has also used quser.exe to identify existing RDP sessions on a victim.

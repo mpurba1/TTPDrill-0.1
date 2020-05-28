@@ -1,0 +1,1 @@
+sniff Pupy plaintext network credentials use Spoofing NBNS poison name services 

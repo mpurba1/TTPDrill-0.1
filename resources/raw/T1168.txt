@@ -1,0 +1,2 @@
+Janicab used a cron job for persistence on Mac devices .
+--Example not given--

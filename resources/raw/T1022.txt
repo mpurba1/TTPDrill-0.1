@@ -1,0 +1,19 @@
+Modules can be pushed to and executed by Duqu that copy data to a staging area, compress it, and XOR encrypt it.
+TRINITY malware used by FIN6 encodes data gathered from the victim with a simple substitution cipher and single-byte XOR using the OxAA key.
+Data SPACESHIP copies to the staging area is compressed with zlib. Bytes are rotated by four positions and XOR'ed with 0x23.
+CopyKittens encrypts data with a substitute cipher prior to exfiltration.
+ADVSTORESHELL encrypts with the 3DES algorithm and a hardcoded key prior to exfiltration.
+RawPOS encodes credit card data it collected from the victim with XOR.
+Lazarus Group malware IndiaIndia saves information gathered about the victim to a file that is compressed with Zlib, encrypted, and uploaded to a C2 server.Lazarus Group malware RomeoDelta archives specified directories in .zip format, encrypts the .zip file, and uploads it to its C2 server.Lazarus Group malware sample encrypts data using a simple byte based XOR operation prior to exfiltration.
+After collecting files and logs from the victim, Prikormka encrypts some collected data with Blowfish.
+has created password-protected RAR, WinImage, and zip archives to be exfiltrated.
+Reaver encrypts collected data with an incremental XOR key prior to exfiltration.
+Backdoor.Oldrea writes collected data to a temporary file in an encrypted form before exfiltration to a C2 server.
+OwaAuth DES-encrypts captured credentials using the key 12345678 before writing the credentials to a log file.
+T9000 encrypts collected data using a single byte XOR key.
+--Example not given--
+Ke3chang is known to use RAR with passwords to encrypt data prior to exfiltration.
+Threat Group-3390 has used RAR to compress, encrypt, and password-protect files prior to exfiltration.
+BRONZE BUTLER has compressed and encrypted data into password-protected RAR archives prior to exfiltration.
+Agent.btz saves system information into an XML file that is then XOR-encoded.
+FLASHFLOOD employs the same encoding scheme as SPACESHIP for data it stages. Data is compressed with zlib, and bytes are rotated four times before being XOR'ed with 0x23.

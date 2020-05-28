@@ -1,0 +1,1 @@
+gather families a list running processes victim system it send C2 server 

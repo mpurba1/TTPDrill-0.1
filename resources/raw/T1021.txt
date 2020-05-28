@@ -1,0 +1,6 @@
+--Example not given--
+Cobalt Strike can SSH to a remote service.
+GCMAN uses Putty and VNC for lateral movement.
+OilRig has used Putty to access compromised systems.
+RemoteCMD can execute commands remotely by creating a new service on the remote system .
+menuPass has used Putty Secure Copy Client (PSCP) to transfer data.

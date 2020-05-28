@@ -1,0 +1,1 @@
+adds HKCU establish to persistence 

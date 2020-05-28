@@ -1,0 +1,1 @@
+allows PlugX actors reverse shell spawn a victim 

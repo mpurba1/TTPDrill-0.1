@@ -1,0 +1,1 @@
+obfuscates RAT C2 communication XOR using a 0xBE 

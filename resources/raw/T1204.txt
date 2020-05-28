@@ -1,0 +1,11 @@
+Elderwood has leveraged multiple types of spearphishing in order to attempt to get a user to open links and attachments.
+--Example not given--
+PLATINUM has attempted to get users to open malicious files by sending spearphishing emails with attachments to victims.
+menuPass has attempted to get victims to open malicious files sent via email as part of spearphishing campaigns.
+FIN8 has leveraged both Spearphishing Link and Spearphishing Attachment attempting to gain User Execution.
+APT37 has sent spearphishing attachments attempting to get a user to open them.
+TA459 has attempted to get victims to open malicious Microsoft Word attachment sent via spearphishing.
+Magic Hound has attempted to get users to execute malware via social media and spearphishing emails.
+APT28 attempted to get users to click on Microsoft Excel attachments containing malicious macro scripts.
+Leviathan has sent spearphishing emails links and attachments attempting to get a user to click.
+APT29 has used various forms spearphishing attempting to get a user to open links or attachments. 

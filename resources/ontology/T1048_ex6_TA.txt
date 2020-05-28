@@ -1,0 +1,1 @@
+exfiltrated OilRig data FTP primary C2 channel DNS 

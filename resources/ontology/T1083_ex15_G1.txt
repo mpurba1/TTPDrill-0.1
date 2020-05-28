@@ -1,0 +1,1 @@
+has get the current directory name size a obtain information drives type space 

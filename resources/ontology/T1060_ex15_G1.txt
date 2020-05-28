@@ -1,0 +1,1 @@
+is persistence set itself executed adding a Registry value 

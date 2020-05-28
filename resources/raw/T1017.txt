@@ -1,0 +1,2 @@
+APT32 compromised McAfee ePO to move laterally by distributing malware as a software deployment task.
+--Example not given--

@@ -1,0 +1,1 @@
+installs RawPOS itself maintain persistence 

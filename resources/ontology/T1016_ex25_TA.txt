@@ -1,0 +1,1 @@
+uses Naikon commands <code> netsh discover network settings 

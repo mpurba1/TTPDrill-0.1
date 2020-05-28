@@ -1,0 +1,1 @@
+performs Mimikatz credential dumping account password information useful obtain gaining access additional systems enterprise network resources contains It functionality acquire credentials including from the LSA table vault DCSync/NetSync DPAPI 

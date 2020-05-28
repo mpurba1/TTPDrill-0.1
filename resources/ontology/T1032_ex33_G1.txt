@@ -1,0 +1,1 @@
+encrypts using an RC4 key 

@@ -1,0 +1,1 @@
+attempt NETEAGLE configured host proxy send beacons request use HTTP download resources contain an IP address Port Number pair connect C2 Adversaries establish RDP connection controller TCP/7519 

@@ -1,0 +1,1 @@
+use Mshta.exe compromised hosts execute to payloads 

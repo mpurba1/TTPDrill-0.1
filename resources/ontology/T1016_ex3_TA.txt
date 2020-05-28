@@ -1,0 +1,1 @@
+collect POWRUNER network configuration data <code> ipconfig running </code> a victim 

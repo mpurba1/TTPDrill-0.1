@@ -1,0 +1,10 @@
+T9000 searches removable storage devices for files with a pre-defined list of file extensions (e.g. *.doc, *.ppt, *.xls, *.docx, *.pptx, *.xlsx). Any matching files are encrypted and written to a local user directory.
+Rover automatically collects files from the local system and removable drives based on a predefined list of file extensions on a regular timeframe.
+FIN5 scans processes on all victim systems in the environment and uses automated scripts to pull back the results.
+For all non-removable drives on a victim, USBStealer executes automated collection of certain files for later exfiltration.
+OilRig has used automated collection.
+RTM monitors browsing activity and automatically captures screenshots if a victim browses to a URL matching one of a list of strings.
+FIN6 has used a script to iterate through a list of compromised PoS systems, copy data to a log file, and remove the original data files.
+Threat Group-3390 ran a command to compile an archive of file types of interest from the victim user's directories.
+A Helminth VBScript receives a batch script to execute a set of commands in a command prompt.
+--Example not given--

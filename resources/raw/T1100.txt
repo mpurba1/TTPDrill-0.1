@@ -1,0 +1,10 @@
+OwaAuth is a Web shell that appears to be exclusively used by Threat Group-3390.China Chopper Web shell.
+APT34 has frequently used Web shells, often to maintain access to a victim network.
+OilRig has installed Web shells onto victim Web servers.
+Dragonfly used Web shells to maintain access to a victim network and download additional malicious files.
+--Example not given--
+Deep Panda uses Web shells on publicly accessible Web servers to access victim networks.
+ASPXSpy is a Web shell.Threat Group-3390 has been deployed to accessible servers running Internet Information Services (IIS).
+SEASHARPEE is a Web shell.
+The China Chopper backdoor is a Web shell that supports server payloads for many different kinds of server-side scripting languages and contains functionality to access files, connect to a database, and open a virtual command prompt.
+APT32 has used Web shells to maintain access to victim websites.

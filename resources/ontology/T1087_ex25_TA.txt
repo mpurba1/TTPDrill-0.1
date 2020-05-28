@@ -1,0 +1,1 @@
+runs the command <code> net user </code> a victim tests determine privilege level of compromised 

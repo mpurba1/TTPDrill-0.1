@@ -1,0 +1,1 @@
+has the discover manipulate Windows services 

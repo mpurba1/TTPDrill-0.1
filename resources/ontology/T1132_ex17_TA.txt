@@ -1,0 +1,1 @@
+uses BS2005 Base64 encoding communication 

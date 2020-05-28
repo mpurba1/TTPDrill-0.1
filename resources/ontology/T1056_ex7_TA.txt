@@ -1,0 +1,1 @@
+contains XAgentOSX handle buffer keylogging functionality monitor application windows them write log it special characters sending infrastructure 

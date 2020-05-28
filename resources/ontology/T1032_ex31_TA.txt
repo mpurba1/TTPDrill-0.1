@@ -1,0 +1,1 @@
+encrypted SeaDuke C2 traffic RC4 AES 

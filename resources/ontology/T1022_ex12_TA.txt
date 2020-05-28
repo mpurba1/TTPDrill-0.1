@@ -1,0 +1,1 @@
+captured credentials key 12345678 using the writing log file 

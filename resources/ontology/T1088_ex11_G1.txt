@@ -1,0 +1,1 @@
+attempts disable UAC remote restrictions modifying the Registry 

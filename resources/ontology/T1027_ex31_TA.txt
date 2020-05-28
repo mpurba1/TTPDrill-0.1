@@ -1,0 +1,1 @@
+used malware commands files strings encrypted embedded AES 

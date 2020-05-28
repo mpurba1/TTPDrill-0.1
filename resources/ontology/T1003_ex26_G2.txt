@@ -1,0 +1,1 @@
+executes Mimikatz using PowerShell perform Lazagne harvesting for credentials 

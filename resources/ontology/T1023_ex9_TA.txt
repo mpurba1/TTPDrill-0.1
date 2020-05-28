@@ -1,0 +1,1 @@
+create TinyZBot a shortcut persistence 

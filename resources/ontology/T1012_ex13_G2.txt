@@ -1,0 +1,1 @@
+determine to version querying by Registry 

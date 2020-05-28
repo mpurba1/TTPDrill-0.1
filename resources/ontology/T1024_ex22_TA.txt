@@ -1,0 +1,1 @@
+encrypt families C2 traffic custom code using uses XOR operation 

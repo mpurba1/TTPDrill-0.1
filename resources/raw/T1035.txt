@@ -1,0 +1,12 @@
+Pupy uses PsExec  to execute a payload or commands on a remote host.
+Hydraq uses svchost.exe to execute a malicious DLL included in a new service group.
+xCmd can be used to execute binaries on remote systems by creating and starting a service.
+installs a service on the remote system, executes the command, then uninstalls the service.
+BBSRAT can start, stop, or delete services.
+The <code>net start</code> and <code>net stop</code> commands can be used in Net to execute or stop Windows services.
+Shamoon creates a new service named “ntssrv” to execute the payload.
+--Example not given--
+Wingbird uses services.exe to register a new autostart service named "Audit Service" using a copy of the local lsass.exe file.
+Net Crawler uses PsExec to perform remote service manipulation to execute a copy of itself as part of lateral movement.
+Microsoft Sysinternals PsExec is a popular administration tool that can be used to execute binaries on remote systems using a temporary Windows service.
+Cobalt Strike can use PsExec to execute a payload on a remote host. It can also use Service Control Manager to start new services.

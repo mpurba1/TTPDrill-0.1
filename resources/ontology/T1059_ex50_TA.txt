@@ -1,0 +1,1 @@
+calls Sakula cmd.exe run perform various DLL files rundll32 file cleanup has the capability invoke a reverse shell 

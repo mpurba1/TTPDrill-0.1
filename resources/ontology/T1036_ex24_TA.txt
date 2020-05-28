@@ -1,0 +1,1 @@
+masqueraded dropper a copy of rundll32.exe executable moved that malware to install renamed directory 

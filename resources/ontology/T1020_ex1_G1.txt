@@ -1,0 +1,1 @@
+searches files sends them to command control server screenshots 

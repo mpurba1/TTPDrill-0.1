@@ -1,0 +1,1 @@
+obtains sends to C2 server information address gateways mask available 

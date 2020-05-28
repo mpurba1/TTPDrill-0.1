@@ -1,0 +1,1 @@
+decrypt resources using by RC4 

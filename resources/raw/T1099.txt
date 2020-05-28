@@ -1,0 +1,17 @@
+APT28 has performed timestomping on victim files.
+For early Gazer versions, the compilation timestamp was faked.
+FALLCHILL can modify file or directory timestamps.
+OwaAuth has a command to timestop a file or directory.
+--Example not given--
+USBStealer sets the timestamps of its dropper files to the last-access and last-write timestamps of a standard Windows library chosen on the system.
+The Derusbi malware supports timestomping.
+SEASHARPEE can timestomp files on victims using a Web shell.
+Elise performs timestomping of a CAB file it creates.
+APT32 has used scheduled task raw XML with a backdated timestamp of June 2, 2016.
+After creating a new service for persistence, TDTESS sets the file creation time for the service to the creation time of the victim's legitimate svchost.exe file.
+Several Lazarus Group malware families use timestomping, including modifying the last write timestamp of a specified Registry key to a random date, as well as copying the timestamp for legitimate .exe files (such as calc.exe or mspaint.exe) to its dropped files.
+3PARA RAT has a command to set certain attributes such as creation/modification timestamps on files.
+POSHSPY modifies timestamps of all downloaded executables to match a randomly selected file created prior to 2013.
+Psylo has a command to conduct timestomping by setting a specified file’s timestamps to match those of a system file in the System32 directory.
+Cobalt Strike will timestomp any files or payloads placed on a target machine to help them blend in.
+Many Misdat samples were programmed using Borland Delphi, which will mangle the default PE compile timestamp of a file.

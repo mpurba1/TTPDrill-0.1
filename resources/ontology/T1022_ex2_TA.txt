@@ -1,0 +1,1 @@
+encodes malware data simple cipher XOR OxAA key gathered victim using 

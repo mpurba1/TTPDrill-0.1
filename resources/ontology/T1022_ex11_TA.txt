@@ -1,0 +1,1 @@
+writes Backdoor.Oldrea collected data temporary file exfiltration C2 server 

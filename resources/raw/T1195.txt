@@ -1,0 +1,4 @@
+Smoke Loader was distributed through a compromised update to a Tor client with a coin miner payload.
+CCBkdr was added to a legitimate, signed version 5.33 of the CCleaner software and distributed on CCleaner's distribution site.
+--Example not given--
+Elderwood has targeted manufacturers in the supply chain for the defense industry.

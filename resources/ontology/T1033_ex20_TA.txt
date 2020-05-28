@@ -1,0 +1,1 @@
+gathers malware the registered user primary owner name WMI 

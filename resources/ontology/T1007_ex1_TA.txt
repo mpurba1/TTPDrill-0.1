@@ -1,0 +1,1 @@
+use Sykipot <code> net start </code> display services running 

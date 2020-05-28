@@ -1,0 +1,1 @@
+executes Pupy Mimikatz PowerShell use Lazagne using perform harvesting credentials 

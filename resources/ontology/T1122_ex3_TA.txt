@@ -1,0 +1,1 @@
+seen ComRAT samples hijack which COM objects persistence path replacing the shell32.dll 

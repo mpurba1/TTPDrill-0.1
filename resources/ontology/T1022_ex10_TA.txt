@@ -1,0 +1,1 @@
+encrypts Reaver collected data key prior exfiltration 

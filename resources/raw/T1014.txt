@@ -1,0 +1,8 @@
+Winnti Group used a rootkit to modify typical server functionality.
+--Example not given--
+starts a rootkit from a malicious file dropped to disk.
+HIDEDRV is a rootkit that hides certain operating system artifacts.
+Umbreon Umbreon hides from defenders by hooking libc function calls, hiding artifacts that would reveal its presence, such as the user account it creates to provide access and undermining strace, a tool often used to identify malware.  
+Hacking Team UEFI Rootkit is a UEFI BIOS rootkit developed by the company Hacking Team to persist remote access software on some targeted systems.
+Zeroaccess is a kernel-mode rootkit.
+Uroburos is a rootkit used by Turla.

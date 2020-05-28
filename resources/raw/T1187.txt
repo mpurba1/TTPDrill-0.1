@@ -1,0 +1,2 @@
+--Example not given--
+Dragonfly has performed forced authentication to gather hashed user credentials over SMB using spearphishing attachments with external resource links and by modifying .LNK file icon resources to collect credentials from virtualized systems.

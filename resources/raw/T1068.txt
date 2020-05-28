@@ -1,0 +1,12 @@
+Threat Group-3390 has used CVE-2014-6324 to escalate privileges.
+Remsec has a plugin to drop and execute vulnerable Outpost Sandbox or avast! Virtualization drivers in order to gain kernel mode privileges.
+PLATINUM has leveraged a zero-day vulnerability to escalate privileges.
+FIN8 has exploited the CVE-2016-0167 local  vulnerability.
+CosmicDuke attempts to exploit privilege escalation vulnerabilities CVE-2010-0232 or CVE-2010-4398.
+FIN6 has used tools to exploit Windows vulnerabilities in order to escalate privileges. The tools targeted CVE-2013-3660, CVE-2011-2005, and CVE-2010-4398, all of which could allow local users to access kernel-level privileges.
+JHUHUGIT has exploited CVE-2015-1701 and CVE-2015-2387 to escalate privileges.
+Cobalt Strike can exploit vulnerabilities such as MS14-058.
+APT28 has used CVE-2014-4076, CVE-2015-2387, and CVE-2015-1701 to escalate privileges.
+--Example not given--
+Wingbird exploits CVE-2016-4117 to allow an executable to gain escalated privileges.
+APT32 has used CVE-2016-7255 to escalate privileges.

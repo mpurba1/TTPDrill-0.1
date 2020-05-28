@@ -1,0 +1,1 @@
+used BRONZE register a scheduled task at schtasks execute malware 

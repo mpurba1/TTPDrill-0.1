@@ -1,0 +1,5 @@
+FIN7 spear phishing campaigns have included malicious Word documents with DDE execution.
+APT28 has delivered JHUHUGIT by executing PowerShell commands through DDE in Word documents. 
+APT37 has used Windows DDE for execution of commands and a malicious VBS.
+--Example not given--
+POWERSTATS can use DDE to execute additional payloads on compromised hosts.

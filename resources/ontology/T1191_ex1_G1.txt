@@ -1,0 +1,1 @@
+used a execute its POWERSTATS payload CMSTP.exe INF 

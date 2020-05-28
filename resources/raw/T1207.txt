@@ -1,0 +1,2 @@
+Mimikatz’s <code>LSADUMP::DCShadow</code> module can be used to make AD updates by temporarily setting a computer to be a DC.
+--Example not given--

@@ -1,0 +1,1 @@
+has command current foreground window get to text 

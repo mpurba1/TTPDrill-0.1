@@ -1,0 +1,1 @@
+includes Cobalt a modify the beacon payload eliminate known signatures unpacking methods 

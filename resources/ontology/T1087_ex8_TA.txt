@@ -1,0 +1,1 @@
+has SHOTPUT a command retrieve information connected users 

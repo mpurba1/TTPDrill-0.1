@@ -1,0 +1,1 @@
+created backdoor a Tor hidden service traffic client local ports 139 445 enabling full remote access 

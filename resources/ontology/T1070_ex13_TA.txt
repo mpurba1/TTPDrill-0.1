@@ -1,0 +1,1 @@
+capable Misdat deleting Registry keys used persistence 

@@ -1,0 +1,1 @@
+collects the sends it to C2 server hostname version 

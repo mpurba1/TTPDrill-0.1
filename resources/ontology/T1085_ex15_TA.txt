@@ -1,0 +1,1 @@
+executed APT28 CHOPSTICK rundll32 commands twain_64 using <code> a dll stage dropper rundll32.exe.APT28 loader Trojan saved batch script uses execute DLL payload 

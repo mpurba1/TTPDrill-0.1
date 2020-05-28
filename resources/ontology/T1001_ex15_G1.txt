@@ -1,0 +1,1 @@
+added preventing trivial decoding given a tracked allow seamless communication prevent analysis 

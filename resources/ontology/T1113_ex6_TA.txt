@@ -1,0 +1,1 @@
+has BADNEWS a command take screenshot it send C2 server 

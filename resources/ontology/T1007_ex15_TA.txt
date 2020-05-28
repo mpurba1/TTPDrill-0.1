@@ -1,0 +1,1 @@
+has Emissary the capability execute command <code> net start </code> interact services 

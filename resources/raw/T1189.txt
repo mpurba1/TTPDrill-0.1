@@ -1,0 +1,7 @@
+PLATINUM has sometimes used drive-by attacks against vulnerable browser plugins.
+was distributed through torrent file-sharing websites to South Korean victims, using a YouTube video downloader application as a lure.
+Patchwork has used watering holes to deliver files with exploits to initial victims.
+Elderwood has delivered zero-day exploits and malware to victims by injecting malicious code into specific public Web pages visited by targets within a particular sector.
+APT37 has used strategic web compromises, particularly of South Korean websites, to distribute malware. The group has also used torrent file-sharing sites to more indiscriminately disseminate malware to victims. As part of their compromises, the group has used a Javascript based profiler called RICECURRY to profile a victim's web browser and deliver malicious code accordingly.
+--Example not given--
+POORAIM has been delivered through compromised sites acting as watering holes.

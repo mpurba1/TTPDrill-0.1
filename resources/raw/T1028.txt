@@ -1,0 +1,3 @@
+Cobalt Strike can use <code>WinRM</code> to execute a payload on a remote host.
+--Example not given--
+Threat Group-3390 has used WinRM to enable remote execution.

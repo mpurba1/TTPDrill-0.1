@@ -1,0 +1,1 @@
+identifies SPACESHIP files extensions copies them directory 

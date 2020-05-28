@@ -1,0 +1,1 @@
+used OilRig <code> reg query Default </code> a victim 

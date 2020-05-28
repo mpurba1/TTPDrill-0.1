@@ -1,0 +1,4 @@
+Cobalt Strike can download a hosted "beacon" payload using BITSAdmin.
+--Example not given--
+A JPIN variant downloads the backdoor payload via the BITS service.
+Leviathan has used bitsadmin.exe to download additional tools.

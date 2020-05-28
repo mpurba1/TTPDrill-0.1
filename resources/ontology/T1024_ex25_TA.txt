@@ -1,0 +1,1 @@
+contains CosmicDuke the RC4 algorithm includes programming error 

@@ -1,0 +1,8 @@
+APT34 has used brute force techniques to obtain credentials.
+APT3 has been known to brute force password hashes to be able to leverage plain text credentials.
+Net Crawler uses a list of known credentials gathered through credential dumping to guess passwords to accounts as it spreads throughout a network.
+Chaos Chaos conducts brute force attacks against SSH services to gain initial access.  
+Turla may attempt to connect to systems within a victim's network using <code>net use</code> commands and a predefined list or collection of passwords.
+Lazarus Group malware attempts to connect to Windows shares for lateral movement by using a generated list of usernames, which center around permutations of the username Administrator, and weak passwords.
+Dragonfly dropped and executed Hydra, a password cracker.
+--Example not given--

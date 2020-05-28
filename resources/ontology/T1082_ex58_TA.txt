@@ -1,0 +1,1 @@
+used malware a PowerShell command check the victim system architecture determine machine it obtained OS version UUID computer/host name send C2 server 

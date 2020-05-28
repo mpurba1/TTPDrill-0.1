@@ -1,0 +1,1 @@
+used FIN6 the Plink utility create SSH tunnels C2 servers 

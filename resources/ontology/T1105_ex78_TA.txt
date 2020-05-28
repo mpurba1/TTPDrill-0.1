@@ -1,0 +1,1 @@
+retrieve POWERSTATS additional PowerShell payloads C2 server execute 

@@ -1,0 +1,1 @@
+Record BOOTRASH bootkit uses VBR the maintain persistence 

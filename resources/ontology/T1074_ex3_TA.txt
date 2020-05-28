@@ -1,0 +1,1 @@
+save scripts memory dump data directory hosts in the environment 

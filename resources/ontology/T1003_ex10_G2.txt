@@ -1,0 +1,1 @@
+used gsecdump version called Wrapikatz dump to credentials dumped 

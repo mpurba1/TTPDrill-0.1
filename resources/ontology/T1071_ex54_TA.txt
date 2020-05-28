@@ -1,0 +1,1 @@
+uses BBSRAT GET POST requests command control HTTP HTTPS obtain commands ZLIB data send compressed back C2 server 

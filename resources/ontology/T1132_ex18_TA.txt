@@ -1,0 +1,1 @@
+exfiltrates Elise data cookie values using 

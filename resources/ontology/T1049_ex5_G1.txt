@@ -1,0 +1,1 @@
+surveys a discover active local network connections using the <code> netstat an </code> commands 

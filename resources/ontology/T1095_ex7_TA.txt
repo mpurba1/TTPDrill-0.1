@@ -1,0 +1,1 @@
+detect NETEAGLE a proxy configured the machine send it beacons UDP/6000 retrieving C2 IP address Port Number initiate TCP connection socket channel specified commands 

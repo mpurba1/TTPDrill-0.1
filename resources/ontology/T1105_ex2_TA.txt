@@ -1,0 +1,1 @@
+capable HTTPBrowser writing a file compromised system C2 server 

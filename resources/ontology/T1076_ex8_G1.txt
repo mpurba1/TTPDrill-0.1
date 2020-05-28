@@ -1,0 +1,1 @@
+enable/disable start session a using browser web socket client 

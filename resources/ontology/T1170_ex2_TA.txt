@@ -1,0 +1,1 @@
+use POWERSTATS Mshta.exe execute additional payloads hosts 

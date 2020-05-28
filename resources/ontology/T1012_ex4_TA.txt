@@ -1,0 +1,1 @@
+keys HKCU HKLM HKEY_CURRENT_USER present applications </code> 

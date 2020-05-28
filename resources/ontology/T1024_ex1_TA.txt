@@ -1,0 +1,1 @@
+uses Sys10 an XOR 0x1 loop encrypt C2 domain 

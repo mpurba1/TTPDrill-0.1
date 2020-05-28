@@ -1,0 +1,3 @@
+Hydraq creates a backdoor through which remote attackers can load and call DLL functions.
+PUNCHBUGGY can load a DLL using the LoadLibrary API.
+--Example not given--

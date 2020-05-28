@@ -1,0 +1,1 @@
+executes menuPass commands interface shell using a reverse used group modified version pentesting script wmiexec.vbs execute 

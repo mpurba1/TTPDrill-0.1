@@ -1,0 +1,1 @@
+retrieve POWERSTATS OS name/architecture computer/domain name information compromised hosts 

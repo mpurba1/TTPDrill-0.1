@@ -1,0 +1,8 @@
+Dragonfly created accounts that appeared to be tailored to each individual staging target.
+Flame can create backdoor accounts with the login "HelpAssistant" with the Limbo module.
+Pupy can user PowerView to perform “net user” commands and create local system and domain accounts.
+S-Type may create a temporary user on the system named “Lost_{Unique Identifier}” with the password “pond~!@6”{Unique Identifier}.”
+The <code>net user username \password</code> and <code>net user username \password \domain</code> commands in Net can be used to create a local or domain account respectively.
+--Example not given--
+Mis-Type may create a temporary user on the system named “Lost_{Unique Identifier}.”
+APT3 has been known to create or enable accounts, such as <code>support_388945a0</code>. 

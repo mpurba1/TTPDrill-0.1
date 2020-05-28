@@ -1,0 +1,9 @@
+Shamoon obtains the system time and will only activate if it is greater than a preset date.
+T9000 gathers and beacons the system time during installation.
+The <code>net time</code> command can be used in Net to determine the local or remote system time.
+RTM can obtain the victim time zone.
+PowerDuke has commands to get the time the machine was built, the time, and the time zone.
+BRONZE BUTLER has used <code>net time</code> to check the local time on a target system.
+MoonWind obtains the victim's current time.
+Turla surveys a system upon check-in to discover the system time by using the <code>net time</code> command.
+--Example not given--

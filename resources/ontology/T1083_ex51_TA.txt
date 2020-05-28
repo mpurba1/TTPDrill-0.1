@@ -1,0 +1,1 @@
+collects ChChes % directory path version of Internet Explorer 

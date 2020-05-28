@@ -1,0 +1,5 @@
+Pupy can use Obfs3, a pluggable transport, to add another layer of encryption and obfuscate TLS.
+Sykipot communicates using HTTPS and uses a custom encryption cipher to encrypt the HTTPS message body.
+Tor encapsulates traffic in multiple layers of encryption.
+--Example not given--
+Hi-Zor encrypts C2 traffic with HTTPS and also encodes it with a single-byte XOR key.

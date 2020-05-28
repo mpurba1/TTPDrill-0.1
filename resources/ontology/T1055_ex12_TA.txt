@@ -1,0 +1,1 @@
+inject JPIN content lsass.exe load a module 

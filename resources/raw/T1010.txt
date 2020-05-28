@@ -1,0 +1,8 @@
+NetTraveler reports window names along with keylogger information to provide application context.
+Lazarus Group malware IndiaIndia obtains and sends to its C2 server the title of the window for each running process. The KilaAlfa keylogger also reports the title of the window in the foreground.
+--Example not given--
+PowerDuke has a command to get text of the current foreground window.
+can enumerate active windows.
+captures window titles.
+SOUNDBITE is capable of enumerating application windows.
+The discovery modules used with Duqu can collect information on open windows.

@@ -1,0 +1,1 @@
+overwrites Loader Shell_TrayWnd extra window memory redirect execution NTDLL function abused programming chain malicious thread assemble ROP create Explorer.exe 

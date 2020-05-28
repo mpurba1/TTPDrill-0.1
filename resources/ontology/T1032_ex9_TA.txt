@@ -1,0 +1,1 @@
+encryption C2 communication channel SSL has it transport options RSA and AES 

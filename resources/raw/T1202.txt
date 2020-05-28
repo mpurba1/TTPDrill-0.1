@@ -1,0 +1,2 @@
+Forfiles can be used to subvert controls and possibly conceal command execution by not directly invoking cmd.
+--Example not given--

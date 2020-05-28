@@ -1,0 +1,1 @@
+uses Nidiran RC4 encrypt C2 traffic 

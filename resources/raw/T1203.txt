@@ -1,0 +1,7 @@
+--Example not given--
+APT29 has used multiple software exploits for common client software, like Microsoft Word and Adobe Reader, to gain code execution as part of .
+Patchwork uses malicious documents to deliver remote execution exploits as part of .
+Leviathan has exploited multiple Microsoft Office and .NET vulnerabilities for execution, including CVE-2017-0199, CVE-2017-8759, and CVE-2017-11882.
+APT37 has used a Flash Player exploit (CVE-2016-4117) for execution.
+TA459 has exploited Microsoft Word vulnerability CVE-2017-0199 for execution.
+Elderwood has used exploitation of endpoint software, including Microsoft Internet Explorer Adobe Flash vulnerabilities, to gain execution. They have also used zero-day exploits.

@@ -1,0 +1,14 @@
+FIN8 has cleared logs during post compromise cleanup activities.
+APT28 has cleared event logs using the commands <code>wevtutil cl System</code> and <code>wevtutil cl Security</code>.
+Dragonfly deleted system, security, terminal services, remote services, and audit logs from a victim.
+APT29 used SDelete to remove artifacts from victims.
+RTM has the ability to remove Registry entries that it created during execution.
+Orz can overwrite Registry settings to reduce its visibility on the victim.
+FIN5 has cleared event logs from victims.
+gh0st RAT is able to wipe event logs.
+Hydraq creates a backdoor through which remote attackers can clear all system event logs.
+After encrypting log files, the log encryption module in Prikormka deletes the original, unencrypted files from the host.
+Pupy has a module to clear event logs with PowerShell.
+The BlackEnergy component KillDisk is capable of deleting Windows Event Logs.
+Misdat is capable of deleting Registry keys used for persistence.
+--Example not given--

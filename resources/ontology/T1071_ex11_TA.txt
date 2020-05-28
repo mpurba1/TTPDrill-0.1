@@ -1,0 +1,1 @@
+used ComRAT HTTP requests command and control 

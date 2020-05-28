@@ -1,0 +1,1 @@
+gathers information build number version manufacturer model memory 

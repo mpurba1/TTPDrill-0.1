@@ -1,0 +1,2 @@
+--Example not given--
+PowerSploit's <code>Invoke-Kerberoast</code> module can request service tickets and return crackable ticket hashes.

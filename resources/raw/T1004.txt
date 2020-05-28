@@ -1,0 +1,3 @@
+Gazer can establish persistence by setting the value “Shell” with “explorer.exe, %malware_pathfile%” under the Registry key <code>HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon</code>.
+A Dipsind variant registers as a Winlogon Event Notify DLL to establish persistence.
+--Example not given--

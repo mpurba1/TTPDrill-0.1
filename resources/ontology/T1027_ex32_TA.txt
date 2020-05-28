@@ -1,0 +1,1 @@
+used FIN8 environment variables standard input obfuscate arguments.FIN8 obfuscates malicious macros 

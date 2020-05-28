@@ -1,0 +1,1 @@
+uses Downdelph DLL search order hijacking of Windows executable sysprep.exe escalate privileges 

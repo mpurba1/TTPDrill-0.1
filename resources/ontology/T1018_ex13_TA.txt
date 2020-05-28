@@ -1,0 +1,1 @@
+surveys Turla a system discover remote systems network DOMAIN commands using the <code> net view </code> 

@@ -1,0 +1,1 @@
+obfuscates commands using by fragments starting DLL uses xor encode to data 

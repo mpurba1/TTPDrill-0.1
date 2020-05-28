@@ -1,0 +1,4 @@
+Cobalt Strike's "beacon" payload can receive C2 from one protocol and respond on another.  This is typically a mixture of HTTP, HTTPS, and DNS traffic.
+PlugX can be configured to use multiple network protocols to avoid network-based detection.
+Some Lazarus Group malware uses multiple channels for C2, such as RomeoWhiskey-Two, which consists of a RAT channel that parses data in datagram form and a Proxy channel that forms virtual point-to-point sessions.
+--Example not given--

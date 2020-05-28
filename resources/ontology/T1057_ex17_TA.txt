@@ -1,0 +1,1 @@
+gather Sykipot a list </code> running processes <code> tasklist v 

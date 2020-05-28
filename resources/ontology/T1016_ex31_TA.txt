@@ -1,0 +1,1 @@
+retrieve POWERSTATS IP network adapter configuration information compromised hosts 

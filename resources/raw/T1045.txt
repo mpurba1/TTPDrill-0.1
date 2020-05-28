@@ -1,0 +1,14 @@
+Night Dragon is known to use software packing in its tools.
+Uroburos uses a custom packer.
+A version of Daserf uses the MPRESS packer.
+--Example not given--
+Trojan.Karagany samples sometimes use common binary packers such as UPX and Aspack on top of a custom Delphi binary packer.
+A FinFisher variant uses a custom packer.
+A Patchwork payload was packed with UPX.
+SeaDuke has been packed with the UPX packer.
+H1N1 uses a custom packing algorithm.
+Some ZeroT DLL files have been packed with UPX.
+Group5 packed an executable by base64 encoding the PE file and breaking it up into numerous lines.
+APT3 has been known to pack their tools.
+Elderwood has packed malware payloads before delivery to victims.
+APT29 used UPX to pack files.

@@ -1,0 +1,1 @@
+collects ADVSTORESHELL data compresses encrypts exfiltrates C2 server 

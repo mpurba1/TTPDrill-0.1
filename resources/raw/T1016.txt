@@ -1,0 +1,50 @@
+ifconfig can be used to display adapter configuration on Unix systems, including information for TCP/IP, DNS, and DHCP.
+T9000 gathers and beacons the MAC and IP addresses during installation.
+POWRUNER may collect network configuration data by running <code>ipconfig /all</code> on a victim.
+PowerDuke has a command to get the victim's domain and NetBIOS name.
+A JHUHUGIT variant gathers network interface card information.
+admin@338 actors used the following command after exploiting a machine with LOWBALL malware to acquire information about local networks: <code>ipconfig /all >> %temp%\download</code>
+Emissary has the capability to execute the command <code>ipconfig /all</code>.
+JPIN can obtain network information, including DNS, IP, and proxies.
+Elise executes <code>ipconfig /all</code> after initial communication is made to the remote server.
+Mis-Type may create a file containing the results of the command <code>cmd.exe /c ipconfig /all</code>.
+can gather information about the victim proxy server.
+Hydraq creates a backdoor through which remote attackers can retrieve IP addresses of compromised machines.
+A module in Prikormka collects information from the victim about its IP addresses and MAC addresses.
+Lazarus Group malware IndiaIndia obtains and sends to its C2 server information about the first network interface card’s configuration, including IP address, gateways, subnet mask, DHCP information, and whether WINS is available.
+Naid collects the domain name from a compromised host.
+A keylogging tool used by APT3 gathers network information from the victim, including the MAC address, IP address, WINS, DHCP server, and gateway. 
+menuPass has used several tools to scan for open NetBIOS nameservers and enumerate NetBIOS sessions.
+Pupy has built in commands to identify a host’s IP address and find out other network configuration settings by viewing connected sessions.
+Stealth Falcon malware gathers the Address Resolution Protocol (ARP) table from the victim.
+Shamoon obtains the target's IP address and local network segment.
+Pisloader has a command to collect the victim's IP address.
+ZeroT gathers the victim's IP address and domain information, and then sends it to its C2 server.
+Threat Group-3390 actors use nbtscan to discover vulnerable systems.
+Ke3chang performs local network configuration discovery using <code>ipconfig /all</code>.
+Naikon uses commands such as <code>netsh interface show</code> to discover network interface settings.
+FALLCHILL collects MAC address and local IP address information from the victim.
+Unknown Logger can obtain information about the victim's IP address.
+GeminiDuke collects information on network settings and Internet proxy settings from the victim.
+Magic Hound malware gathers the victim's local IP address, MAC address, and external IP address.
+Crimson contains a command to collect the victim MAC address and LAN IP.
+POWERSTATS can retrieve IP and network adapter configuration information from compromised hosts.
+nbtstat can be used to discover local NetBIOS domain names.
+--Example not given--
+Sykipot may use <code>ipconfig /all</code> to gather system network configuration details.
+RedLeaves can obtain information about network parameters.
+Turla surveys a system upon check-in to discover network configuration details using the <code>arp -a</code>, <code>nbtstat -n</code>, and <code>net config</code> commands.
+ipconfig can be used to display adapter configuration on Windows systems, including information for TCP/IP, DNS, and DHCP.
+Sys10 collects the local IP address of the victim and sends it to the C2.
+Remsec can obtain information about network configuration, including the routing table, ARP cache, and DNS cache.
+MoonWind obtains the victim IP address.
+Orz can gather victim proxy information.
+Felismus collects the victim LAN IP address and sends it to the C2 server.
+route can be used to discover routing configuration information.
+Arp can be used to display ARP configuration information on the host.
+OSInfo discovers the current domain information .
+The reconnaissance modules used with Duqu can collect information on network configuration.
+Agent.btz collects the network adapter’s IP and MAC address as well as IP addresses of the network adapter’s default gateway, primary/secondary WINS, DHCP, and DNS servers, and saves them into a log file.
+BlackEnergy has gathered information about network IP configurations using ipconfig.exe and about routing tables using route.exe.
+OilRig has run <code>ipconfig /all</code> on a victim.
+Reaver collects the victim's IP address.

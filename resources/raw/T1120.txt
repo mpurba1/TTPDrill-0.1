@@ -1,0 +1,13 @@
+Equation contains functionality to search for specific information about the attached hard drive that could be used to identify and overwrite the firmware.
+A module in Prikormka collects information on available printers and disk drives.
+RTM can obtain a list of smart card readers attached to the victim.
+APT28 uses a module to receive a notification every time a USB mass storage device is inserted into a victim. They have also looked for the presence of iOS devices by looking for their backups .
+MoonWind obtains the number of removable drives from the victim.
+XAgentOSX contains the showBackupIosFolder function to check for IOS device backups by running <code>ls -la ~/Library/Application\ Support/MobileSync/Backup/</code>.
+BlackEnergy can gather very specific information about attached USB devices, to include device instance ID and drive geometry.
+--Example not given--
+ADVSTORESHELL can list connected devices.
+Gamaredon Group tools contained an application to check performance of USB flash drives.
+T9000 searches through connected drives for removable storage devices.
+USBStealer monitors victims for insertion of removable drives. When dropped onto a second victim, it also enumerates drives connected to the system.
+BADNEWS checks for new hard drives on the victim, such as USB devices, by listening for the WM_DEVICECHANGE window message.

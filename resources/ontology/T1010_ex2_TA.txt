@@ -1,0 +1,1 @@
+obtains the title of window running process sends C2 server reports keylogger 

@@ -1,0 +1,1 @@
+calls run various DLL files perform file cleanup has the invoke a reverse shell 

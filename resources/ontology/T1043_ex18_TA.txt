@@ -1,0 +1,1 @@
+uses Strike a custom command control protocol communicates ports encapsulated C2 

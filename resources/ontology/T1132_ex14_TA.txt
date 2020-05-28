@@ -1,0 +1,1 @@
+encodes Dipsind C2 traffic base64 

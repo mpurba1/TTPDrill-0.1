@@ -1,0 +1,1 @@
+contains XAgentOSX the getInstalledAPP function run <code> ls </code> Applications gather installed what applications 

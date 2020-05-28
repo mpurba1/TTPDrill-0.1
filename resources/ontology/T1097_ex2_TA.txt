@@ -1,0 +1,1 @@
+LSADUMP </code> implement modules the steps required krbtgt account hash create/use Kerberos tickets extract 

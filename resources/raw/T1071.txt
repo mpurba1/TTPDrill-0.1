@@ -1,0 +1,90 @@
+creates a backdoor by making a connection using a HTTP POST.
+ChChes communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.
+Epic implements a command and control protocol over HTTP.
+Some variants of FakeM use SSL to communicate with C2 servers.
+TEXTMATE uses DNS TXT records for C2.
+BADNEWS establishes a backdoor over HTTP.
+LOWBALL command and control occurs via HTTPS over port 443.
+POWRUNER can use HTTP and DNS for C2 communications.
+OilRig has used HTTP and DNS for C2.
+CORESHELL can communicate over HTTP, SMTP, and POP3 for C2.
+ComRAT has used HTTP requests for command and control.
+FIN6 used the Plink command-line utility to create SSH tunnels to C2 servers.
+The Carbanak malware communicates to its command server using HTTP with an encrypted payload.
+SNUGRIDE communicates with its C2 server over HTTP.
+CozyCar's main method of communicating with its C2 servers is using HTTP or HTTPS.
+China Chopper executes code using HTTP POST commands.
+Hi-Zor communicates with its C2 server over HTTPS.
+pngdowner uses HTTP for command and control.
+DustySky has used both HTTP and HTTPS for C2.
+--Example not given--
+BUBBLEWRAP can communicate using HTTP or HTTPS.
+3PARA RAT uses HTTP for command and control.
+Magic Hound malware has used HTTP and IRC for C2.
+The Regin malware platform supports many standard protocols, including HTTP, HTTPS, and SMB.
+RARSTONE uses SSL to encrypt its communication with its C2 server.
+Various implementations of CHOPSTICK communicate with C2 over HTTP, SMTP, and POP3.
+PinchDuke transfers files from the compromised host via HTTP or HTTPS to a C2 server.
+Sakula uses HTTP for C2.
+One variant of CloudDuke uses HTTP and HTTPS for C2.
+4H RAT uses HTTP for command and control.
+The "Uploader" variant of HAMMERTOSS visits a hard-coded server over HTTP/S to download the images HAMMERTOSS uses to receive commands.
+Felismus uses HTTP for C2.
+has exfiltrated data in HTTP POST headers.
+Helminth can use HTTP or DNS for C2.
+JHUHUGIT variants have communicated with C2 servers over HTTP and HTTPS.
+S-Type uses HTTP for C2.
+Pteranodon can use HTTP for C2.
+BACKSPACE uses HTTP as a transport to communicate with its command server.
+Psylo uses HTTPS for C2.
+BRONZE BUTLER malware has used HTTP for C2.
+Cobalt Strike uses a custom command and control protocol that is encapsulated in HTTP, HTTPS, or DNS.  In addition, it conducts peer-to-peer communication over Windows named pipes encapsulated in the SMB protocol.  All protocols use their standard assigned ports.
+Pisloader uses DNS as its C2 protocol.
+Gazer communicates with its C2 servers over HTTP.
+NETEAGLE will attempt to detect if the infected host is configured to a proxy. If so, NETEAGLE will send beacons via an HTTP POST request; otherwise it will send beacons via UDP/6000. NETEAGLE will also use HTTP to download resources that contain an IP address and Port Number pair to connect to for further C2. Adversaries can also use NETEAGLE to establish an RDP connection with a controller over TCP/7519.
+A Lazarus Group malware sample conducts C2 over HTTP.
+PlugX can be configured to use HTTP or DNS for command and control.
+APT34 malware often uses HTTP and DNS for C2. The group has also used the Plink utility and other tools to create tunnels to C2 servers.
+Emissary uses HTTP or HTTPS for C2.
+ELMER uses HTTP for command and control.
+Stealth Falcon malware communicates with its C2 server via HTTPS.
+XAgentOSX contains the ftpUpload function to use the FTPManager:uploadFile method to upload files from the target system.
+APT32 has used JavaScript that communicates over HTTP or HTTPS to attacker controlled domains to download additional frameworks.
+Some Reaver variants use HTTP for C2.
+JPIN can communicate over FTP and send email over SMTP.
+BBSRAT uses GET and POST requests over HTTP or HTTPS for command and control to obtain commands and send ZLIB compressed data back to the C2 server.
+Dipsind uses HTTP for C2.
+Pupy can communicate over HTTP for C2.
+Duqu uses a custom command and control protocol that communicates over commonly used ports, and is frequently encapsulated by application layer protocols.
+ADVSTORESHELL connects to port 80 of a C2 server using Wininet API.
+Mis-Type network traffic can communicate over HTTP.
+WinMM uses HTTP for C2.
+SeaDuke uses HTTP and HTTPS for C2.
+APT28 used SMTP as a communication channel in various implants, initially using self-registered Google Mail accounts and later compromised email servers of its victims. Later implants such as CHOPSTICK use a blend of HTTP and other legitimate channels, depending on module configuration.
+SOUNDBITE communicates via DNS for C2.
+httpclient uses HTTP for command and control.
+ZeroT has used HTTP for C2.
+CosmicDuke can use HTTP or HTTPS for command and control to hard-coded C2 servers.
+PUNCHBUGGY enables remote interaction and can obtain additional code over HTTPS GET and POST requests.
+HTTPBrowser has used HTTP, HTTPS, and DNS for command and control.
+OnionDuke uses HTTP and HTTPS for C2.
+GeminiDuke uses HTTP and HTTPS for command and control.
+Elise communicates over HTTP or HTTPS for C2.
+RedLeaves can communicate to its C2 over HTTP and HTTPS if directed.
+Matroyshka uses DNS for C2.
+Umbreon Umbreon provides access to the system via SSH or any other protocol that uses PAM to authenticate.  
+APT12 has used RIPTIDE, a RAT that uses HTTP to communicate.
+POWERSOURCE uses DNS TXT records for C2.
+A Gamaredon Group file stealer can communicate over HTTP for C2.
+Sys10 uses HTTP for C2.
+OLDBAIT can use HTTP or SMTP for C2.
+The Komplex C2 channel uses HTTP POST requests.
+OwaAuth uses incoming HTTP requests with a username keyword and commands and handles them as instructions to perform actions.
+Daserf uses HTTP for C2.
+DownPaper communicates to its C2 server over HTTP.
+Remsec is capable of using HTTP, HTTPS, SMTP, and DNS for C2.
+MiniDuke uses HTTP and HTTPS for command and control.
+FLIPSIDE uses RDP to tunnel traffic from a victim environment.
+Shamoon uses HTTP for C2.
+BlackEnergy communicates with its C2 server over HTTP.
+ZLib communicates over HTTP for C2.

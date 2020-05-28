@@ -1,0 +1,1 @@
+use samples standard Base64 bzip2 XOR decrypt data received C2 servers 

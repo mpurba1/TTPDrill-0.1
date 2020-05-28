@@ -1,0 +1,59 @@
+TDTESS creates then deletes log files during installation of itself as a service.
+FIN10 has used batch scripts and scheduled tasks to delete critical system files.
+The BRONZE BUTLER uploader or malware the uploader uses <code>command</code> to delete the RAR archives after they have been exfiltrated.
+Recent versions of Cherry Picker delete files and registry keys created by the malware.
+FIN5 uses  to clean up the environment and attempt to prevent detection.
+Backdoor.Oldrea contains a cleanup module that removes traces of itself from the victim.
+MURKYTOP has the capability to delete local files.
+Remsec is capable of deleting files on the victim. It also securely removes itself after collecting and exfiltrating data.
+H1N1 deletes shadow copies from the victim.
+Wingbird deletes its payload along with the payload's parent process after it finishes copying files.
+JPIN's installer/uninstaller component deletes itself if it encounters a version of Windows earlier than Windows XP or identifies security-related processes running.
+deletes data in a way that makes it unrecoverable.
+The Komplex trojan supports file deletion.
+FALLCHILL can delete malware and associated artifacts from the victim.
+Reaver deletes the original dropped file from the victim.
+OilRig's TwoFace Web shell uses <code>del</code> to delete a text file of passwords after reading it.
+ADVSTORESHELL can delete files and directories.
+APT28 has deleted files from the system via the NSFileManager:removeFileAtPath method .
+APT18 actors deleted tools and batch files from victim systems.
+creates a backdoor through which remote attackers can delete files.
+Hi-Zor deletes its RAT installer file as it executes its DLL payload file.
+RedLeaves can delete specified files.
+SeaDuke can securely delete files, including deleting itself from the victim.
+Misdat is capable of deleting the backdoor file.
+MoonWind can delete itself or specified files.
+PowerDuke has a command to write random data across a file and delete it.
+pngdowner deletes content from C2 communications that was saved to the user's temporary directory.
+Magic Hound malware can delete files.
+Gazer has commands to delete files and persistence mechanisms from the victim.
+Shamoon attempts to overwrite operating system files with image files.
+--Example not given--
+FIN8 has deleted tmp and prefetch files during post compromise cleanup activities.
+BBSRAT can delete files and directories.
+Lazarus Group malware contains "suicide scripts" to delete malware binaries from the victim. It also uses secure file deletion to delete files from the victim.
+APT3 has a tool that can delete files.
+Hydraq creates a backdoor through which remote attackers can delete files.
+BLACKCOFFEE has the capability to delete files.
+Derusbi is capable of deleting files. It has been observed loading a Linux Kernel Module (LKM) and then deleting it from the hard disk as well as overwriting the data with null bytes.
+Malware used by Group5 is capable of remotely deleting files from victims.
+gh0st RAT is able to delete files.
+Dragonfly deleted a file immediately after executing it on a victim host.
+HTTPBrowser deletes its original installer file once installation is complete.
+WINDSHIELD is capable of file deletion along with other file system interaction.
+POWERSTATS can wipe drives using PowerShell Remove-Item commands.
+Pasam creates a backdoor through which remote attackers can delete files.
+Pteranodon can delete files that may interfere with it executing. It also can delete temporary files and itself after the initial script executes.
+PUNCHBUGGY can delete files written to disk.
+APT32 has cleared select event log entries.
+HALFBAKED can delete a specified file.
+BlackEnergy 2 contains a "Destroy" plug-in that destroys data stored on victim hard drives by overwriting file contents.
+APT34 has deleted initial drop files from the staging directory.
+cmd can be used to delete files from the file system.
+Some Sakula samples use cmd.exe to delete temporary files.
+USBStealer has several commands to delete files associated with the malware from the victim.
+Threat Group-3390 has deleted existing logs and exfiltrated file archives from a victim.
+The JHUHUGIT dropper can delete itself from the victim.JHUHUGIT variant has the capability to delete specified files.
+XAgentOSX contains the deletFileFromPath function to delete a specified file using the NSFileManager:removeFileAtPath method.
+APT37 has access to destructive malware known as RUHAPPY that is capable of overwriting a machine's Master Boot Record (MBR).
+RTM can delete all files created during its execution.

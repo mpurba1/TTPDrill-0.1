@@ -1,0 +1,1 @@
+used strings variables input functionalities obfuscate to commmands 

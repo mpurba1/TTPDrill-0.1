@@ -1,0 +1,1 @@
+attempts add a shortcut file achieve persistence 

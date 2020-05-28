@@ -1,0 +1,1 @@
+used nbtstat current NetBIOS sessions discover 

@@ -1,0 +1,1 @@
+used FIN6 Windows Credential Editor credential dumping module obtain a copy of Active Directory database 

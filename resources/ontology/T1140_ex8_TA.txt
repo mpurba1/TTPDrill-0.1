@@ -1,0 +1,1 @@
+uses macro the command <code> certutil decode </code> storing base64 encoded file payload 

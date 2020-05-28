@@ -1,0 +1,38 @@
+SslMM sends the logged-on username to its hard-coded C2.
+Unknown Logger can obtain information about the victim usernames.
+can gather information on the victim username.
+XAgentOSX contains the getInfoOSX function to return the OS X version as well as the current user.
+WINDSHIELD can gather the victim user name.
+Pupy can enumerate local information for Linux hosts and find currently logged on users for Windows hosts. 
+FIN10 has used Meterpreter to enumerate users on remote systems.
+Felismus collects the current username and sends it to the C2 server.
+Various Lazarus Group malware enumerates logged-on users.
+POWRUNER may collect information about the currently logged in user by running <code>whoami</code> on a victim.
+PowerDuke has commands to get the current user's name and SID.
+Agent.btz obtains the victim username and saves it to a file.
+DownPaper collects the victim username and sends it to the C2 server.
+can collect the victim user name.
+The OsInfo function in Komplex collects the current running username.
+JPIN can obtain the victim user name.
+Magic Hound malware has obtained the victim username and sent it to the C2 server.
+MoonWind obtains the victim username.
+Patchwork collected the victim username and whether it was running as admin, then sent the information to its C2 server.
+Stealth Falcon malware gathers the registered user and primary owner name via WMI.
+Mis-Type runs tests to determine the privilege level of the compromised user.
+APT28 has queried information on machines to determine the current user or system owner .
+A Gamaredon Group file stealer can gather the victim's username to send to a C2 server.
+T9000 gathers and beacons the username of the logged in account during installation. It will also gather the username of running processes to determine if it is running as SYSTEM.
+RTM can obtain the victim username and permissions.
+A Linux version of Derusbi checks if the victim user ID is anything other than zero (normally used for root), and the malware will not execute if it does not have root privileges.
+WinMM uses NetUser-GetInfo to identify that it is running under an “Admin” account on the local system.
+OilRig has run <code>whoami</code> on a victim.
+RedLeaves can obtain information about the logged on user both locally and for Remote Desktop sessions.
+Remsec can obtain information about the current user.
+Gazer obtains the current user's security identifier.
+Backdoor.Oldrea collects the current username from the victim.
+Reaver collects the victim's username.
+--Example not given--
+can gather the victim username.
+A module in Prikormka collects information from the victim about the current user name.
+An APT3 downloader uses the Windows command <code>"cmd.exe" /C whoami</code> to verify that it is running with the elevated privileges of “System.”
+Sys10 collects the account name of the logged-in user and sends it to the C2.

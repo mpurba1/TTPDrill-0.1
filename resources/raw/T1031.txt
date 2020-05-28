@@ -1,0 +1,5 @@
+PowerSploit contains a collection of Privesc-PowerUp modules that can discover and replace/modify service binaries, paths, and configs.
+--Example not given--
+BBSRAT can modify service configurations.
+Volgmer installs a copy of itself in a randomly selected service, then overwrites the ServiceDLL entry in the service's Registry entry.
+creates a Registry entry modifying the Logical Disk Manager service to point to a malicious DLL dropped to disk.

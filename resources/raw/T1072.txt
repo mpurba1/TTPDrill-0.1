@@ -1,0 +1,3 @@
+It is believed that a patch management system for an anti-virus product commonly installed among targeted companies was used to distribute the Wiper malware.
+--Example not given--
+Threat Group-1314 actors used a victim's endpoint management platform, Altiris, for lateral movement.

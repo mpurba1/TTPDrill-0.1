@@ -1,0 +1,11 @@
+ZeroT shellcode decrypts and decompresses its RC4-encrypted payload.
+BRONZE BUTLER downloads encoded payloads and decodes them on the victim.
+Starloader decrypts and executes shellcode from a file called Stars.jps.
+ISMInjector uses the <code>certutil</code> command to decode a payload file.
+MuddyWater decoded base64-encoded PowerShell commands using a VBS file.
+certutil has been used to decode binaries hidden inside certificate files as Base64 information.
+A OilRig macro has run a PowerShell command to decode file contents.
+--Example not given--
+An APT28 macro uses the command <code>certutil -decode</code> to decode contents of a .txt file storing the base64 encoded payload.
+Leviathan has used a DLL known as SeDll to decrypt and execute other JavaScript backdoors.
+APT34 has used certutil to decode base64-encoded files on victims.

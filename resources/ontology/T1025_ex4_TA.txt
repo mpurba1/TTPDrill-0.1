@@ -1,0 +1,1 @@
+collect backdoor the entire contents of inserted USB device 

@@ -1,0 +1,1 @@
+creates subkey register to service uninstall itself deleting by value enables attackers modify subkeys 

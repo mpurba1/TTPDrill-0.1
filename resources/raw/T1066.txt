@@ -1,0 +1,8 @@
+PowerSploit's <code>Find-AVSignature</code> AntivirusBypass module can be used to locate single byte anti-virus signatures.
+Deep Panda has updated and modified its malware, resulting in different hash values that evade detection.
+--Example not given--
+Cobalt Strike includes a capability to modify the "beacon" payload to eliminate known signatures or unpacking methods.
+Analysis of Daserf has shown that it regularly undergoes technical improvements to evade anti-virus detection.
+OilRig has tested malware samples to determine AV detection and subsequently modified the samples to ensure AV evasion.
+Based on comparison of Gazer versions, Turla made an effort to obfuscate strings in the malware that could be used as IoCs, including the mutex name and named pipe.
+APT3 has been known to remove indicators of compromise from tools.

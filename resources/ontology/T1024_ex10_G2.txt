@@ -1,0 +1,1 @@
+encrypts content using byte 

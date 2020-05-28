@@ -1,0 +1,1 @@
+logged running <code> whoami </code> 

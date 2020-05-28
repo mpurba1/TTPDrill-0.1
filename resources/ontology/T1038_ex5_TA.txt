@@ -1,0 +1,1 @@
+uses Prikormka DLL search order hijacking persistence itself saving ntshrui.dll Windows directory load it 

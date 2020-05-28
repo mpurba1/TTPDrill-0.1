@@ -1,0 +1,1 @@
+uses DownPaper PowerShell add a Registry Run key establish persistence 

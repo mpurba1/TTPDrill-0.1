@@ -1,0 +1,1 @@
+contains a named navlu.dll decrypt run the RAT 

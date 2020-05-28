@@ -1,0 +1,1 @@
+used APT32 PubPrn.vbs scripts execute malware bypassing defenses 

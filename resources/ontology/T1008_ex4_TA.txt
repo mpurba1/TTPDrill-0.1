@@ -1,0 +1,1 @@
+falls ISMAgent DNS tunneling mechanism unable it C2 server reach the HTTP 

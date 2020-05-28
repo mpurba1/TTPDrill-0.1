@@ -1,0 +1,5 @@
+Rover automatically searches for files on local drives based on a predefined list of file extensions and sends them to the command and control server every 60 minutes. Rover also automatically sends keylogger files and screenshots to the C2 server on a regular timeframe.
+USBStealer automatically exfiltrates collected files via removable media when an infected device is connected to the second victim after receiving commands from the first victim.
+--Example not given--
+CosmicDuke exfiltrates collected files automatically over FTP to remote servers.
+When a document is found matching one of the extensions in the configuration, TINYTYPHON uploads it to the C2 server.

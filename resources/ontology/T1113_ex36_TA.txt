@@ -1,0 +1,1 @@
+take T9000 screenshots of desktop target application windows saving them user directories encrypted XOR 

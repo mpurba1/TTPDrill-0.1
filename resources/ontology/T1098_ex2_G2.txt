@@ -1,0 +1,1 @@
+include to functionality manipulate hash knowing without value 

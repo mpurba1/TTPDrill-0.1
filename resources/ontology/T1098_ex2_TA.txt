@@ -1,0 +1,1 @@
+extended Mimikatz credential dumper Skeleton Key domain controller authentication bypass functionality include LSADUMP </code> manipulate modules the password hash of account knowing clear text value 

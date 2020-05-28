@@ -1,0 +1,1 @@
+uses malware multiple types of encryption encoding XOR 0xA7 

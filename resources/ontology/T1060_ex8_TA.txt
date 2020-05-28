@@ -1,0 +1,1 @@
+persists Rover Registry entry creating a in <code> HKEY_CURRENT_USER Microsoft Windows </code> 

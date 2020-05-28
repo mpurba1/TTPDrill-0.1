@@ -1,0 +1,1 @@
+bypass Pupy Windows UAC DLL hijacking eventvwr or appPaths 

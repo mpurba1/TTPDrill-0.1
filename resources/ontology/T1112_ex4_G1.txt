@@ -1,0 +1,1 @@
+creates a register created service uninstall itself deleting this value enables modify delete subkeys 

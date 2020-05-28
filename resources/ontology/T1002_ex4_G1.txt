@@ -1,0 +1,1 @@
+compresses ZLib using the standard Zlib compression library 

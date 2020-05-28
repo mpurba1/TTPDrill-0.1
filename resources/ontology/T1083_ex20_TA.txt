@@ -1,0 +1,1 @@
+has SHOTPUT a command obtain directory listing 

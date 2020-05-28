@@ -1,0 +1,1 @@
+creates Helminth folders output store batch scripts sending the information C2 server 

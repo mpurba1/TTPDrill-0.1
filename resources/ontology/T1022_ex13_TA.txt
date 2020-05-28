@@ -1,0 +1,1 @@
+encrypts T9000 collected data single byte XOR key using a 

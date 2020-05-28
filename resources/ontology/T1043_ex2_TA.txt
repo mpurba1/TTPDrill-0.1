@@ -1,0 +1,1 @@
+operates FTP ports 21 20 

@@ -1,0 +1,1 @@
+collected Patchwork the victim computer name OS version architecture type information sent C2 server 

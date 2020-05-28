@@ -1,0 +1,1 @@
+attempts variant of communication C2 server HTTP port 

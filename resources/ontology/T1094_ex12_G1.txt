@@ -1,0 +1,1 @@
+allows Cobalt modify the way communicates beacon called C2 intended allow a penetration test team mimic known APT methods 

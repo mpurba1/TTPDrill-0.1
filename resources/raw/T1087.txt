@@ -1,0 +1,26 @@
+Commands under <code>net user</code> can be used in Net to gather information about and manipulate user accounts.
+FIN6 has used Metasploit’s PsExec NTDSGRAB module to obtain a copy of the victim's Active Directory database.
+Ke3chang performs account discovery using commands such as <code>net localgroup administrators</code> and <code>net group "REDACTED" /domain</code> on specific permissions groups.
+POWERSTATS can retrieve usernames from compromised hosts.
+The discovery modules used with Duqu can collect information on accounts and permissions.
+GeminiDuke collects information on local user accounts from the victim.
+Sykipot may use <code>net group "domain admins" /domain</code> to display accounts in the "domain admins" permissions group and <code>net localgroup "administrators"</code> to list local system administrator group membership.
+SHOTPUT has a command to retrieve information about connected users.
+--Example not given--
+dsquery can be used to gather information on user accounts within a domain.
+menuPass has used the Microsoft administration tool csvde.exe to export Active Directory data.
+OilRig has run <code>net user</code>, <code>net user /domain</code>, <code>net group “domain admins” /domain</code>, and <code>net group “Exchange Trusted Subsystem” /domain</code> to get account listings on a victim.
+POWRUNER may collect user account information by running <code>net user /domain</code> or a series of other commands on a victim.
+APT3 has used a tool that can obtain info about local and global group users, power users, and administrators.
+Remsec can obtain a list of users.
+Mis-Type may create a file containing the results of the command <code>cmd.exe /c net user {Username}</code>.
+Poseidon Group searches for administrator accounts on both the local victim machine and the network.
+OSInfo enumerates local and domain users 
+Threat Group-3390 has used <code>net user</code> to conduct internal discovery of systems.
+PowerSploit's <code>Get-ProcessTokenGroup</code> Privesc-PowerUp module can enumerate all SIDs associated with its current token.
+Pupy uses PowerView and Pywerview to perform discovery commands such as net user, net group, net local group, etc. 
+admin@338 actors used the following commands following exploitation of a machine with LOWBALL malware to enumerate user accounts: <code>net user >> %temp%\download</code> <code>net user /domain >> %temp%\download</code>
+Elise executes <code>net user</code> after initial communication is made to the remote server.
+MURKYTOP has the capability to retrieve information about users on remote hosts.
+BRONZE BUTLER has used <code>net user /domain</code> to identify account information.
+S-Type runs the command <code>net user</code> on a victim. S-Type also runs tests to determine the privilege level of the compromised user.

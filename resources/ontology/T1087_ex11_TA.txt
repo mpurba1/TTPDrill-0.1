@@ -1,0 +1,1 @@
+run OilRig net user </code> group admins Exchange Trusted Subsystem get account listings a victim 

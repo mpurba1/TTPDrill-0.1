@@ -1,0 +1,1 @@
+includes Strike a capability modify the beacon payload eliminate unpacking known signatures methods 

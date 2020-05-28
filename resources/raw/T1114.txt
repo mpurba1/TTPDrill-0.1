@@ -1,0 +1,8 @@
+--Example not given--
+Dragonfly leveraged Outlook Web Access.
+Pupy can interact with a victim’s Outlook session and look through folders and emails.
+APT1 uses two utilities, GETMAIL and MAPIGET, to steal email. GETMAIL extracts emails from archived Outlook .pst files, and MAPIGET steals email still on Exchange servers that has not yet been archived.
+Some SeaDuke samples have a module to extract email from Microsoft Exchange servers using compromised credentials.
+Crimson contains a command to collect and exfiltrate emails from Outlook.
+Backdoor.Oldrea collects address book information from Outlook.
+CosmicDuke searches for Microsoft Outlook data files with extensions .pst and .ost for collection and exfiltration.

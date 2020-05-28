@@ -1,0 +1,36 @@
+Dragonfly has used PowerShell.
+Magic Hound has used PowerShell for execution.
+Cobalt Strike can execute a payload on a remote host with PowerShell.  This technique does write any data to disk.
+--Example not given--
+CopyKittens has used PowerShell Empire.
+Pupy has a module for loading and executing PowerShell scripts.
+FIN7 uses a PowerShell script to launch shellcode that retrieves an additional payload.
+A OilRig macro has run a PowerShell command to decode file contents.
+One version of Helminth uses a PowerShell script.
+APT32 has used PowerShell-based tools and shellcode loaders for execution.
+Threat Group-3390 has used PowerShell for execution.
+Deep Panda has used PowerShell scripts to download and execute programs in memory, without writing to disk.
+Leviathan has used PowerShell for execution.
+APT34 has used PowerShell scripts for execution.
+APT29 has used encoded PowerShell scripts uploaded to CozyCar installations to download and install SeaDuke.APT29 also used PowerShell scripts to evade defenses.
+POWERSOURCE is a PowerShell backdoor.
+POSHSPY uses PowerShell to execute various commands, one to execute its payload.
+POWERSTATS uses PowerShell.
+FIN6 has used a Metasploit PowerShell module to download and execute shellcode and to set up a local listener.
+HAMMERTOSS is known to use PowerShell.
+FIN10 uses PowerShell for execution as well as PowerShell Empire to establish persistence.
+POWRUNER is written in PowerShell.
+APT3 has used PowerShell on victim systems to download and run payloads after exploitation.
+HALFBAKED can execute PowerShell scripts.
+TA459 has used PowerShell for execution of a payload.
+FIN8's malicious spearphishing payloads are executed as PowerShell. FIN8 has also used PowerShell during  and .
+BRONZE BUTLER has used PowerShell for execution.
+Patchwork used PowerSploit to download and run a reverse shell.
+menuPass uses  to inject shellcode into PowerShell.
+The Poseidon Group's Information Gathering Tool (IGT) includes PowerShell components.
+Stealth Falcon malware uses PowerShell commands to perform various functions, including gathering system information via WMI and executing commands from its C2 server.
+DownPaper uses PowerShell for execution.
+AutoIt backdoor downloads a PowerShell script that decodes to a typical shellcode loader.
+SeaDuke uses a module to execute Mimikatz with PowerShell to perform Pass the Ticket.
+PowerSploit modules are written in and executed via PowerShell.
+MuddyWater has used PowerShell for execution.

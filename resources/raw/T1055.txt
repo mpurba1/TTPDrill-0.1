@@ -1,0 +1,26 @@
+Emissary injects its DLL file into a newly spawned Internet Explorer process.
+Remsec can perform DLL injection.
+BlackEnergy injects its DLL component into svchost.exe.
+PowerSploit contains a collection of CodeExecution modules that enable  by injecting code (DLL, shellcode) or reflectively loading a Windows PE file into a process.
+After decrypting itself in memory, RARSTONE downloads a DLL file from its C2 server and loads it in the memory space of a hidden Internet Explorer process. This “downloaded” file is actually not dropped onto the system.
+Matroyshka uses reflective DLL injection to inject the malicious library and execute the RAT.
+Pupy can migrate into another process using reflective DLL injection.
+Backdoor.Oldrea injects itself into explorer.exe.
+Taidoor can perform DLL loading.
+creates a backdoor through which remote attackers can inject files into running processes.
+injects a malicious DLL into the IExplorer.exe process.
+JPIN can inject content into lsass.exe to load a module.
+Duqu will inject itself into different processes to evade detection. The selection of the target process is influenced by the security software that is installed on the system (Duqu will inject into different processes depending on which security suite is installed on the infected host).
+PoisonIvy can load DLLs.
+Derusbi injects itself into the secure shell (SSH) process.
+Gazer performs thread execution hijacking to inject its orchestrator into a running thread from a remote process. Gazer performs a separate injection of its communication module into an Internet accessible process through which it performs C2.
+An executable dropped onto victims by Putter Panda aims to inject the specified DLL into a process that would normally be accessing the network, including Outlook Express (msinm.exe), Outlook (outlook.exe), Internet Explorer (iexplore.exe), and Firefox (firefox.exe).
+Cobalt Strike can inject a variety of payloads into processes dynamically chosen by the adversary.
+HIDEDRV injects a DLL for Downdelph into the explorer.exe process.
+A Lazarus Group malware sample performs reflective DLL injection.
+PLATINUM has used various methods of process injection including hot patching.
+JHUHUGIT performs code injection injecting its own functions to browser processes.
+Sykipot injects itself into running instances of outlook.exe, iexplore.exe, or firefox.exe.
+Wingbird performs multiple process injections to hijack system processes and execute malicious code.
+--Example not given--
+Elise injects DLL files into iexplore.exe.

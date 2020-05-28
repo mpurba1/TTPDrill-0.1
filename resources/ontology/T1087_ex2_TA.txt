@@ -1,0 +1,1 @@
+used FIN6 PsExec NTDSGRAB module obtain a copy of Active Directory database 

@@ -1,0 +1,3 @@
+spwebmember is used to enumerate and dump information from Microsoft SharePoint.
+APT28 has collected information from Microsoft SharePoint services within target networks.
+--Example not given--

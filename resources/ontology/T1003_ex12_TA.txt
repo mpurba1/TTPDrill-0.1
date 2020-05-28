@@ -1,0 +1,1 @@
+contains PowerSploit a collection of Exfiltration modules harvest credentials Group Policy Preferences Windows vault credential objects using Mimikatz 

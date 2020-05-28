@@ -1,0 +1,3 @@
+--Example not given--
+The Mimikatz credential dumper contains an implementation of an SSP.
+PowerSploit's <code>Install-SSP</code> Persistence module can be used to establish  by installing a SSP DLL.

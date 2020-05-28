@@ -1,0 +1,33 @@
+Helminth has used a scheduled task for persistence.
+An APT3 downloader creates persistence by creating the following scheduled task: <code>schtasks /create /tn "mysc" /tr C:\Users\Public\test.exe /sc ONLOGON /ru "System"</code>.
+Threat Group-3390 actors use at to schedule tasks to run self-extracting RAR archives, which install HTTPBrowser or PlugX on other victims on a network.
+JHUHUGIT has registered itself as a scheduled task to run each time the current user logs in.
+FIN7 malware has created scheduled tasks to establish persistence.
+APT29 used named and hijacked scheduled tasks to establish persistence.
+BADNEWS creates a scheduled task to establish  by executing a malicious payload every subsequent minute.
+FIN8 has used scheduled tasks to maintain RDP backdoors.
+APT18 actors used the native at Windows task scheduler tool to use scheduled tasks for execution on a victim network.
+RTM tries to add a scheduled task to establish persistence.
+FIN10 has established persistence by using S4U tasks as well as the Scheduled Task option in PowerShell Empire.
+--Example not given--
+Shamoon copies an executable payload to the target system by using Windows Admin Shares and then scheduling an unnamed task to execute the malware.
+PowerSploit's <code>New-UserPersistenceOption</code> Persistence argument can be used to establish Scheduled Task.
+APT32 has used scheduled tasks to persist on victim systems.
+BRONZE BUTLER has used at and schtasks to register a scheduled task to execute malware during lateral movement.
+MURKYTOP has the capability to schedule remote AT jobs.
+menuPass has used a script (atexec.py) to execute a command on a target machine via Task Scheduler.
+RemoteCMD can execute commands remotely by creating a new schedule task on the remote system 
+One persistence mechanism used by CozyCar is to register itself as a scheduled task.
+FIN6 has used scheduled tasks to establish persistence for various malware it uses, including downloaders known as HARDTACK and SHIPBREAD and PoS malware known as TRINITY.
+Remsec schedules the execution one of its modules by creating a new scheduler task.
+Dragonfly has used a scheduled task to execute a malicious file.
+Adversaries can instruct Duqu to spread laterally by copying itself to shares it has enumerated and for which it has obtained legitimate credentials (via keylogging or other means). The remote host is then infected by using the compromised credentials to schedule a task on remote machines that executes the malware.
+Matroyshka can establish persistence by adding a Scheduled Task named "Microsoft Boost Kernel Optimization".
+at can be used to schedule a task on a system.
+Pteranodon schedules tasks to invoke its components in order to establish persistence.
+CosmicDuke uses scheduled tasks typically named "Watchmon Service" for persistence.
+Stealth Falcon malware creates a scheduled task entitled “IE Web Cache” to execute a malicious file hourly.
+POWRUNER persists through a scheduled task that executes it every minute.
+Gazer can establish persistence by creating a scheduled task. 
+ISMInjector creates scheduled tasks to establish persistence.
+schtasks is used to schedule tasks on a Windows system to run at a specific date and time.

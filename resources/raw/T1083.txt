@@ -1,0 +1,74 @@
+BLACKCOFFEE has the capability to enumerate files.
+Orz can gather victim drive information.
+USBStealer searches victim drives for files matching certain extensions (“.skr”,“.pkr” or “.key”) or names.
+Volgmer can list directories on a victim.
+Crimson contains commands to list files and directories, as well as search for files matching certain extensions from a defined list.
+A Patchwork payload has searched all fixed drives on the victim for files matching a specified list of extensions.
+Sowbug identified and extracted all Word documents on a server by using a command containing *.doc and *.docx. The actors also searched for documents based on a specific date range and attempted to identify all installed software on a victim.
+ELMER is capable of performing directory listings.
+Remsec is capable of listing contents of folders on the victim.Remsec also searches for custom network encryption software on victims.
+WinMM sets a WH_CBT Windows hook to search for and capture files on the victim.
+POORAIM can conduct file browsing.
+Misdat is capable of running commands to obtain a list of files and directories, as well as enumerating logical drives.
+GeminiDuke collects information from the victim, including installed drivers, programs previously executed by users, programs and services configured to automatically run at startup, files and folders present in any user's home folder, files and folders present in any user's My Documents, programs installed to the Program Files folder, and recently accessed files, folders, and programs.
+PinchDuke searches for files created within a certain timeframe and whose file extension matches a predefined list.
+PowerDuke has commands to get the current directory name as well as the size of a file. It also has commands to obtain information about logical drives, drive type, and free space.
+4H RAT has the capability to obtain file and directory listings.
+FALLCHILL can search files on a victim.
+cmd can be used to find files and directories with native functionality such as <code>dir</code> commands.
+APT28 has used Forfiles to locate PDF, Excel, and Word documents during APT28 has a utility to list detailed information about files and directories 
+SHOTPUT has a command to obtain a directory listing.
+can enumerate files and directories.
+OwaAuth has a command to list its directory and logical drives.
+RARSTONE obtains installer properties from Uninstall Registry Key entries to obtain information about installed applications and how to uninstall certain applications.
+BlackEnergy gathers a list of installed apps from the uninstall program Registry. It also gathers registered mail, browser, and instant messaging clients from the Registry.BlackEnergy has searched for given file types.
+AutoIt backdoor is capable of identifying documents on the victim with the following extensions: .doc; .pdf, .csv, .ppt, .docx, .pst, .xls, .xlsx, .pptx, and .jpeg.
+JPIN can enumerate drives and their types. It can also change file permissions using cacls.exe.
+ZLib has the ability to enumerate files and drives.
+FLASHFLOOD searches for interesting files (either a default or customized set of file extensions) on the local system and removable media.
+NETEAGLE allows adversaries to enumerate and modify the infected host's file system. It supports searching for directories, creating directories, listing directory contents, reading and writing to files, retrieving file attributes, and retrieving volume information.
+admin@338 actors used the following commands after exploiting a machine with LOWBALL malware to obtain information about files and directories: <code>dir c:\ >> %temp%\download</code> <code>dir "c:\Documents and Settings" >> %temp%\download</code> <code>dir "c:\Program Files\" >> %temp%\download</code> <code>dir d:\ >> %temp%\download</code>
+MoonWind has a command to return a directory listing for a specified directory.
+Ke3chang uses command-line interaction to search files and directories.
+Pteranodon identifies files matching certain file extension and copies them to subdirectories it created.
+creates a backdoor through which remote attackers can list contents of drives and search for files.
+CosmicDuke searches attached and mounted drives for file extensions and keywords that match a predefined list.
+XAgentOSX contains the readFiles function to return a detailed listing (sometimes recursive) of a specified directory.
+TINYTYPHON searches through the drive containing the OS, then all drive letters C through to Z, for documents matching certain extensions.
+A variant of Elise executes <code>dir C:\progra~1</code> when initially run.
+ADVSTORESHELL can list files and directories.
+Pupy can walk through directories and recursively search for strings in files.
+3PARA RAT has a command to retrieve metadata for files on disk as well as a command to list the current working directory.
+An older version of CHOPSTICK has a module that monitors all mounted volumes for files with the extensions .doc, .docx, .pgp, .gpg, .m2f, or .m2o.
+Magic Hound malware can list a victim's logical drives and the type, as well the total/free space of the fixed devices. Other malware can list a directory's contents.
+BBSRAT can list file and directory information.
+Psylo has commands to enumerate all storage devices and to find all files that start with a particular string.
+POWRUNER may enumerate user directories on a victim.
+BACKSPACE allows adversaries to search for files.
+Forfiles can be used to locate certain types of files/directories in a system.(ex: locate all files with a specific extension, name, and/or age)
+searches for specified files.
+HTTPBrowser is capable of listing files, folders, and drives on a victim.
+ChChes collects the victim's %TEMP% directory path and version of Internet Explorer.
+APT3 has a tool that looks for files and directories on the local file system. 
+Pasam creates a backdoor through which remote attackers can retrieve lists of files.
+Shamoon attempts to access the <code>ADMIN$</code>, <code>C$\Windows</code>, <code>D$\Windows</code>, and <code>E$\Windows</code> shares on the victim with its current privileges.
+Dust Storm has used Android backdoors capable of enumerating specific files on the infected devices.
+Backdoor.Oldrea collects information about available drives, default browser, desktop file list, My Documents, Internet history, program files, and root of available drives. It also searches for ICS-related software files.
+Derusbi is capable of obtaining directory, file, and drive listings.
+MobileOrder has a command to upload to its C2 server information about files on the victim mobile device, including SD card size, installed app list, SMS content, contacts, and calling history.
+Several Lazarus Group malware samples use a common function to identify target files by their extension. Lazarus Group malware families also enumerate files and directories on lettered drives.
+SOUNDBITE is capable of enumerating and manipulating files and directories.
+Hydraq creates a backdoor through which remote attackers can check for the existence of files, including its own components, as well as retrieve a list of logical drives.
+StreamEx has the ability to enumerate drive types.
+Kasidet has the ability to search for a given filename on a victim.
+SPACESHIP identifies files and directories for collection by searching for specific file extensions or file modification time.
+RTM can scan victim drives to look for specific banking software on the machine to determine next actions. It also looks at browsing history and open tabs for specific strings.
+RedLeaves can enumerate and search for files and directories.
+--Example not given--
+A module in Prikormka collects information about the paths, size, and creation time of files with specific file extensions, but not the actual content of the file.
+Rover automatically searches for files on local drives based on a predefined list of file extensions.
+Pisloader has commands to list drives on the victim machine and to list file information for a given directory.
+DustySky scans the victim for files that contain certain keywords from a list that is obtained from the C2 as a text file. It also collects information about installed software.
+Turla surveys a system upon check-in to discover files in specific locations on the hard disk %TEMP% directory, the current user's desktop, and in the Program Files directory.
+China Chopper can list directory contents.
+BRONZE BUTLER has collected a list of files from the victim and uploaded it to its C2 server, and then created a new list of specific files to steal.

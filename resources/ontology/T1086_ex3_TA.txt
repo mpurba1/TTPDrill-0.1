@@ -1,0 +1,1 @@
+execute Strike a payload host PowerShell write technique any data disk 

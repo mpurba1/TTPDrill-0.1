@@ -1,0 +1,1 @@
+used FIN8 the Plink utility tunnel RDP back C2 infrastructure 

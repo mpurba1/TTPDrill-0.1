@@ -1,0 +1,1 @@
+gather stealer computer name drive serial numbers send C2 server 

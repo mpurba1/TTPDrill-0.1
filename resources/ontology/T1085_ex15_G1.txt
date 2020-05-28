@@ -1,0 +1,1 @@
+executed using rundll32 commands dll first dropper saved a uses batch execute DLL payload 

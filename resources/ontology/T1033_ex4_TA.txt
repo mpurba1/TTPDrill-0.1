@@ -1,0 +1,1 @@
+contains XAgentOSX the getInfoOSX function return OS X version current user 

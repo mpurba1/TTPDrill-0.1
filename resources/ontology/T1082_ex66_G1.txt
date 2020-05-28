@@ -1,0 +1,1 @@
+surveys a discover operating configuration details using the </code> commands 

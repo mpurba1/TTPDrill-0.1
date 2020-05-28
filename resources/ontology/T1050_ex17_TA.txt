@@ -1,0 +1,1 @@
+uses Wingbird services.exe register a new autostart service copy of file using local lsass.exe 

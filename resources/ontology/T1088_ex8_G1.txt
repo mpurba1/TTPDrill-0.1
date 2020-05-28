@@ -1,0 +1,1 @@
+bypasses escalate privileges using a custom RedirectEXE shim database 

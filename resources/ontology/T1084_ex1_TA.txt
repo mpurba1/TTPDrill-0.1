@@ -1,0 +1,1 @@
+used APT29 WMI event filters establish persistence 

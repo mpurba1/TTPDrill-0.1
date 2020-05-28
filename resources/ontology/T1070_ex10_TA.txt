@@ -1,0 +1,1 @@
+encrypting log files deletes module original unencrypted host 

@@ -1,0 +1,1 @@
+used APT28 hijacking COM persistence <code> MMDeviceEnumerator </code> object replacing the legitimate payload 

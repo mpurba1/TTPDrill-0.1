@@ -1,0 +1,1 @@
+allows NETEAGLE adversaries file system enumerate supports It searching retrieving directories listing attributes volume information directory contents reading writing files 

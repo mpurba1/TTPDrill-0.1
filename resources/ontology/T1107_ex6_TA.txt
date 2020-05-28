@@ -1,0 +1,1 @@
+contains Backdoor.Oldrea a cleanup module removes traces of itself victim 

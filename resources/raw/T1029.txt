@@ -1,0 +1,6 @@
+Cobalt Strike can set its "beacon" payload to reach out to the C2 server on an arbitrary and random interval.  In addition it will break large data sets into smaller chunks for exfiltration.
+--Example not given--
+POWERSTATS can sleep for a given number of seconds.
+Dipsind can be configured to only run during normal working hours, which would make its communications harder to distinguish from normal traffic.
+ADVSTORESHELL collects, compresses, encrypts, and exfiltrates data to the C2 server every 10 minutes.
+creates a backdoor through which remote attackers can change the frequency at which compromised hosts contact remote C2 infrastructure.

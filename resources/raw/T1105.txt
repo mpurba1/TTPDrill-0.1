@@ -1,0 +1,93 @@
+SEASHARPEE can download remote files onto victims.
+HTTPBrowser is capable of writing a file to the compromised system from the C2 server.
+can download files.
+creates a backdoor through which remote attackers can download files.
+creates a backdoor through which remote attackers can download files onto a compromised host.
+Several Lazarus Group malware families are capable of downloading and executing binaries from its C2 server.
+TURNEDUP is capable of downloading additional files.
+PLATINUM has transferred files using the Intel® Active Management Technology (AMT) Serial-over-LAN (SOL) channel.
+Pupy can upload and download to/from a victim machine.
+Hi-Zor has the ability to upload and download files from its C2 server.
+APT37 has downloaded second stage malware from compromised websites.
+ZLib has the ability to download files.
+Daserf can download remote files.
+Tools used by Gamaredon Group are capable of downloading and executing additional payloads.
+LOWBALL uses the Dropbox API to  request two files, one of which is the same file as the one dropped by the malicious email attachment. This is most likely meant to be a mechanism to update the compromised host with a new version of the LOWBALL malware.
+Leviathan has downloaded additional scripts and files from adversary-controlled servers.Leviathan has also used an uploader known as LUNCHMONEY that can exfiltrate files to Dropbox.
+Dipsind can download remote files.
+menuPass has installed updates and new malware on victims.
+can upload and download files, including second-stage malware.
+China Chopper can upload and download files.
+Unknown Logger is capable of downloading remote files.
+Sakula has the capability to download files.
+FIN10 has deployed Meterpreter stagers and SplinterRAT instances in the victim network after moving laterally.
+Pteranodon can download and execute additional files.
+Briba downloads files onto infected hosts.
+Shamoon can download an executable to run on the victim.
+Nidiran can download and execute files.
+Magic Hound has downloaded additional code and files from servers onto victims.
+can download additional files from URLs.
+RARSTONE downloads its backdoor component from a C2 server and loads it directly into memory.
+SLOWDRIFT downloads additional payloads.
+MobileOrder has a command to download a file from the C2 server to the victim mobile device's SD card.
+XTunnel is capable of downloading additional files.
+SeaDuke is capable of uploading and downloading files.
+creates a backdoor through which remote attackers can download files onto compromised hosts.
+Hydraq creates a backdoor through which remote attackers can download files and additional malware components.
+APT28 has downloaded additional files, including by using a first-stage downloader to contact the C2 server to obtain the second-stage implant.
+MiniDuke can download additional encrypted backdoors onto the victim via GIF files.
+creates a backdoor through which remote attackers can upload files.
+After re-establishing access to a victim network, Threat Group-3390 actors download tools including gsecdump and WCE that are staged temporarily on websites that were previously compromised but never used.
+Volgmer can download remote files.
+Trojan.Karagany can upload, download, and execute files on the victim.
+can download and execute a second-stage payload.
+CHOPSTICK is capable of performing remote file transmission.
+Orz can download files onto the victim.
+certutil can be used to download files from a given URL.
+JPIN can download files and upgrade itself.
+CloudDuke downloads and executes additional malware from either a Web address or a Microsoft OneDrive account.
+Pasam creates a backdoor through which remote attackers can upload files.
+Remsec contains a network loader to receive executable modules from remote attackers and run them on the local victim. It can also upload and download files over HTTP and HTTPS.
+Emissary has the capability to download files from the C2 server.
+Helminth can download additional files.
+Gazer can execute a task to download a file.
+PUNCHBUGGY can download additional files and payloads to compromised hosts.
+PowerDuke has a command to download a file.
+ChChes is capable of downloading files, including additional modules.
+APT32 has added JavaScript to victim websites to download additional frameworks that profile and compromise website visitors.
+After downloading its main config file, Downdelph downloads multiple payloads from C2 servers.
+can be used to create BITS Jobs to upload and/or download files.
+Crimson contains a command to retrieve files from its C2 server.
+Psylo has a command to download a file to the system from its C2 server.
+H1N1 contains a command to download and execute a file from a remotely hosted URL using WinINet HTTP requests.
+--Example not given--
+DustySky searches for network drives and removable media and duplicates itself onto them.
+Misdat is capable of downloading files from the C2.
+TDTESS has a command to download and execute an additional file.
+FIN7 uses a PowerShell script to launch shellcode that retrieves an additional payload.
+RemoteCMD copies a file over to the remote system before execution .
+BADNEWS is capable of downloading additional files through C2 channels, including a new version of itself.
+CallMe has the capability to download a file to the victim from the C2 server.
+POSHSPY downloads and executes additional PowerShell code and Windows binaries.
+ZeroT can download additional payloads onto the victim.
+Kasidet has the ability to download and execute additional files.
+FIN8 has used remote code execution to download subsequent payloads.
+SHUTTERSPEED can download and execute an arbitary executable.
+POWRUNER can download or upload files from its C2 server.
+RTM can download additional files.
+Pisloader has a command to upload a file to the victim machine.
+POWERSTATS can retrieve and execute additional PowerShell payloads from the C2 server.
+POWERSOURCE has been observed being used to download TEXTMATE and the Cobalt Strike Beacon payload onto victims.
+Mivast has the capability to download and execute .exe files.
+BRONZE BUTLER has used various tools to download files, including DGet (a similar tool to wget).
+A Patchwork payload downloads additional malware from the C2 server.
+Dragonfly downloaded tools from a remote server after they were inside the victim network.
+CORESHELL downloads another dropper from its C2 server.
+Felismus can download files from remote servers.
+The Ritsol backdoor trojan used by Elderwood can download files onto a compromised host from a remote location.
+JHUHUGIT can retrieve an additional payload from its C2 server.
+RedLeaves is capable of downloading a file from a specified URL.
+APT3 has a tool that can copy files to remote machines.
+cmd can be used to copy files to a remotely connected system.
+APT34 can download remote files onto victims.
+Agent.btz attempts to download an encrypted binary from a specified domain.

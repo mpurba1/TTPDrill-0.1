@@ -1,0 +1,1 @@
+surveys a discover network configuration details using the <code> arp </code> commands 

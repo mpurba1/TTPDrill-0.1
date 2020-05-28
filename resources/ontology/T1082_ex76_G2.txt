@@ -1,0 +1,1 @@
+used Systeminfo configuration processor gather to version 

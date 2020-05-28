@@ -1,0 +1,1 @@
+use Sykipot <code> ipconfig </code> gather system network configuration details 

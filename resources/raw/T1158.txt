@@ -1,0 +1,4 @@
+An APT28 loader Trojan saves its payload with hidden file attributes.
+A Lazarus Group VBA Macro sets its file attributes to System and Hidden.
+--Example not given--
+The Komplex payload is stored in a hidden directory at <code>/Users/Shared/.local/kextd</code>.

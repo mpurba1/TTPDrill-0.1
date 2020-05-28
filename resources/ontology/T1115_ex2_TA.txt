@@ -1,0 +1,1 @@
+contains TinyZBot functionality collect information clipboard 

@@ -1,0 +1,1 @@
+exfiltrates ADVSTORESHELL data channel used C2 

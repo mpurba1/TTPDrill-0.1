@@ -1,0 +1,1 @@
+deletes HTTPBrowser original installer file complete installation 

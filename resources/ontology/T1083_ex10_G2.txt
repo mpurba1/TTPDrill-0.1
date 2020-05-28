@@ -1,0 +1,1 @@
+sets hook search to files 

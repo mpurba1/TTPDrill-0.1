@@ -1,0 +1,1 @@
+encrypts malware C2 traffic RC4 using key 

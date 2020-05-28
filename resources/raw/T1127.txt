@@ -1,0 +1,2 @@
+A version of PlugX loads as shellcode within a .NET Framework project using msbuild.exe, presumably to bypass application whitelisting techniques.
+--Example not given--

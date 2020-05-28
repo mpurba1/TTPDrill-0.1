@@ -1,0 +1,1 @@
+capable ADVSTORESHELL setting Registry values 

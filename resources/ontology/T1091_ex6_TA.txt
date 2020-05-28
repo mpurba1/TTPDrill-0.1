@@ -1,0 +1,1 @@
+modifies infector executables stored media 

@@ -1,0 +1,1 @@
+used victims relay to traffic using server tool allow C2 router if 

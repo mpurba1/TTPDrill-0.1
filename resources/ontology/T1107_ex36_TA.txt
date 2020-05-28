@@ -1,0 +1,1 @@
+has BLACKCOFFEE the capability delete files 

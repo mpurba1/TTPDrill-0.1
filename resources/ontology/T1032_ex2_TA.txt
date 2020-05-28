@@ -1,0 +1,1 @@
+encrypted RAT command control commands channel DES algorithm using key derived MD5 hash 9 % 

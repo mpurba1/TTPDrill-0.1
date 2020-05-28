@@ -1,0 +1,1 @@
+deleting of files removes itself collecting after data 

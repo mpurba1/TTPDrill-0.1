@@ -1,0 +1,1 @@
+installs hcdLoader itself service persistence 

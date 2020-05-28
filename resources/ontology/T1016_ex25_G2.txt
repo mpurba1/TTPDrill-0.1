@@ -1,0 +1,1 @@
+uses commands discover to settings 

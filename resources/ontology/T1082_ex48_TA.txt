@@ -1,0 +1,1 @@
+obtain Remsec the OS version information computer name processor architecture machine role edition 

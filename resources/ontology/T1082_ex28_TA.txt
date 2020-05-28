@@ -1,0 +1,1 @@
+collects CORESHELL hostname volume serial number OS version data victim information sends C2 server 

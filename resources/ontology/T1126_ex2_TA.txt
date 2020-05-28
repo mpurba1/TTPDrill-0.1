@@ -1,0 +1,1 @@
+detached network shares exfiltrating files likely detection evade 

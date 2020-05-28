@@ -1,0 +1,1 @@
+encrypt Lazarus Group malware using custom code uses XOR 

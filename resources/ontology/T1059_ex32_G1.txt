@@ -1,0 +1,1 @@
+kills disables services using cmd.exe 

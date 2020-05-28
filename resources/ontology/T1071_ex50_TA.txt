@@ -1,0 +1,1 @@
+contains XAgentOSX the ftpUpload function method use FTPManager upload files target system 

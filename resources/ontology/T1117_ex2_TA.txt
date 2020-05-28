@@ -1,0 +1,1 @@
+seen variants that persistence proxy execution regsvr32.exe 

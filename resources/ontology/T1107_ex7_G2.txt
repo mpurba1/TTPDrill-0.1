@@ -1,0 +1,1 @@
+has capability delete to files 

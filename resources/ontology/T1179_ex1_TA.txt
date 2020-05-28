@@ -1,0 +1,1 @@
+hooks FinFisher processes IAT pointers modifying CreateWindowEx 

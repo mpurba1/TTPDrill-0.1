@@ -1,0 +1,1 @@
+adds persistence creating by shortcut 

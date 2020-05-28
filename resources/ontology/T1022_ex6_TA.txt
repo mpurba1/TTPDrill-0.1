@@ -1,0 +1,1 @@
+encodes RawPOS credit card data collected it victim XOR 

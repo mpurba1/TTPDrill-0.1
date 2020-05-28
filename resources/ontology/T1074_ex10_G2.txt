@@ -1,0 +1,1 @@
+creates folders store to output sending information 

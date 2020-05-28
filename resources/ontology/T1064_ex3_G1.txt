@@ -1,0 +1,1 @@
+uses Stealth Falcon PowerShell WMI collection execution 

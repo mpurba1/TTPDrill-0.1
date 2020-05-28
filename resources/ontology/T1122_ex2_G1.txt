@@ -1,0 +1,1 @@
+hijacking persistence replacing the <code> MMDeviceEnumerator </code> object 

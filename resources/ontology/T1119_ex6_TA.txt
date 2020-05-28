@@ -1,0 +1,1 @@
+monitors RTM browsing activity screenshots captures browses victim URL matching list strings 

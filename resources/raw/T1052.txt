@@ -1,0 +1,5 @@
+SPACESHIP copies staged data to removable drives when they are inserted into the system.
+Remsec contains a module to move data from airgapped networks to Internet-connected systems by using a removable USB device.
+--Example not given--
+USBStealer exfiltrates collected files via removable media from air-gapped victims.
+Agent.btz creates a file named thumb.dd on all USB flash drives connected to the victim. This file contains information about the infected system and activity logs.

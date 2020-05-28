@@ -1,0 +1,1 @@
+obfuscates CORESHELL strings custom stream cipher using a 

@@ -1,0 +1,2 @@
+--Example not given--
+Carbanak used legitimate programs such as AmmyAdmin and Team Viewer for remote interactive C2 to target systems.

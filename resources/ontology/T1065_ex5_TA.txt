@@ -1,0 +1,1 @@
+used POWERSTATS ports C2 8060 8888 

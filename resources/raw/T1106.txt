@@ -1,0 +1,6 @@
+Cobalt Strike's "beacon" payload is capable of running shell commands without <code>cmd.exe</code> and PowerShell commands without <code>powershell.exe</code>
+--Example not given--
+ADVSTORESHELL is capable of starting a process using CreateProcess.
+BADNEWS has a command to download an .exe and execute it via CreateProcess API.
+PlugX can use the Windows API function CreateProcess to execute another process.
+XAgentOSX contains the execFile function to execute a specified file on the system using the NSTask:launch method.

@@ -1,0 +1,1 @@
+uses WMI gather victim host details 
