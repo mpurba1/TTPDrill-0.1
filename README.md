@@ -3,13 +3,13 @@ TTPDrill focuses on developing automated and context-aware analytics of cyber th
 
 # Requirements
 * Java
-* ejml.jar, jollyday.jar, stanford.jar, xom.jar
+* ejml, jollyday, stanford, xom jar
 
 # Installation
 
 * Clone this repository
   [GitHub](https://github.com/mpurba1/TTPDrill-0.1.git)  
-* Add ejml.jar, jollyday.jar, stanford.jar, xom.jar
+* Add ejml, jollyday, stanford, xom jar
 
 # Notice
 Copyright 2020 CyberDNA, UNCC
